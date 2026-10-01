@@ -41,7 +41,10 @@ p { margin: 0 0 16px; }
 .scenario-buttons button { border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 7px; padding: 7px 10px; font-size: 11px; }
 .scenario-buttons button:hover { background: #eeebf3; border-color: #bcb3ce; }
 label { display: block; font-size: 12px; font-weight: 650; margin-bottom: 8px; }
-textarea { display: block; width: 100%; min-height: 205px; resize: vertical; border: 1px solid #cfc9d9; border-radius: 9px; padding: 14px; color: var(--ink); background: #fefefe; font-size: 14px; line-height: 1.65; }
+input[type="text"] { display: block; width: 100%; border: 1px solid #cfc9d9; border-radius: 9px; padding: 11px 14px; color: var(--ink); background: #fefefe; font-size: 13px; margin-bottom: 16px; box-sizing: border-box; }
+textarea { display: block; width: 100%; min-height: 140px; resize: vertical; border: 1px solid #cfc9d9; border-radius: 9px; padding: 14px; color: var(--ink); background: #fefefe; font-size: 13px; line-height: 1.6; box-sizing: border-box; }
+.model-badge { display: inline-block; background: #ede8f5; color: #4b3d6e; font-size: 11px; font-weight: 600; padding: 4px 9px; border-radius: 6px; margin: 6px 0 12px; }
+.latency-tag { font-size: 11px; color: var(--muted); margin-left: 8px; }
 .field-meta { display: flex; justify-content: space-between; gap: 18px; font-size: 10px; color: var(--muted); margin-top: 8px; }
 #character-count { white-space: nowrap; }
 .primary-button { display: flex; align-items: center; justify-content: space-between; width: 100%; background: var(--accent); color: white; border: 0; border-radius: 8px; padding: 12px 17px; margin-top: 24px; font-size: 13px; font-weight: 600; }

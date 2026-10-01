@@ -1,190 +1,175 @@
 {
   "synthetic_data": true,
   "seed": 42,
-  "dataset_sha256": "f1a93dc8ab3c6939ab5e8c0945b25ae4e916f934891c3139c666fc099248ad45",
-  "model_version": "text-v1-f1a93dc8",
+  "dataset_sha256": "f65c66ec431f95112ab686f94ea067c712f61104e542adc8596f515c3555e0b7",
+  "model_version": "uoit-v1-f65c66ec",
+  "total_incidents": 720,
   "labels": [
-    "access",
-    "network",
-    "hardware",
-    "software",
-    "email"
+    "applications_services",
+    "databases",
+    "networks_connectivity",
+    "infrastructure_storage",
+    "security_access"
   ],
   "categories": {
-    "access": {
-      "name": "Accesos y permisos",
-      "description": "Credenciales, cuentas bloqueadas y autorización de acceso."
+    "applications_services": {
+      "name": "Aplicaciones y servicios",
+      "description": "Servicios web institucionales, APIs, portales, ERP y microservicios."
     },
-    "network": {
-      "name": "Red y conectividad",
-      "description": "Conexión a internet, red local, wifi y VPN."
+    "databases": {
+      "name": "Bases de datos",
+      "description": "Motores relacionales, pools de conexión, transacciones, réplicas e integridad."
     },
-    "hardware": {
-      "name": "Equipos y periféricos",
-      "description": "Componentes físicos, pantallas, impresoras y accesorios."
+    "networks_connectivity": {
+      "name": "Redes y conectividad",
+      "description": "Enlaces WAN, switches, enrutamiento, VLANs, túneles VPN y DNS institucional."
     },
-    "software": {
-      "name": "Aplicaciones",
-      "description": "Errores de ejecución, instalación o funcionamiento de programas."
+    "infrastructure_storage": {
+      "name": "Infraestructura y almacenamiento",
+      "description": "Servidores físicos, virtualización, contenedores, cabinas SAN/NAS, arreglos RAID y copias de seguridad."
     },
-    "email": {
-      "name": "Correo electrónico",
-      "description": "Envío, recepción, buzón y configuración de mensajes."
+    "security_access": {
+      "name": "Seguridad y accesos",
+      "description": "Firewall perimetral, certificados SSL/TLS, autenticación LDAP/Keycloak y permisos de acceso."
     }
   },
-  "selected_c": 4.0,
-  "review_threshold": 0.35921813292990085,
+  "selected_model": "linear_baseline",
+  "selection_rationale": "El modelo Transformer fue evaluado como propuesta avanzada. La línea base lineal obtuvo mejor desempeño en validación (Macro-F1 de 0.9423 frente a 0.7822) y, siguiendo el protocolo experimental congelado, fue seleccionada para la inferencia operativa del sistema.",
+  "review_threshold": 0.2209306170351287,
   "target_accepted_accuracy": 0.9,
   "minimum_accepted_cases": 20,
-  "baseline_fallback": "access",
-  "vocabulary_size": 1269,
+  "baseline_fallback": "applications_services",
   "versions": {
-    "python": "3.12.14",
+    "python": "3.12.3",
     "scikit-learn": "1.9.1",
     "pandas": "2.3.3",
     "numpy": "2.2.6",
-    "fastapi": "0.115.14"
+    "fastapi": "0.115.14",
+    "torch": "2.14.1+cpu",
+    "sentence-transformers": "6.1.0"
   },
   "splits": {
     "train": {
-      "rows": 736,
-      "families": 40,
+      "rows": 450,
+      "families": 25,
       "by_category": {
-        "access": 192,
-        "network": 160,
-        "hardware": 128,
-        "software": 144,
-        "email": 112
+        "applications_services": 90,
+        "databases": 90,
+        "networks_connectivity": 90,
+        "infrastructure_storage": 90,
+        "security_access": 90
       }
     },
     "validation": {
-      "rows": 184,
-      "families": 10,
+      "rows": 90,
+      "families": 5,
       "by_category": {
-        "access": 48,
-        "network": 40,
-        "hardware": 32,
-        "software": 36,
-        "email": 28
+        "applications_services": 18,
+        "databases": 18,
+        "networks_connectivity": 18,
+        "infrastructure_storage": 18,
+        "security_access": 18
       }
     },
     "test": {
-      "rows": 184,
+      "rows": 180,
       "families": 10,
       "by_category": {
-        "access": 48,
-        "network": 40,
-        "hardware": 32,
-        "software": 36,
-        "email": 28
+        "applications_services": 36,
+        "databases": 36,
+        "networks_connectivity": 36,
+        "infrastructure_storage": 36,
+        "security_access": 36
       }
     }
   },
   "validation": {
-    "candidates": [
-      {
-        "c": 1.0,
-        "macro_f1": 0.7480208100603236
-      },
-      {
-        "c": 4.0,
-        "macro_f1": 0.7562286774061373
-      }
-    ],
-    "review_policy": {
-      "coverage": 0.6902173913043478,
-      "accepted_count": 127,
-      "review_count": 57,
-      "accepted_accuracy": 0.905511811023622
-    }
-  },
-  "test": {
-    "model": {
-      "macro_f1": 0.7014180769577666,
-      "weighted_f1": 0.7011990835378566,
-      "accuracy": 0.7065217391304348,
+    "heuristic_baseline": {
+      "macro_f1": 0.6604774535809019,
+      "weighted_f1": 0.6604774535809018,
+      "accuracy": 0.7222222222222222,
       "confusion_matrix": [
         [
-          39,
-          3,
+          18,
           0,
-          6,
+          0,
+          0,
           0
+        ],
+        [
+          0,
+          18,
+          0,
+          0,
+          0
+        ],
+        [
+          15,
+          0,
+          0,
+          0,
+          3
         ],
         [
           7,
-          22,
+          0,
+          0,
           11,
-          0,
           0
         ],
         [
-          2,
-          6,
-          16,
-          8,
-          0
-        ],
-        [
-          2,
-          0,
-          3,
-          26,
-          5
-        ],
-        [
           0,
           0,
           0,
-          1,
-          27
+          0,
+          18
         ]
       ],
       "by_category": [
         {
-          "category": "access",
-          "precision": 0.78,
-          "recall": 0.8125,
-          "f1": 0.7959183673469388,
-          "support": 48
+          "category": "applications_services",
+          "precision": 0.45,
+          "recall": 1.0,
+          "f1": 0.6206896551724138,
+          "support": 18
         },
         {
-          "category": "network",
-          "precision": 0.7096774193548387,
-          "recall": 0.55,
-          "f1": 0.6197183098591549,
-          "support": 40
+          "category": "databases",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 18
         },
         {
-          "category": "hardware",
-          "precision": 0.5333333333333333,
-          "recall": 0.5,
-          "f1": 0.5161290322580645,
-          "support": 32
+          "category": "networks_connectivity",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 18
         },
         {
-          "category": "software",
-          "precision": 0.6341463414634146,
-          "recall": 0.7222222222222222,
-          "f1": 0.6753246753246753,
-          "support": 36
+          "category": "infrastructure_storage",
+          "precision": 1.0,
+          "recall": 0.6111111111111112,
+          "f1": 0.7586206896551724,
+          "support": 18
         },
         {
-          "category": "email",
-          "precision": 0.84375,
-          "recall": 0.9642857142857143,
-          "f1": 0.9,
-          "support": 28
+          "category": "security_access",
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.9230769230769231,
+          "support": 18
         }
       ]
     },
-    "baseline": {
-      "macro_f1": 0.8778280542986426,
-      "weighted_f1": 0.8802872319496361,
-      "accuracy": 0.8858695652173914,
+    "linear_baseline": {
+      "macro_f1": 0.9423365300784656,
+      "weighted_f1": 0.9423365300784656,
+      "accuracy": 0.9444444444444444,
       "confusion_matrix": [
         [
-          48,
+          18,
           0,
           0,
           0,
@@ -192,17 +177,338 @@
         ],
         [
           0,
-          40,
+          18,
           0,
           0,
           0
         ],
         [
-          16,
           0,
-          16,
+          0,
+          18,
           0,
           0
+        ],
+        [
+          0,
+          0,
+          4,
+          13,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          18
+        ]
+      ],
+      "by_category": [
+        {
+          "category": "applications_services",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 18
+        },
+        {
+          "category": "databases",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 18
+        },
+        {
+          "category": "networks_connectivity",
+          "precision": 0.8181818181818182,
+          "recall": 1.0,
+          "f1": 0.9,
+          "support": 18
+        },
+        {
+          "category": "infrastructure_storage",
+          "precision": 1.0,
+          "recall": 0.7222222222222222,
+          "f1": 0.8387096774193549,
+          "support": 18
+        },
+        {
+          "category": "security_access",
+          "precision": 0.9473684210526315,
+          "recall": 1.0,
+          "f1": 0.972972972972973,
+          "support": 18
+        }
+      ],
+      "top_3_accuracy": 0.9777777777777777
+    },
+    "proposed_transformer": {
+      "macro_f1": 0.7821645021645021,
+      "weighted_f1": 0.7821645021645021,
+      "accuracy": 0.8111111111111111,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          18,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          17,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          18,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          17
+        ]
+      ],
+      "by_category": [
+        {
+          "category": "applications_services",
+          "precision": 0.75,
+          "recall": 0.16666666666666666,
+          "f1": 0.2727272727272727,
+          "support": 18
+        },
+        {
+          "category": "databases",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 18
+        },
+        {
+          "category": "networks_connectivity",
+          "precision": 1.0,
+          "recall": 0.9444444444444444,
+          "f1": 0.9714285714285714,
+          "support": 18
+        },
+        {
+          "category": "infrastructure_storage",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 18
+        },
+        {
+          "category": "security_access",
+          "precision": 0.5151515151515151,
+          "recall": 0.9444444444444444,
+          "f1": 0.6666666666666666,
+          "support": 18
+        }
+      ],
+      "top_3_accuracy": 0.9888888888888889
+    }
+  },
+  "test": {
+    "heuristic_baseline": {
+      "macro_f1": 0.8793092933375881,
+      "weighted_f1": 0.8793092933375882,
+      "accuracy": 0.8888888888888888,
+      "confusion_matrix": [
+        [
+          36,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          36,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          36,
+          0,
+          0
+        ],
+        [
+          11,
+          7,
+          0,
+          18,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          34
+        ]
+      ],
+      "by_category": [
+        {
+          "category": "applications_services",
+          "precision": 0.7346938775510204,
+          "recall": 1.0,
+          "f1": 0.8470588235294118,
+          "support": 36
+        },
+        {
+          "category": "databases",
+          "precision": 0.8372093023255814,
+          "recall": 1.0,
+          "f1": 0.9113924050632911,
+          "support": 36
+        },
+        {
+          "category": "networks_connectivity",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 36
+        },
+        {
+          "category": "infrastructure_storage",
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "support": 36
+        },
+        {
+          "category": "security_access",
+          "precision": 1.0,
+          "recall": 0.9444444444444444,
+          "f1": 0.9714285714285714,
+          "support": 36
+        }
+      ]
+    },
+    "linear_baseline": {
+      "macro_f1": 0.7718876753708215,
+      "weighted_f1": 0.7718876753708214,
+      "accuracy": 0.7888888888888889,
+      "confusion_matrix": [
+        [
+          12,
+          0,
+          2,
+          14,
+          8
+        ],
+        [
+          1,
+          35,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          27,
+          4,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          35,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0,
+          33
+        ]
+      ],
+      "by_category": [
+        {
+          "category": "applications_services",
+          "precision": 0.631578947368421,
+          "recall": 0.3333333333333333,
+          "f1": 0.43636363636363634,
+          "support": 36
+        },
+        {
+          "category": "databases",
+          "precision": 0.9722222222222222,
+          "recall": 0.9722222222222222,
+          "f1": 0.9722222222222222,
+          "support": 36
+        },
+        {
+          "category": "networks_connectivity",
+          "precision": 0.9,
+          "recall": 0.75,
+          "f1": 0.8181818181818182,
+          "support": 36
+        },
+        {
+          "category": "infrastructure_storage",
+          "precision": 0.660377358490566,
+          "recall": 0.9722222222222222,
+          "f1": 0.7865168539325843,
+          "support": 36
+        },
+        {
+          "category": "security_access",
+          "precision": 0.7857142857142857,
+          "recall": 0.9166666666666666,
+          "f1": 0.8461538461538461,
+          "support": 36
+        }
+      ],
+      "top_3_accuracy": 1.0
+    },
+    "proposed_transformer": {
+      "macro_f1": 0.6592441755699563,
+      "weighted_f1": 0.6592441755699563,
+      "accuracy": 0.7,
+      "confusion_matrix": [
+        [
+          4,
+          3,
+          3,
+          12,
+          14
+        ],
+        [
+          4,
+          30,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          26,
+          0,
+          9
         ],
         [
           0,
@@ -212,56 +518,63 @@
           0
         ],
         [
-          5,
           0,
           0,
+          6,
           0,
-          23
+          30
         ]
       ],
       "by_category": [
         {
-          "category": "access",
-          "precision": 0.6956521739130435,
-          "recall": 1.0,
-          "f1": 0.8205128205128205,
-          "support": 48
-        },
-        {
-          "category": "network",
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0,
-          "support": 40
-        },
-        {
-          "category": "hardware",
-          "precision": 1.0,
-          "recall": 0.5,
-          "f1": 0.6666666666666666,
-          "support": 32
-        },
-        {
-          "category": "software",
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0,
+          "category": "applications_services",
+          "precision": 0.4444444444444444,
+          "recall": 0.1111111111111111,
+          "f1": 0.17777777777777778,
           "support": 36
         },
         {
-          "category": "email",
-          "precision": 1.0,
-          "recall": 0.8214285714285714,
-          "f1": 0.9019607843137255,
-          "support": 28
+          "category": "databases",
+          "precision": 0.9090909090909091,
+          "recall": 0.8333333333333334,
+          "f1": 0.8695652173913043,
+          "support": 36
+        },
+        {
+          "category": "networks_connectivity",
+          "precision": 0.7428571428571429,
+          "recall": 0.7222222222222222,
+          "f1": 0.7323943661971831,
+          "support": 36
+        },
+        {
+          "category": "infrastructure_storage",
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571,
+          "support": 36
+        },
+        {
+          "category": "security_access",
+          "precision": 0.5454545454545454,
+          "recall": 0.8333333333333334,
+          "f1": 0.6593406593406593,
+          "support": 36
         }
-      ]
+      ],
+      "top_3_accuracy": 0.9611111111111111
     },
     "review_policy": {
-      "coverage": 0.6358695652173914,
-      "accepted_count": 117,
-      "review_count": 67,
-      "accepted_accuracy": 0.8888888888888888
+      "coverage": 1.0,
+      "accepted_count": 180,
+      "review_count": 0,
+      "accepted_accuracy": 0.7888888888888889
     }
+  },
+  "timings": {
+    "baseline_fit_seconds": 1.9837563037872314,
+    "baseline_infer_test_ms": 0.6758676634894477,
+    "transformer_fit_seconds": 22.741198539733887,
+    "transformer_infer_test_ms": 0.01329183578491211
   }
 }

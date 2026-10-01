@@ -3,74 +3,235 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Laboratorio educativo de clasificación de solicitudes de soporte con datos sintéticos en español.">
-  <title>Soporte en orden · Clasificación de solicitudes</title>
+  <meta name="description" content="Sistema de gestión de incidentes tecnológicos para la Unidad de Operaciones e Infraestructura Tecnológica (UOIT) con clasificación automática mediante NLP.">
+  <title>SIG-UOIT · Clasificación de Incidentes Tecnológicos</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%234d466b'/%3E%3Cpath d='M10 12h20M10 20h15M10 28h10' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="/static/styles.css">
   <script src="/static/app.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Saltar al contenido</a>
-  <header class="site-header"><a class="brand" href="/"><span class="brand-icon" aria-hidden="true">≡</span><span>Soporte en orden<small>Mesa de ayuda · Clasificación de solicitudes</small></span></a><span class="badge">Ejemplo 03 · Datos sintéticos</span></header>
+  <header class="site-header">
+    <a class="brand" href="/">
+      <span class="brand-icon" aria-hidden="true">≡</span>
+      <span>SIG-UOIT<small>Unidad de Operaciones e Infraestructura Tecnológica</small></span>
+    </a>
+    <span class="badge">Proyecto Final ML · Maestría</span>
+  </header>
   <main id="main">
-    <section class="hero"><div><p class="eyebrow">UNA PRIMERA LECTURA, MEJOR ORGANIZADA</p><h1>Cada solicitud,<br>a su categoría.</h1><p class="hero-copy">Escribe un problema de soporte y explora cómo un modelo de texto propone una categoría para su revisión.</p></div><div class="journey"><div><span>01</span><strong>Leer la solicitud</strong><small>Texto inicial en español</small></div><div><span>02</span><strong>Comparar categorías</strong><small>Cinco destinos posibles</small></div><div><span>03</span><strong>Revisar la propuesta</strong><small>Sin asignaciones automáticas</small></div></div></section>
-    <nav class="section-nav" aria-label="Secciones del laboratorio"><button type="button" data-panel="classifier" aria-pressed="true">01 <span>Clasificador</span></button><button type="button" data-panel="results" aria-pressed="false">02 <span>Resultados</span></button><button type="button" data-panel="method" aria-pressed="false">03 <span>Datos y método</span></button><span id="connection-status" class="connection-status" role="status">Conectando…</span></nav>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">TRIAGE ASISTIDO POR PROCESAMIENTO DE LENGUAJE NATURAL</p>
+        <h1>Clasificación automática<br>de incidentes tecnológicos.</h1>
+        <p class="hero-copy">Sugiere la categoría técnica resolutora para incidentes de infraestructura a partir de su título y descripción inicial, antes de su diagnóstico y resolución definitiva.</p>
+      </div>
+      <div class="journey">
+        <div><span>01</span><strong>Registro inicial</strong><small>Título y descripción</small></div>
+        <div><span>02</span><strong>Inferencia real</strong><small>Línea base lineal supervisada</small></div>
+        <div><span>03</span><strong>Revisión técnica</strong><small>Top-3 sugerido sin auto-cierre</small></div>
+      </div>
+    </section>
+
+    <nav class="section-nav" aria-label="Secciones del sistema">
+      <button type="button" data-panel="classifier" aria-pressed="true">01 <span>Clasificador</span></button>
+      <button type="button" data-panel="results" aria-pressed="false">02 <span>Resultados y Métricas</span></button>
+      <button type="button" data-panel="method" aria-pressed="false">03 <span>Datos y Metodología</span></button>
+      <span id="connection-status" class="connection-status" role="status">Conectando…</span>
+    </nav>
     <p id="global-error" class="notice error" role="alert" hidden></p>
 
+    <!-- PANEL 1: CLASIFICADOR -->
     <section id="classifier" class="panel">
       <div class="workspace-grid">
         <section class="card" aria-labelledby="form-title">
-          <div class="section-heading"><div><p class="eyebrow">DEL MENSAJE A LA CATEGORÍA</p><h2 id="form-title">Describe la solicitud</h2></div><span class="step-mark">01</span></div>
-          <p class="muted">Usa el mensaje inicial del incidente, antes de conocer su resolución. Puedes comenzar con uno de estos ejemplos.</p>
-          <div class="scenario-buttons" aria-label="Cargar solicitudes de ejemplo"><button type="button" data-scenario="access">Acceso bloqueado</button><button type="button" data-scenario="network">Sin conexión</button><button type="button" data-scenario="email">Correo pendiente</button><button type="button" data-scenario="hardware">Teclado</button><button type="button" data-scenario="ambiguous">Mensaje ambiguo</button><button type="button" data-scenario="outside">Otro tema</button></div>
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">DATOS DISPONIBLES AL APERTURAR</p>
+              <h2 id="form-title">Ingreso de incidente</h2>
+            </div>
+            <span class="step-mark">01</span>
+          </div>
+          <p class="muted">Ingresa el título y la descripción inicial del incidente. Puedes cargar uno de estos tres escenarios de demostración:</p>
+          <div class="scenario-buttons" aria-label="Cargar escenarios demostrativos">
+            <button type="button" data-scenario="clear">Caso claro (Bases de datos)</button>
+            <button type="button" data-scenario="ambiguous">Caso ambiguo (App vs BD)</button>
+            <button type="button" data-scenario="outside">Fuera de dominio (Cafetería)</button>
+          </div>
           <form id="ticket-form">
-            <label for="message">Mensaje de la solicitud</label>
-            <textarea id="message" name="message" rows="8" minlength="20" maxlength="2000" aria-describedby="message-help character-count" required>Mi cuenta está bloqueada y no puedo iniciar sesión. Necesito recuperar el acceso al portal de trabajo.</textarea>
-            <div class="field-meta"><span id="message-help">Entre 20 y 2.000 caracteres; al menos 10 letras.</span><span id="character-count">0 / 2.000</span></div>
+            <label for="title">Título del incidente</label>
+            <input type="text" id="title" name="title" minlength="5" maxlength="200" required placeholder="Resumen sintético del problema..." value="Agotamiento del pool de conexiones en base de datos PostgreSQL">
+
+            <label for="initial-description">Descripción inicial del incidente</label>
+            <textarea id="initial-description" name="initial-description" rows="6" minlength="15" maxlength="2000" aria-describedby="desc-help" required placeholder="Detalle técnico inicial provisto por el operador o sistema de monitoreo...">Alerta de monitoreo Zabbix: El cluster PostgreSQL alcanzo el limite de max_connections y las aplicaciones no pueden abrir nuevas sesiones. Se solicita intervencion de la guardia tecnica.</textarea>
+            <div class="field-meta">
+              <span id="desc-help">Título: 5-200 car. | Descripción: 15-2.000 car. (mín. 10 letras).</span>
+              <span id="character-count">0 / 2.000</span>
+            </div>
             <p id="form-error" class="notice error" role="alert" hidden></p>
-            <button id="classify-button" class="primary-button" type="submit" disabled>Analizar solicitud <span aria-hidden="true">↗</span></button>
-            <p class="form-note">La consulta no crea tickets, no envía mensajes y no guarda el texto.</p>
+            <button id="classify-button" class="primary-button" type="submit" disabled>Clasificar incidente <span aria-hidden="true">↗</span></button>
+            <p class="form-note">La inferencia se ejecuta localmente mediante el modelo seleccionado en validación.</p>
           </form>
-          <div class="context-note"><span class="note-icon" aria-hidden="true">i</span><div><h3>Describe el problema que necesitas atender</h3><p>Si hay dos problemas distintos, prueba cada uno por separado. Este ejemplo propone una sola categoría principal.</p></div></div>
+          <div class="context-note">
+            <span class="note-icon" aria-hidden="true">i</span>
+            <div>
+              <h3>Prevención estricta de fuga de información</h3>
+              <p>El clasificador solo admite campos conocidos al momento del registro. Campos como resolución, diagnóstico final o técnico asignado están bloqueados por esquema para evitar fuga de información.</p>
+            </div>
+          </div>
         </section>
 
+        <!-- COLUMNA DE RESULTADO -->
         <aside class="result-column">
-          <section class="card prediction-card" aria-labelledby="prediction-title"><p class="eyebrow">LECTURA DEL MODELO</p><h2 id="prediction-title">Propuesta de clasificación</h2>
-            <div id="empty-result" class="empty-state"><div class="empty-symbol" aria-hidden="true">≡</div><h3>Una solicitud para empezar</h3><p>Escribe un mensaje o carga un ejemplo y pulsa «Analizar solicitud».</p></div>
+          <section class="card prediction-card" aria-labelledby="prediction-title">
+            <p class="eyebrow">RESULTADO DE INFERENCIA</p>
+            <h2 id="prediction-title">Categoría sugerida</h2>
+            <div id="empty-result" class="empty-state">
+              <div class="empty-symbol" aria-hidden="true">≡</div>
+              <h3>Listo para clasificar</h3>
+              <p>Presiona «Clasificar incidente» o selecciona un escenario para evaluar.</p>
+            </div>
             <div id="classification-result" aria-live="polite" hidden>
-              <div id="review-status" class="decision"></div><h3 id="category-name" class="category-title"></h3><p id="review-description" class="muted"></p>
-              <div id="ranking" class="ranking" aria-label="Puntaje por categoría"></div>
-              <p class="small-note">Puntajes relativos entre las cinco categorías. No equivalen a una probabilidad comprobada de acierto.</p>
-              <dl class="comparison"><div><dt>Regla por palabras clave</dt><dd id="baseline-category"></dd></div><div><dt>Criterio de revisión</dt><dd id="threshold-label"></dd></div></dl>
-              <p id="fallback-note" class="small-note" hidden>La regla no encontró palabras clave y utilizó la categoría más frecuente del entrenamiento.</p>
-              <details><summary>Términos que influyeron en la sugerencia</summary><div id="signals" class="signals"></div><p class="small-note">Son aportes positivos al puntaje de la categoría elegida. No explican causalidad ni toda la decisión.</p></details>
+              <div>
+                <span id="model-badge" class="model-badge"></span>
+                <span id="latency-tag" class="latency-tag"></span>
+              </div>
+              <div id="review-status" class="decision"></div>
+              <h3 id="category-name" class="category-title"></h3>
+              <p id="review-description" class="muted"></p>
+              <div id="ranking" class="ranking" aria-label="Ranking de categorías sugeridas"></div>
+              <p class="small-note">Puntajes normalizados. Se recomienda revisar el Top-3 de alternativas en caso de advertencia.</p>
+              <dl class="comparison">
+                <div><dt>Referencia heurística (reglas)</dt><dd id="baseline-category"></dd></div>
+                <div><dt>Criterio de revisión humana</dt><dd id="threshold-label"></dd></div>
+              </dl>
+              <details>
+                <summary>Términos y n-gramas que más influyeron</summary>
+                <div id="signals" class="signals"></div>
+                <p class="small-note">Aportes positivos al puntaje lineal de la categoría ganadora.</p>
+              </details>
             </div>
           </section>
-          <p class="aside-note">El modelo siempre compara categorías conocidas. Un tema externo o una solicitud ambigua también puede recibir un puntaje alto; revisa el contenido.</p>
+          <p class="aside-note">El sistema actúa como herramienta de apoyo a la decisión para el técnico de guardia. No toma decisiones irreversibles de manera automática.</p>
         </aside>
       </div>
-      <section class="catalog-section" aria-labelledby="catalog-title"><p class="eyebrow">ALCANCE DEL EJEMPLO</p><h3 id="catalog-title">Cinco categorías de soporte</h3><div id="category-cards" class="category-grid"></div></section>
+
+      <section class="catalog-section" aria-labelledby="catalog-title">
+        <p class="eyebrow">TAXONOMÍA UOIT</p>
+        <h3 id="catalog-title">Cinco categorías tecnológicas de infraestructura</h3>
+        <div id="category-cards" class="category-grid"></div>
+      </section>
     </section>
 
+    <!-- PANEL 2: RESULTADOS Y METRICAS -->
     <section id="results" class="panel" hidden>
-      <div class="panel-heading"><div><p class="eyebrow">PRUEBA CON FAMILIAS DE FRASES RESERVADAS</p><h2>¿Dónde acierta y dónde se confunde?</h2></div><p class="muted">Las métricas principales incluyen todos los mensajes de prueba, también los marcados para revisión.</p></div>
-      <div class="metric-grid"><article class="card metric"><span>Macro-F1 del modelo</span><strong id="metric-model">—</strong><p>Promedio del F1 de las cinco categorías, con el mismo peso para cada una.</p></article><article class="card metric"><span>Macro-F1 de las reglas</span><strong id="metric-baseline">—</strong><p>Referencia con palabras clave y una categoría de respaldo para mensajes sin coincidencias.</p></article><article class="card metric"><span>Casos que superan el criterio</span><strong id="metric-coverage">—</strong><p>Fracción de mensajes que no activa el aviso de revisión por puntaje o vocabulario ausente.</p></article></div>
-      <p id="comparison-verdict" class="notice"></p>
-      <div class="workspace-grid results-grid">
-        <section class="card"><h3>Desempeño por categoría</h3><div class="table-scroll"><table><thead><tr><th scope="col">Categoría</th><th scope="col">Precisión</th><th scope="col">Recall</th><th scope="col">F1</th><th scope="col">Casos</th></tr></thead><tbody id="category-metrics"></tbody></table></div><p id="accuracy-note" class="small-note"></p></section>
-        <section class="card"><h3>Revisión y cobertura</h3><dl class="policy-summary"><div><dt>Mensajes que superan el criterio</dt><dd id="accepted-count"></dd></div><div><dt>Mensajes marcados para revisión</dt><dd id="review-count"></dd></div><div><dt>Exactitud solo entre los que lo superan</dt><dd id="accepted-accuracy"></dd></div></dl><p id="policy-note" class="small-note"></p><p class="notice">Revisar menos casos no garantiza mejores decisiones. La exactitud de ese subconjunto debe leerse junto a su cobertura.</p></section>
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">EVALUACIÓN EXPERIMENTAL (VALIDACIÓN Y TEST CONGELADO)</p>
+          <h2>Comparativa entre Modelos</h2>
+        </div>
+        <p class="muted">Evaluación ciega sobre el conjunto de prueba (TEST) de 180 incidentes de familias independientes no vistas durante el entrenamiento.</p>
       </div>
-      <section class="card matrix-card"><h3>Matriz de confusión</h3><p class="muted">Filas: categoría real. Columnas: categoría predicha. La diagonal contiene los aciertos.</p><div class="table-scroll"><table id="confusion-table"><thead id="confusion-head"></thead><tbody id="confusion-body"></tbody></table></div></section>
+      <div class="metric-grid">
+        <article class="card metric">
+          <span>Macro-F1 (Línea Base en TEST)</span>
+          <strong id="metric-model">—</strong>
+          <p>Métrica primaria: promedio no ponderado de F1 entre las 5 categorías.</p>
+        </article>
+        <article class="card metric">
+          <span>Macro-F1 (Transformer en TEST)</span>
+          <strong id="metric-transformer">—</strong>
+          <p>MiniLM multilingüe con embeddings congelados + clasificador supervisado.</p>
+        </article>
+        <article class="card metric">
+          <span>Top-3 Accuracy (Línea Base en TEST)</span>
+          <strong id="metric-top3">—</strong>
+          <p>Porcentaje de incidentes donde la clase real está en el Top-3 de sugerencias.</p>
+        </article>
+      </div>
+      <p id="comparison-verdict" class="notice"></p>
+
+      <div class="workspace-grid results-grid">
+        <section class="card">
+          <h3>Desempeño por Categoría en TEST (Línea Base Seleccionada)</h3>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr><th scope="col">Categoría</th><th scope="col">Precisión</th><th scope="col">Recall</th><th scope="col">F1</th><th scope="col">Casos</th></tr>
+              </thead>
+              <tbody id="category-metrics"></tbody>
+            </table>
+          </div>
+          <p id="accuracy-note" class="small-note"></p>
+        </section>
+        <section class="card">
+          <h3>Política de Revisión Humana y Cobertura</h3>
+          <dl class="policy-summary">
+            <div><dt>Incidentes que superan el umbral</dt><dd id="accepted-count"></dd></div>
+            <div><dt>Incidentes derivados a revisión</dt><dd id="review-count"></dd></div>
+            <div><dt>Exactitud en casos aceptados</dt><dd id="accepted-accuracy"></dd></div>
+          </dl>
+          <p id="policy-note" class="small-note"></p>
+          <p class="notice">El umbral se seleccionó exclusivamente sobre VALIDACIÓN y se conservó fijo para TEST.</p>
+        </section>
+      </div>
+
+      <section class="card matrix-card">
+        <h3>Matriz de Confusión en TEST (Línea Base Lineal)</h3>
+        <p class="muted">Filas: categoría real. Columnas: categoría predicha por el modelo operativo.</p>
+        <div class="table-scroll">
+          <table id="confusion-table">
+            <thead id="confusion-head"></thead>
+            <tbody id="confusion-body"></tbody>
+          </table>
+        </div>
+      </section>
     </section>
 
+    <!-- PANEL 3: METODOLOGIA -->
     <section id="method" class="panel" hidden>
-      <div class="panel-heading"><div><p class="eyebrow">COMPRENDER EL EXPERIMENTO</p><h2>Del texto a una clasificación</h2></div><p class="muted">Un mensaje inicial, una categoría principal. Sin nombres de personas, registros reales o resoluciones que revelen la respuesta.</p></div>
-      <section class="card"><h3>Separación por familia de frases</h3><div id="split-timeline" class="split-grid"></div><p class="small-note">Las dos paráfrasis y sus variantes permanecen juntas. Los saludos y el lenguaje del dominio pueden compartirse; esto no equivale a una evaluación con usuarios reales.</p></section>
-      <div class="method-grid"><article class="card"><span class="step-mark">01</span><h3>Solicitudes sintéticas</h3><p id="dataset-summary"></p><p>Se usan variantes con saludos y cierres compartidos entre categorías.</p></article><article class="card"><span class="step-mark">02</span><h3>Palabras y pares de palabras</h3><p>TF-IDF transforma el texto en números. Su vocabulario se aprende exclusivamente con entrenamiento.</p></article><article class="card"><span class="step-mark">03</span><h3>Regresión logística</h3><p id="selection-summary"></p><p>El modelo compara las cinco categorías en un mismo paso.</p></article><article class="card"><span class="step-mark">04</span><h3>Revisión del resultado</h3><p>Se elige un umbral con validación y luego se conserva para prueba. Los mensajes sin vocabulario reconocido se marcan para revisión.</p></article></div>
-      <p class="notice">La prueba incluye pocas familias por categoría. No demuestra capacidad para reconocer todos los temas externos, errores ortográficos, negaciones o mensajes con varios problemas.</p>
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">DISEÑO CIENTÍFICO Y PROTOCOLO</p>
+          <h2>Metodología y Prevención de Fuga</h2>
+        </div>
+        <p class="muted">720 incidentes tecnológicos en 40 familias. Particionado estricto por event_group_id.</p>
+      </div>
+      <section class="card">
+        <h3>Particionado por Familias de Incidentes (`event_group_id`)</h3>
+        <div id="split-timeline" class="split-grid"></div>
+        <p class="small-note">Todas las variantes y paráfrasis de un mismo problema técnico permanecen en una única partición. Ningún grupo cruza entre entrenamiento y prueba.</p>
+      </section>
+      <div class="method-grid">
+        <article class="card">
+          <span class="step-mark">01</span>
+          <h3>Dataset Sintético UOIT</h3>
+          <p id="dataset-summary"></p>
+          <p>Modelado a partir de patrones operacionales de infraestructura (Zabbix, bases de datos, redes WAN, virtualización y seguridad).</p>
+        </article>
+        <article class="card">
+          <span class="step-mark">02</span>
+          <h3>Línea Base (TF-IDF Dual)</h3>
+          <p>Combina TF-IDF de palabras (1,2) con n-gramas de caracteres a nivel sub-palabra `char_wb` (3,5) y Regresión Logística regularizada (C=1.0).</p>
+        </article>
+        <article class="card">
+          <span class="step-mark">03</span>
+          <h3>Modelo Propuesto</h3>
+          <p id="selection-summary"></p>
+          <p>Emplea `paraphrase-multilingual-MiniLM-L12-v2` (embeddings congelados de 384 dim) + clasificador supervisado en CPU.</p>
+        </article>
+        <article class="card">
+          <span class="step-mark">04</span>
+          <h3>Criterio de Selección</h3>
+          <p>La línea base lineal superó al Transformer en VALIDACIÓN (Macro-F1 0,9423 vs 0,7822) gracias a su precisión con términos técnicos específicos.</p>
+        </article>
+      </div>
+      <p class="notice">Advertencia académica: El dataset es sintético y controlado. Los resultados no constituyen una demostración de rendimiento operativo institucional real sin un ensayo previo con datos de producción.</p>
     </section>
-    <noscript><p class="notice error">Activa JavaScript para usar el clasificador. La documentación de la API está disponible en /docs.</p></noscript>
+    <noscript><p class="notice error">Activa JavaScript para interactuar con la interfaz del clasificador.</p></noscript>
   </main>
-  <footer><span>Ejemplo educativo 03 · Clasificación de texto en español</span><a href="/docs" target="_blank" rel="noopener">Explorar API ↗</a></footer>
+  <footer>
+    <span>SIG-UOIT · Proyecto Final de Machine Learning · Maestría en Ingeniería de Software Avanzada</span>
+    <a href="/docs" target="_blank" rel="noopener">Documentación OpenAPI /docs ↗</a>
+  </footer>
 </body>
 </html>

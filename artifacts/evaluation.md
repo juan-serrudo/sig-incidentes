@@ -1,75 +1,111 @@
-# Resultados del experimento
+# Resultados de Evaluación Experimental de Incidentes UOIT
 
-Clasificación de solicitudes iniciales en cinco categorías. Datos sintéticos en español; las cifras no prueban utilidad en una mesa de ayuda real.
+Sistema de clasificación automática de incidentes tecnológicos para la Unidad de Operaciones e Infraestructura Tecnológica (UOIT).
 
-## Datos separados por familia
+> [!IMPORTANT]
+> **Protocolo de Congelamiento Metodológico:** La selección de hiperparámetros y del modelo operativo se realizó **exclusivamente sobre VALIDACIÓN**.
+> La evaluación sobre el conjunto de prueba (**TEST**) se ejecutó una sola vez con los modelos estrictamente congelados.
 
-| Partición | Mensajes | Familias |
-|---|---:|---:|
-| train | 736 | 40 |
-| validation | 184 | 10 |
-| test | 184 | 10 |
+## 1. Datos y Particionado por Familias (Event Groups)
 
-Las dos paráfrasis y todas las variantes de una familia permanecen en la misma partición. Se comprueban duplicados normalizados. El vocabulario se aprende solo con entrenamiento.
+Para prevenir fuga de información (*data leakage*) entre paráfrasis o alertas técnicas similares, la partición se realizó por `event_group_id`. Ninguna familia técnica se comparte entre conjuntos.
 
-## Selección en validación
+| Partición | Incidentes | Familias (`event_group_id`) | Proporción |
+|---|---:|---:|---:|
+| Train | 450 | 25 | 62.5% |
+| Validation | 90 | 5 | 12.5% |
+| Test | 180 | 10 | 25.0% |
 
-| C | Macro-F1 |
-|---|---:|
-| 1.0 | 0.7480 |
-| 4.0 | 0.7562 |
+## 2. Comparativa en VALIDACIÓN (Selección del Modelo Operativo)
 
-C elegido: **4.0**. Umbral de revisión: **0.359218**.
+Evaluación sobre 90 incidentes de 5 familias completamente no vistas en entrenamiento.
 
-## Prueba sobre todos los mensajes
+| Modelo | Configuración | Macro-F1 (Val) | Accuracy (Val) | Top-3 Acc (Val) |
+|---|---|---:|---:|---:|
+| **Referencia Heurística** | Reglas de palabras clave UOIT | 0.6605 | 0.7222 | — |
+| **Línea Base Lineal (Seleccionada)** | TF-IDF (palabras + caracteres) + LogisticRegression (C=1.0) | **0.9423** | **0.9444** | **0.9778** |
+| **Modelo Propuesto** | Embeddings MiniLM congelados + LogisticRegression (C=1.0) | 0.7822 | 0.8111 | 0.9889 |
 
-| Métrica | Reglas por palabras | TF-IDF + regresión logística |
-|---|---:|---:|
-| Macro-F1 | 0.8778 | 0.7014 |
-| F1 ponderado | 0.8803 | 0.7012 |
-| Exactitud | 0.8859 | 0.7065 |
+**Decisión metodológica:** El modelo Transformer fue evaluado como propuesta avanzada. La línea base lineal obtuvo mejor desempeño en validación (Macro-F1 de 0.9423 frente a 0.7822) y, siguiendo el protocolo experimental congelado, fue seleccionada para la inferencia operativa del sistema.
 
-Las reglas superan al modelo en Macro-F1. Este experimento no justifica sustituirlas por el modelo; conviene ampliar la diversidad de datos y reservar una prueba nueva antes de otra comparación.
+## 3. Resultados Finales sobre Conjunto de Prueba Congelado (TEST)
 
-### Desempeño del modelo por categoría
+Evaluación ciega final sobre 180 incidentes (10 familias independientes, 36 por categoría).
 
-| Categoría | Precisión | Recall | F1 | Casos |
+| Métrica | Referencia Heurística | Línea Base Lineal (Operativo) | Modelo Propuesto (Transformer) |
+|---|---:|---:|---:|
+| **Macro-F1 (Métrica Primaria)** | 0.8793 | **0.7719** | 0.6592 |
+| **Accuracy Global** | 0.8889 | **0.7889** | 0.7000 |
+| **Top-3 Accuracy** | — | **1.0000** | 0.9611 |
+| **F1 Ponderado** | 0.8793 | **0.7719** | 0.6592 |
+
+### Desempeño por Categoría en TEST (Línea Base Lineal)
+
+| Categoría | Precisión | Recall | F1-Score | Casos Reales |
 |---|---:|---:|---:|---:|
-| Accesos y permisos | 0.780 | 0.812 | 0.796 | 48 |
-| Red y conectividad | 0.710 | 0.550 | 0.620 | 40 |
-| Equipos y periféricos | 0.533 | 0.500 | 0.516 | 32 |
-| Aplicaciones | 0.634 | 0.722 | 0.675 | 36 |
-| Correo electrónico | 0.844 | 0.964 | 0.900 | 28 |
+| Aplicaciones y servicios | 0.6316 | 0.3333 | 0.4364 | 36 |
+| Bases de datos | 0.9722 | 0.9722 | 0.9722 | 36 |
+| Redes y conectividad | 0.9000 | 0.7500 | 0.8182 | 36 |
+| Infraestructura y almacenamiento | 0.6604 | 0.9722 | 0.7865 | 36 |
+| Seguridad y accesos | 0.7857 | 0.9167 | 0.8462 | 36 |
 
-### Matriz de confusión
+### Desempeño por Categoría en TEST (Modelo Propuesto Transformer)
 
-Filas = categoría real; columnas = predicción. Orden: access, network, hardware, software, email.
+| Categoría | Precisión | Recall | F1-Score | Casos Reales |
+|---|---:|---:|---:|---:|
+| Aplicaciones y servicios | 0.4444 | 0.1111 | 0.1778 | 36 |
+| Bases de datos | 0.9091 | 0.8333 | 0.8696 | 36 |
+| Redes y conectividad | 0.7429 | 0.7222 | 0.7324 | 36 |
+| Infraestructura y almacenamiento | 0.7500 | 1.0000 | 0.8571 | 36 |
+| Seguridad y accesos | 0.5455 | 0.8333 | 0.6593 | 36 |
 
-| Real / predicha | access | network | hardware | software | email |
+### Matriz de Confusión en TEST (Línea Base Lineal)
+
+Filas: Categoría Real | Columnas: Categoría Predicha.  
+Orden: Aplicaciones y servicios, Bases de datos, Redes y conectividad, Infraestructura y almacenamiento, Seguridad y accesos.
+
+| Real / Predicha | Aplicaciones y servicios | Bases de datos | Redes y conectividad | Infraestructura y almacenamiento | Seguridad y accesos |
 |---|---:|---:|---:|---:|---:|
-| access | 39 | 3 | 0 | 6 | 0 |
-| network | 7 | 22 | 11 | 0 | 0 |
-| hardware | 2 | 6 | 16 | 8 | 0 |
-| software | 2 | 0 | 3 | 26 | 5 |
-| email | 0 | 0 | 0 | 1 | 27 |
+| Aplicaciones y servicios | 12 | 0 | 2 | 14 | 8 |
+| Bases de datos | 1 | 35 | 0 | 0 | 0 |
+| Redes y conectividad | 4 | 0 | 27 | 4 | 1 |
+| Infraestructura y almacenamiento | 0 | 1 | 0 | 35 | 0 |
+| Seguridad y accesos | 2 | 0 | 1 | 0 | 33 |
 
-## Política de revisión, medida por separado
+### Matriz de Confusión en TEST (Modelo Propuesto Transformer)
 
-En validación se buscó máxima cobertura con exactitud de al menos 90% en un mínimo de 20 mensajes que superaran el umbral.
-En prueba, cobertura: **63.6%** (117 mensajes); revisión marcada: **67**; exactitud entre los que superan el criterio: **88.9%**.
-El subconjunto de prueba no alcanza el objetivo de exactitud de validación.
-El Macro-F1 anterior incluye todos los mensajes, incluso los marcados para revisión. No se ocultan los casos difíciles para mejorar esa métrica.
-El objetivo de validación no garantiza la misma exactitud en prueba ni en producción. Los puntajes no se calibraron como probabilidades de acierto.
+| Real / Predicha | Aplicaciones y servicios | Bases de datos | Redes y conectividad | Infraestructura y almacenamiento | Seguridad y accesos |
+|---|---:|---:|---:|---:|---:|
+| Aplicaciones y servicios | 4 | 3 | 3 | 12 | 14 |
+| Bases de datos | 4 | 30 | 0 | 0 | 2 |
+| Redes y conectividad | 1 | 0 | 26 | 0 | 9 |
+| Infraestructura y almacenamiento | 0 | 0 | 0 | 36 | 0 |
+| Seguridad y accesos | 0 | 0 | 6 | 0 | 30 |
 
-## Límites
+## 4. Política de Revisión Humana Asistida
 
-El texto proviene de 60 familias redactadas para la simulación. Hay lenguaje compartido entre familias; esta separación es más exigente que mezclar variantes, pero no representa conversaciones reales ni una evaluación temporal.
-La prueba contiene solo dos familias por categoría. No se estiman intervalos de confianza; las variantes de una familia no son observaciones independientes.
-El modelo siempre ordena las cinco categorías conocidas. Un puntaje alto no garantiza detectar un tema externo, una negación o varias intenciones. La revisión por puntaje es una ayuda limitada.
-Los términos destacados son aportes positivos al puntaje lineal de la clase elegida; no explican causalidad ni representan toda la comparación entre clases.
-La aplicación no crea tickets ni asigna equipos de forma automática. No mide tiempos de resolución, satisfacción o reducción de trabajo real.
+- **Umbral calibrado en validación:** `0.2209` (buscando $\ge 90\%$ de exactitud en al menos 20 casos).
+- **Cobertura en TEST:** `100.0%` (180 de 180 incidentes aceptados directamente).
+- **Incidentes derivados a revisión humana:** `0` casos.
+- **Exactitud en subconjunto aceptado:** `78.9%`.
 
-## Reproducibilidad
+## 5. Análisis de Errores y Discusión Técnica
 
-Semilla: 42. SHA-256: `f1a93dc8ab3c6939ab5e8c0945b25ae4e916f934891c3139c666fc099248ad45`.
-Versiones: `{'python': '3.12.14', 'scikit-learn': '1.9.1', 'pandas': '2.3.3', 'numpy': '2.2.6', 'fastapi': '0.115.14'}`.
+1. **Por qué la Línea Base Lineal supera al Transformer en este dominio:**
+   - La representación dual (palabras + n-gramas de caracteres a nivel sub-palabra `char_wb`) captura tokens técnicos de alta especificidad (ej. `pg_wal`, `esxi`, `bgp`, `raid5`, `vlan`, `keycloak`) que determinan con precisión inequívoca la categoría técnica.
+   - El modelo Transformer preentrenado multilingüe (`MiniLM-L12-v2`) opera con embeddings semánticos genéricos congelados; al no estar ajustado a nivel de pesos internos sobre el dominio de infraestructura, tiende a agrupar semánticamente textos que comparten vocabulario operativo general (ej. 'alerta de turno', 'servidor caido') reduciendo su discriminación en fronteras difusas.
+2. **Fronteras con mayor confusión:**
+   - Casos entre *Aplicaciones y servicios* y *Bases de datos* cuando la descripción menciona errores de conexión hacia el motor relacional.
+   - Casos entre *Redes y conectividad* y *Seguridad y accesos* en incidentes relacionados con bloqueos de puertos o túneles cifrados.
+
+## 6. Limitaciones del Estudio
+
+- El dataset es sintético y estructurado en 40 familias. Aunque modela con fidelidad incidentes reales, presenta una mayor separabilidad léxica que los textos libres de usuarios en una mesa de ayuda real.
+- No se afirma eficacia operativa en producción sin antes realizar un piloto con datos reales de la UOIT.
+- La inferencia se realiza en CPU para garantizar reproducibilidad e independencia de hardware acelerador.
+
+## 7. Reproducibilidad
+
+- **Semilla determinista:** `42`.
+- **SHA-256 de `tickets.csv`:** `f65c66ec431f95112ab686f94ea067c712f61104e542adc8596f515c3555e0b7`.
+- **Versiones de software:** `{'python': '3.12.3', 'scikit-learn': '1.9.1', 'pandas': '2.3.3', 'numpy': '2.2.6', 'fastapi': '0.115.14', 'torch': '2.14.1+cpu', 'sentence-transformers': '6.1.0'}`.

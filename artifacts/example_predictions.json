@@ -1,458 +1,301 @@
 [
   {
-    "scenario": "access",
+    "scenario": "clear",
     "request": {
-      "message": "Mi cuenta está bloqueada y no puedo iniciar sesión. Necesito recuperar el acceso al portal de trabajo."
+      "title": "Agotamiento del pool de conexiones en base de datos PostgreSQL",
+      "initial_description": "Alerta de monitoreo Zabbix: El cluster PostgreSQL alcanzo el limite de max_connections y las aplicaciones no pueden abrir nuevas sesiones. Se solicita intervencion de la guardia tecnica."
     },
     "response": {
-      "category": "access",
-      "category_name": "Accesos y permisos",
-      "score": 0.9189812491777678,
+      "suggested_category": "databases",
+      "category": "databases",
+      "category_name": "Bases de datos",
+      "score": 0.8233882674235239,
+      "ranking": [
+        {
+          "category": "databases",
+          "name": "Bases de datos",
+          "score": 0.8233882674235239
+        },
+        {
+          "category": "applications_services",
+          "name": "Aplicaciones y servicios",
+          "score": 0.050104339199722216
+        },
+        {
+          "category": "networks_connectivity",
+          "name": "Redes y conectividad",
+          "score": 0.048839211300324044
+        },
+        {
+          "category": "security_access",
+          "name": "Seguridad y accesos",
+          "score": 0.04051829439181994
+        },
+        {
+          "category": "infrastructure_storage",
+          "name": "Infraestructura y almacenamiento",
+          "score": 0.0371498876846099
+        }
+      ],
+      "top_3": [
+        {
+          "category": "databases",
+          "name": "Bases de datos",
+          "score": 0.8233882674235239
+        },
+        {
+          "category": "applications_services",
+          "name": "Aplicaciones y servicios",
+          "score": 0.050104339199722216
+        },
+        {
+          "category": "networks_connectivity",
+          "name": "Redes y conectividad",
+          "score": 0.048839211300324044
+        }
+      ],
+      "requires_review": false,
       "needs_review": false,
       "review_reason": "above_threshold",
-      "review_threshold": 0.35921813292990085,
-      "ranking": [
-        {
-          "category": "access",
-          "name": "Accesos y permisos",
-          "score": 0.9189812491777678
-        },
-        {
-          "category": "network",
-          "name": "Red y conectividad",
-          "score": 0.029752034629133724
-        },
-        {
-          "category": "hardware",
-          "name": "Equipos y periféricos",
-          "score": 0.018804818893811023
-        },
-        {
-          "category": "software",
-          "name": "Aplicaciones",
-          "score": 0.017420902614675243
-        },
-        {
-          "category": "email",
-          "name": "Correo electrónico",
-          "score": 0.015040994684612192
-        }
-      ],
+      "review_threshold": 0.2209306170351287,
       "signals": [
         {
-          "term": "cuenta",
-          "contribution": 0.4993864565413807
+          "term": "base de",
+          "contribution": 0.1099
         },
         {
-          "term": "mi cuenta",
-          "contribution": 0.4446389351363147
+          "term": "datos",
+          "contribution": 0.1082
         },
         {
-          "term": "sesion",
-          "contribution": 0.36095513434218107
+          "term": "de datos",
+          "contribution": 0.1082
         },
         {
-          "term": "no puedo",
-          "contribution": 0.3005007671577047
+          "term": "base",
+          "contribution": 0.1019
         },
         {
-          "term": "recuperar",
-          "contribution": 0.29086800291001214
+          "term": "postgresql",
+          "contribution": 0.0581
         }
       ],
       "baseline": {
-        "category": "access",
+        "category": "databases",
         "matches": {
-          "access": [
-            "sesion",
-            "cuenta"
+          "applications_services": [],
+          "databases": [
+            "postgresql",
+            "datos",
+            "pool"
           ],
-          "network": [],
-          "hardware": [],
-          "software": [],
-          "email": []
+          "networks_connectivity": [],
+          "infrastructure_storage": [],
+          "security_access": []
         },
         "used_fallback": false
       },
-      "model_version": "text-v1-f1a93dc8",
-      "synthetic_data": true
-    }
-  },
-  {
-    "scenario": "network",
-    "request": {
-      "message": "La conexión wifi se corta a cada rato y no podemos abrir páginas de internet en varios equipos."
-    },
-    "response": {
-      "category": "network",
-      "category_name": "Red y conectividad",
-      "score": 0.9819286250040964,
-      "needs_review": false,
-      "review_reason": "above_threshold",
-      "review_threshold": 0.35921813292990085,
-      "ranking": [
-        {
-          "category": "network",
-          "name": "Red y conectividad",
-          "score": 0.9819286250040964
-        },
-        {
-          "category": "hardware",
-          "name": "Equipos y periféricos",
-          "score": 0.005440220018017063
-        },
-        {
-          "category": "email",
-          "name": "Correo electrónico",
-          "score": 0.0048605444421273335
-        },
-        {
-          "category": "access",
-          "name": "Accesos y permisos",
-          "score": 0.004378811691047163
-        },
-        {
-          "category": "software",
-          "name": "Aplicaciones",
-          "score": 0.0033917988447120817
-        }
-      ],
-      "signals": [
-        {
-          "term": "conexion",
-          "contribution": 0.5585206164964646
-        },
-        {
-          "term": "paginas",
-          "contribution": 0.39558089236470567
-        },
-        {
-          "term": "equipos",
-          "contribution": 0.3887580714981272
-        },
-        {
-          "term": "varios",
-          "contribution": 0.3887580714981272
-        },
-        {
-          "term": "varios equipos",
-          "contribution": 0.3887580714981272
-        }
-      ],
-      "baseline": {
-        "category": "network",
-        "matches": {
-          "access": [],
-          "network": [
-            "wifi",
-            "internet",
-            "conexion"
-          ],
-          "hardware": [],
-          "software": [],
-          "email": []
-        },
-        "used_fallback": false
-      },
-      "model_version": "text-v1-f1a93dc8",
-      "synthetic_data": true
-    }
-  },
-  {
-    "scenario": "email",
-    "request": {
-      "message": "Mis correos quedan en la bandeja de salida y los destinatarios no reciben los mensajes con adjuntos."
-    },
-    "response": {
-      "category": "email",
-      "category_name": "Correo electrónico",
-      "score": 0.9764130445151467,
-      "needs_review": false,
-      "review_reason": "above_threshold",
-      "review_threshold": 0.35921813292990085,
-      "ranking": [
-        {
-          "category": "email",
-          "name": "Correo electrónico",
-          "score": 0.9764130445151467
-        },
-        {
-          "category": "hardware",
-          "name": "Equipos y periféricos",
-          "score": 0.011282905576568475
-        },
-        {
-          "category": "network",
-          "name": "Red y conectividad",
-          "score": 0.0046091056961594466
-        },
-        {
-          "category": "access",
-          "name": "Accesos y permisos",
-          "score": 0.004224530945793935
-        },
-        {
-          "category": "software",
-          "name": "Aplicaciones",
-          "score": 0.0034704132663316047
-        }
-      ],
-      "signals": [
-        {
-          "term": "mensajes",
-          "contribution": 0.6969027783311157
-        },
-        {
-          "term": "los",
-          "contribution": 0.5743022167711583
-        },
-        {
-          "term": "los mensajes",
-          "contribution": 0.5709607620181525
-        },
-        {
-          "term": "correos",
-          "contribution": 0.4948125390683027
-        },
-        {
-          "term": "bandeja",
-          "contribution": 0.2639163545774556
-        }
-      ],
-      "baseline": {
-        "category": "email",
-        "matches": {
-          "access": [],
-          "network": [],
-          "hardware": [],
-          "software": [],
-          "email": [
-            "adjuntos",
-            "mensajes",
-            "bandeja"
-          ]
-        },
-        "used_fallback": false
-      },
-      "model_version": "text-v1-f1a93dc8",
-      "synthetic_data": true
-    }
-  },
-  {
-    "scenario": "hardware",
-    "request": {
-      "message": "El teclado físico dejó de responder y varias teclas están dañadas. Ya probé conectarlo nuevamente."
-    },
-    "response": {
-      "category": "hardware",
-      "category_name": "Equipos y periféricos",
-      "score": 0.30373286287378914,
-      "needs_review": true,
-      "review_reason": "below_threshold",
-      "review_threshold": 0.35921813292990085,
-      "ranking": [
-        {
-          "category": "hardware",
-          "name": "Equipos y periféricos",
-          "score": 0.30373286287378914
-        },
-        {
-          "category": "network",
-          "name": "Red y conectividad",
-          "score": 0.22963774615678556
-        },
-        {
-          "category": "software",
-          "name": "Aplicaciones",
-          "score": 0.21122814799541687
-        },
-        {
-          "category": "access",
-          "name": "Accesos y permisos",
-          "score": 0.16600570437642095
-        },
-        {
-          "category": "email",
-          "name": "Correo electrónico",
-          "score": 0.08939553859758766
-        }
-      ],
-      "signals": [
-        {
-          "term": "fisico",
-          "contribution": 0.39598140531364495
-        },
-        {
-          "term": "estan",
-          "contribution": 0.360656130760152
-        },
-        {
-          "term": "el",
-          "contribution": 0.08421056367915392
-        }
-      ],
-      "baseline": {
-        "category": "hardware",
-        "matches": {
-          "access": [],
-          "network": [],
-          "hardware": [
-            "teclado"
-          ],
-          "software": [],
-          "email": []
-        },
-        "used_fallback": false
-      },
-      "model_version": "text-v1-f1a93dc8",
+      "model": "TF-IDF (Palabras + Caracteres) + Regresión Logística (C=1.0)",
+      "model_version": "uoit-v1-f65c66ec",
+      "latency_ms": 17.52,
       "synthetic_data": true
     }
   },
   {
     "scenario": "ambiguous",
     "request": {
-      "message": "No puedo entrar y todo dejó de funcionar. Necesito ayuda para continuar con mi trabajo."
+      "title": "Error 500 al consultar reportes contables y timeout intermitente",
+      "initial_description": "Reporte de turno de guardia: La aplicacion web lanza errores HTTP 500 y timeout al solicitar liquidaciones. No se identifica si la falla se origina en la logica de la aplicacion o en saturacion del motor relacional."
     },
     "response": {
-      "category": "access",
-      "category_name": "Accesos y permisos",
-      "score": 0.6964373537673172,
-      "needs_review": false,
-      "review_reason": "above_threshold",
-      "review_threshold": 0.35921813292990085,
+      "suggested_category": "applications_services",
+      "category": "applications_services",
+      "category_name": "Aplicaciones y servicios",
+      "score": 0.5755672597835141,
       "ranking": [
         {
-          "category": "access",
-          "name": "Accesos y permisos",
-          "score": 0.6964373537673172
+          "category": "applications_services",
+          "name": "Aplicaciones y servicios",
+          "score": 0.5755672597835141
         },
         {
-          "category": "hardware",
-          "name": "Equipos y periféricos",
-          "score": 0.08650573203163034
+          "category": "databases",
+          "name": "Bases de datos",
+          "score": 0.20700971811412458
         },
         {
-          "category": "email",
-          "name": "Correo electrónico",
-          "score": 0.08488109817120228
+          "category": "infrastructure_storage",
+          "name": "Infraestructura y almacenamiento",
+          "score": 0.08067847914684033
         },
         {
-          "category": "software",
-          "name": "Aplicaciones",
-          "score": 0.08004643925033234
+          "category": "networks_connectivity",
+          "name": "Redes y conectividad",
+          "score": 0.07645467029917474
         },
         {
-          "category": "network",
-          "name": "Red y conectividad",
-          "score": 0.052129376779517726
+          "category": "security_access",
+          "name": "Seguridad y accesos",
+          "score": 0.060289872656346305
         }
       ],
+      "top_3": [
+        {
+          "category": "applications_services",
+          "name": "Aplicaciones y servicios",
+          "score": 0.5755672597835141
+        },
+        {
+          "category": "databases",
+          "name": "Bases de datos",
+          "score": 0.20700971811412458
+        },
+        {
+          "category": "infrastructure_storage",
+          "name": "Infraestructura y almacenamiento",
+          "score": 0.08067847914684033
+        }
+      ],
+      "requires_review": false,
+      "needs_review": false,
+      "review_reason": "above_threshold",
+      "review_threshold": 0.2209306170351287,
       "signals": [
         {
-          "term": "para",
-          "contribution": 0.7824998625108244
+          "term": "aplicacion",
+          "contribution": 0.1038
         },
         {
-          "term": "no puedo",
-          "contribution": 0.4482323609090859
+          "term": "la aplicacion",
+          "contribution": 0.0636
         },
         {
-          "term": "mi",
-          "contribution": 0.2725049239038245
+          "term": "timeout",
+          "contribution": 0.0576
         },
         {
-          "term": "no",
-          "contribution": 0.18041841367548384
+          "term": "500",
+          "contribution": 0.0468
         },
         {
-          "term": "puedo",
-          "contribution": 0.17891864080455624
+          "term": "reportes",
+          "contribution": 0.046
         }
       ],
       "baseline": {
-        "category": "access",
+        "category": "applications_services",
         "matches": {
-          "access": [],
-          "network": [],
-          "hardware": [],
-          "software": [],
-          "email": []
+          "applications_services": [
+            "web"
+          ],
+          "databases": [],
+          "networks_connectivity": [],
+          "infrastructure_storage": [],
+          "security_access": []
         },
-        "used_fallback": true
+        "used_fallback": false
       },
-      "model_version": "text-v1-f1a93dc8",
+      "model": "TF-IDF (Palabras + Caracteres) + Regresión Logística (C=1.0)",
+      "model_version": "uoit-v1-f65c66ec",
+      "latency_ms": 15.03,
       "synthetic_data": true
     }
   },
   {
     "scenario": "outside",
     "request": {
-      "message": "Quisiera saber qué platos vegetarianos ofrece la cafetería para el almuerzo de mañana."
+      "title": "Menu de almuerzo y opciones vegetarianas en la cafeteria",
+      "initial_description": "Quisiera consultar que platos vegetarianos y opciones de almuerzo ofrece el casino de la institucion para el dia de manana."
     },
     "response": {
-      "category": "access",
-      "category_name": "Accesos y permisos",
-      "score": 0.80234857505168,
-      "needs_review": false,
-      "review_reason": "above_threshold",
-      "review_threshold": 0.35921813292990085,
+      "suggested_category": "applications_services",
+      "category": "applications_services",
+      "category_name": "Aplicaciones y servicios",
+      "score": 0.36201313696575715,
       "ranking": [
         {
-          "category": "access",
-          "name": "Accesos y permisos",
-          "score": 0.80234857505168
+          "category": "applications_services",
+          "name": "Aplicaciones y servicios",
+          "score": 0.36201313696575715
         },
         {
-          "category": "software",
-          "name": "Aplicaciones",
-          "score": 0.0637610084937745
+          "category": "security_access",
+          "name": "Seguridad y accesos",
+          "score": 0.1756708926770166
         },
         {
-          "category": "hardware",
-          "name": "Equipos y periféricos",
-          "score": 0.050955659159487
+          "category": "databases",
+          "name": "Bases de datos",
+          "score": 0.16270096156559363
         },
         {
-          "category": "email",
-          "name": "Correo electrónico",
-          "score": 0.0442855005286454
+          "category": "infrastructure_storage",
+          "name": "Infraestructura y almacenamiento",
+          "score": 0.1505292370832862
         },
         {
-          "category": "network",
-          "name": "Red y conectividad",
-          "score": 0.038649256766413065
+          "category": "networks_connectivity",
+          "name": "Redes y conectividad",
+          "score": 0.14908577170834628
         }
       ],
+      "top_3": [
+        {
+          "category": "applications_services",
+          "name": "Aplicaciones y servicios",
+          "score": 0.36201313696575715
+        },
+        {
+          "category": "security_access",
+          "name": "Seguridad y accesos",
+          "score": 0.1756708926770166
+        },
+        {
+          "category": "databases",
+          "name": "Bases de datos",
+          "score": 0.16270096156559363
+        }
+      ],
+      "requires_review": false,
+      "needs_review": false,
+      "review_reason": "above_threshold",
+      "review_threshold": 0.2209306170351287,
       "signals": [
         {
-          "term": "para",
-          "contribution": 1.4162260163855889
+          "term": "manana",
+          "contribution": 0.0962
         },
         {
-          "term": "que",
-          "contribution": 0.7726983070306801
+          "term": "ana",
+          "contribution": 0.0388
         },
         {
-          "term": "el",
-          "contribution": 0.19152328901604868
+          "term": " men",
+          "contribution": 0.0247
         },
         {
-          "term": "de",
-          "contribution": 0.06925933836998158
+          "term": "la",
+          "contribution": 0.0227
+        },
+        {
+          "term": "pci",
+          "contribution": 0.0202
         }
       ],
       "baseline": {
-        "category": "access",
+        "category": "applications_services",
         "matches": {
-          "access": [],
-          "network": [],
-          "hardware": [],
-          "software": [],
-          "email": []
+          "applications_services": [],
+          "databases": [],
+          "networks_connectivity": [],
+          "infrastructure_storage": [],
+          "security_access": []
         },
         "used_fallback": true
       },
-      "model_version": "text-v1-f1a93dc8",
+      "model": "TF-IDF (Palabras + Caracteres) + Regresión Logística (C=1.0)",
+      "model_version": "uoit-v1-f65c66ec",
+      "latency_ms": 12.62,
       "synthetic_data": true
     }
   }

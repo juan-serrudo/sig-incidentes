@@ -4,5 +4,14 @@ __pycache__/
 .DS_Store
 *.log
 qa/
+.env
+.env.*
 private_sources/
 private_data/
+private_*
+*.xlsx
+*.xls
+*.doc
+*.docx
+*.pdf
+scratch/
