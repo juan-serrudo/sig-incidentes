@@ -1,0 +1,1105 @@
+ticket_id,family_id,message,category
+REQ-0001,access-01,Necesito ayuda con lo siguiente. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Ocurre desde esta mañana.,access
+REQ-0002,access-01,Hola. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Necesito continuar con mi trabajo.,access
+REQ-0003,access-01,Necesito ayuda con lo siguiente. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Sucede de forma intermitente.,access
+REQ-0004,access-01,Tengo este inconveniente. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Puedo aportar más información si hace falta.,access
+REQ-0005,access-01,Quiero reportar este problema. Necesito recuperar la clave para iniciar sesión. Quedo pendiente de la revisión.,access
+REQ-0006,access-01,Tengo este inconveniente. Necesito recuperar la clave para iniciar sesión. Agradezco su ayuda.,access
+REQ-0007,access-01,Hola. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Es la primera vez que lo reporto.,access
+REQ-0008,access-01,Hola. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Puedo aportar más información si hace falta.,access
+REQ-0009,access-01,Desde mi puesto observo esto. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Es la primera vez que lo reporto.,access
+REQ-0010,access-01,Desde mi puesto observo esto. Necesito recuperar la clave para iniciar sesión. Sucede de forma intermitente.,access
+REQ-0011,access-01,Hola. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Agradezco su ayuda.,access
+REQ-0012,access-01,Quiero reportar este problema. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Necesito continuar con mi trabajo.,access
+REQ-0013,access-01,Desde mi puesto observo esto. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Puedo aportar más información si hace falta.,access
+REQ-0014,access-01,Buen día. Necesito recuperar la clave para iniciar sesión. Agradezco su ayuda.,access
+REQ-0015,access-01,Desde mi puesto observo esto. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0016,access-01,Solicito una revisión. Necesito recuperar la clave para iniciar sesión. Es la primera vez que lo reporto.,access
+REQ-0017,access-01,Les comparto mi solicitud. Necesito recuperar la clave para iniciar sesión. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0018,access-01,Buen día. Necesito recuperar la clave para iniciar sesión. Ocurre desde esta mañana.,access
+REQ-0019,access-01,Buen día. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Es la primera vez que lo reporto.,access
+REQ-0020,access-01,Les comparto mi solicitud. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0021,access-01,Les comparto mi solicitud. Necesito recuperar la clave para iniciar sesión. Es la primera vez que lo reporto.,access
+REQ-0022,access-01,Desde mi puesto observo esto. Necesito recuperar la clave para iniciar sesión. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0023,access-01,Quiero reportar este problema. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Puedo aportar más información si hace falta.,access
+REQ-0024,access-01,Tengo este inconveniente. Olvidé mi contraseña y no puedo ingresar a mi cuenta. Quedo pendiente de la revisión.,access
+REQ-0025,access-02,Les comparto mi solicitud. La cuenta aparece bloqueada al entrar al sistema. Es la primera vez que lo reporto.,access
+REQ-0026,access-02,Solicito una revisión. Mi usuario quedó bloqueado después de varios intentos. Quedo pendiente de la revisión.,access
+REQ-0027,access-02,Solicito una revisión. Mi usuario quedó bloqueado después de varios intentos. Sucede de forma intermitente.,access
+REQ-0028,access-02,Desde mi puesto observo esto. Mi usuario quedó bloqueado después de varios intentos. Es la primera vez que lo reporto.,access
+REQ-0029,access-02,Necesito ayuda con lo siguiente. Mi usuario quedó bloqueado después de varios intentos. Puedo aportar más información si hace falta.,access
+REQ-0030,access-02,Quiero reportar este problema. Mi usuario quedó bloqueado después de varios intentos. Puedo aportar más información si hace falta.,access
+REQ-0031,access-02,Les comparto mi solicitud. La cuenta aparece bloqueada al entrar al sistema. Agradezco su ayuda.,access
+REQ-0032,access-02,Hola. Mi usuario quedó bloqueado después de varios intentos. Puedo aportar más información si hace falta.,access
+REQ-0033,access-02,Hola. La cuenta aparece bloqueada al entrar al sistema. Quedo pendiente de la revisión.,access
+REQ-0034,access-02,Necesito ayuda con lo siguiente. Mi usuario quedó bloqueado después de varios intentos. Es la primera vez que lo reporto.,access
+REQ-0035,access-02,Les comparto mi solicitud. La cuenta aparece bloqueada al entrar al sistema. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0036,access-02,Buen día. Mi usuario quedó bloqueado después de varios intentos. Puedo aportar más información si hace falta.,access
+REQ-0037,access-02,Necesito ayuda con lo siguiente. La cuenta aparece bloqueada al entrar al sistema. Es la primera vez que lo reporto.,access
+REQ-0038,access-02,Necesito ayuda con lo siguiente. La cuenta aparece bloqueada al entrar al sistema. Agradezco su ayuda.,access
+REQ-0039,access-02,Quiero reportar este problema. La cuenta aparece bloqueada al entrar al sistema. Quedo pendiente de la revisión.,access
+REQ-0040,access-02,Desde mi puesto observo esto. Mi usuario quedó bloqueado después de varios intentos. Quedo pendiente de la revisión.,access
+REQ-0041,access-02,Quiero reportar este problema. Mi usuario quedó bloqueado después de varios intentos. Ocurre desde esta mañana.,access
+REQ-0042,access-02,Tengo este inconveniente. La cuenta aparece bloqueada al entrar al sistema. Agradezco su ayuda.,access
+REQ-0043,access-02,Desde mi puesto observo esto. La cuenta aparece bloqueada al entrar al sistema. Sucede de forma intermitente.,access
+REQ-0044,access-02,Quiero reportar este problema. Mi usuario quedó bloqueado después de varios intentos. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0045,access-02,Hola. Mi usuario quedó bloqueado después de varios intentos. Sucede de forma intermitente.,access
+REQ-0046,access-02,Desde mi puesto observo esto. La cuenta aparece bloqueada al entrar al sistema. Agradezco su ayuda.,access
+REQ-0047,access-02,Quiero reportar este problema. Mi usuario quedó bloqueado después de varios intentos. Sucede de forma intermitente.,access
+REQ-0048,access-02,Desde mi puesto observo esto. Mi usuario quedó bloqueado después de varios intentos. Agradezco su ayuda.,access
+REQ-0049,access-03,Tengo este inconveniente. Mi cuenta no tiene autorización para ver la carpeta de trabajo. Sucede de forma intermitente.,access
+REQ-0050,access-03,Necesito ayuda con lo siguiente. Mi cuenta no tiene autorización para ver la carpeta de trabajo. Sucede de forma intermitente.,access
+REQ-0051,access-03,Solicito una revisión. Necesito permiso para abrir la carpeta compartida del área. Quedo pendiente de la revisión.,access
+REQ-0052,access-03,Hola. Mi cuenta no tiene autorización para ver la carpeta de trabajo. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0053,access-03,Necesito ayuda con lo siguiente. Necesito permiso para abrir la carpeta compartida del área. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0054,access-03,Necesito ayuda con lo siguiente. Mi cuenta no tiene autorización para ver la carpeta de trabajo. Puedo aportar más información si hace falta.,access
+REQ-0055,access-03,Solicito una revisión. Mi cuenta no tiene autorización para ver la carpeta de trabajo. Es la primera vez que lo reporto.,access
+REQ-0056,access-03,Les comparto mi solicitud. Necesito permiso para abrir la carpeta compartida del área. Quedo pendiente de la revisión.,access
+REQ-0057,access-03,Desde mi puesto observo esto. Necesito permiso para abrir la carpeta compartida del área. Sucede de forma intermitente.,access
+REQ-0058,access-03,Buen día. Necesito permiso para abrir la carpeta compartida del área. Quedo pendiente de la revisión.,access
+REQ-0059,access-03,Quiero reportar este problema. Mi cuenta no tiene autorización para ver la carpeta de trabajo. Quedo pendiente de la revisión.,access
+REQ-0060,access-03,Hola. Mi cuenta no tiene autorización para ver la carpeta de trabajo. Agradezco su ayuda.,access
+REQ-0061,access-03,Quiero reportar este problema. Necesito permiso para abrir la carpeta compartida del área. Puedo aportar más información si hace falta.,access
+REQ-0062,access-03,Quiero reportar este problema. Necesito permiso para abrir la carpeta compartida del área. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0063,access-03,Solicito una revisión. Necesito permiso para abrir la carpeta compartida del área. Agradezco su ayuda.,access
+REQ-0064,access-03,Hola. Necesito permiso para abrir la carpeta compartida del área. Necesito continuar con mi trabajo.,access
+REQ-0065,access-03,Tengo este inconveniente. Necesito permiso para abrir la carpeta compartida del área. Es la primera vez que lo reporto.,access
+REQ-0066,access-03,Desde mi puesto observo esto. Mi cuenta no tiene autorización para ver la carpeta de trabajo. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0067,access-03,Les comparto mi solicitud. Mi cuenta no tiene autorización para ver la carpeta de trabajo. Ocurre desde esta mañana.,access
+REQ-0068,access-03,Quiero reportar este problema. Mi cuenta no tiene autorización para ver la carpeta de trabajo. Puedo aportar más información si hace falta.,access
+REQ-0069,access-03,Les comparto mi solicitud. Mi cuenta no tiene autorización para ver la carpeta de trabajo. Necesito continuar con mi trabajo.,access
+REQ-0070,access-03,Hola. Necesito permiso para abrir la carpeta compartida del área. Agradezco su ayuda.,access
+REQ-0071,access-03,Quiero reportar este problema. Mi cuenta no tiene autorización para ver la carpeta de trabajo. Necesito continuar con mi trabajo.,access
+REQ-0072,access-03,Desde mi puesto observo esto. Mi cuenta no tiene autorización para ver la carpeta de trabajo. Necesito continuar con mi trabajo.,access
+REQ-0073,access-04,Hola. No puedo validar el segundo factor para acceder a mi cuenta. Quedo pendiente de la revisión.,access
+REQ-0074,access-04,Quiero reportar este problema. El código de verificación no permite completar el inicio de sesión. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0075,access-04,Les comparto mi solicitud. No puedo validar el segundo factor para acceder a mi cuenta. Sucede de forma intermitente.,access
+REQ-0076,access-04,Necesito ayuda con lo siguiente. No puedo validar el segundo factor para acceder a mi cuenta. Agradezco su ayuda.,access
+REQ-0077,access-04,Solicito una revisión. No puedo validar el segundo factor para acceder a mi cuenta. Sucede de forma intermitente.,access
+REQ-0078,access-04,Hola. El código de verificación no permite completar el inicio de sesión. Quedo pendiente de la revisión.,access
+REQ-0079,access-04,Solicito una revisión. No puedo validar el segundo factor para acceder a mi cuenta. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0080,access-04,Tengo este inconveniente. No puedo validar el segundo factor para acceder a mi cuenta. Es la primera vez que lo reporto.,access
+REQ-0081,access-04,Hola. El código de verificación no permite completar el inicio de sesión. Agradezco su ayuda.,access
+REQ-0082,access-04,Les comparto mi solicitud. No puedo validar el segundo factor para acceder a mi cuenta. Es la primera vez que lo reporto.,access
+REQ-0083,access-04,Hola. El código de verificación no permite completar el inicio de sesión. Puedo aportar más información si hace falta.,access
+REQ-0084,access-04,Necesito ayuda con lo siguiente. No puedo validar el segundo factor para acceder a mi cuenta. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0085,access-04,Buen día. El código de verificación no permite completar el inicio de sesión. Puedo aportar más información si hace falta.,access
+REQ-0086,access-04,Desde mi puesto observo esto. El código de verificación no permite completar el inicio de sesión. Puedo aportar más información si hace falta.,access
+REQ-0087,access-04,Hola. No puedo validar el segundo factor para acceder a mi cuenta. Ocurre desde esta mañana.,access
+REQ-0088,access-04,Les comparto mi solicitud. No puedo validar el segundo factor para acceder a mi cuenta. Quedo pendiente de la revisión.,access
+REQ-0089,access-04,Les comparto mi solicitud. El código de verificación no permite completar el inicio de sesión. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0090,access-04,Les comparto mi solicitud. No puedo validar el segundo factor para acceder a mi cuenta. Necesito continuar con mi trabajo.,access
+REQ-0091,access-04,Hola. No puedo validar el segundo factor para acceder a mi cuenta. Agradezco su ayuda.,access
+REQ-0092,access-04,Hola. No puedo validar el segundo factor para acceder a mi cuenta. Es la primera vez que lo reporto.,access
+REQ-0093,access-04,Tengo este inconveniente. El código de verificación no permite completar el inicio de sesión. Agradezco su ayuda.,access
+REQ-0094,access-04,Buen día. El código de verificación no permite completar el inicio de sesión. Sucede de forma intermitente.,access
+REQ-0095,access-04,Quiero reportar este problema. No puedo validar el segundo factor para acceder a mi cuenta. Agradezco su ayuda.,access
+REQ-0096,access-04,Desde mi puesto observo esto. No puedo validar el segundo factor para acceder a mi cuenta. Agradezco su ayuda.,access
+REQ-0097,access-05,Buen día. Solicito crear una cuenta para una nueva incorporación. Puedo aportar más información si hace falta.,access
+REQ-0098,access-05,Solicito una revisión. Necesitamos dar de alta un usuario con acceso al portal. Necesito continuar con mi trabajo.,access
+REQ-0099,access-05,Les comparto mi solicitud. Solicito crear una cuenta para una nueva incorporación. Puedo aportar más información si hace falta.,access
+REQ-0100,access-05,Buen día. Necesitamos dar de alta un usuario con acceso al portal. Agradezco su ayuda.,access
+REQ-0101,access-05,Quiero reportar este problema. Solicito crear una cuenta para una nueva incorporación. Necesito continuar con mi trabajo.,access
+REQ-0102,access-05,Necesito ayuda con lo siguiente. Necesitamos dar de alta un usuario con acceso al portal. Puedo aportar más información si hace falta.,access
+REQ-0103,access-05,Quiero reportar este problema. Necesitamos dar de alta un usuario con acceso al portal. Puedo aportar más información si hace falta.,access
+REQ-0104,access-05,Tengo este inconveniente. Solicito crear una cuenta para una nueva incorporación. Necesito continuar con mi trabajo.,access
+REQ-0105,access-05,Hola. Necesitamos dar de alta un usuario con acceso al portal. Sucede de forma intermitente.,access
+REQ-0106,access-05,Buen día. Necesitamos dar de alta un usuario con acceso al portal. Ocurre desde esta mañana.,access
+REQ-0107,access-05,Hola. Necesitamos dar de alta un usuario con acceso al portal. Puedo aportar más información si hace falta.,access
+REQ-0108,access-05,Tengo este inconveniente. Necesitamos dar de alta un usuario con acceso al portal. Agradezco su ayuda.,access
+REQ-0109,access-05,Hola. Solicito crear una cuenta para una nueva incorporación. Sucede de forma intermitente.,access
+REQ-0110,access-05,Quiero reportar este problema. Solicito crear una cuenta para una nueva incorporación. Ocurre desde esta mañana.,access
+REQ-0111,access-05,Solicito una revisión. Solicito crear una cuenta para una nueva incorporación. Es la primera vez que lo reporto.,access
+REQ-0112,access-05,Buen día. Necesitamos dar de alta un usuario con acceso al portal. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0113,access-05,Necesito ayuda con lo siguiente. Solicito crear una cuenta para una nueva incorporación. Quedo pendiente de la revisión.,access
+REQ-0114,access-05,Hola. Solicito crear una cuenta para una nueva incorporación. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0115,access-05,Quiero reportar este problema. Solicito crear una cuenta para una nueva incorporación. Puedo aportar más información si hace falta.,access
+REQ-0116,access-05,Desde mi puesto observo esto. Necesitamos dar de alta un usuario con acceso al portal. Necesito continuar con mi trabajo.,access
+REQ-0117,access-05,Quiero reportar este problema. Solicito crear una cuenta para una nueva incorporación. Quedo pendiente de la revisión.,access
+REQ-0118,access-05,Solicito una revisión. Solicito crear una cuenta para una nueva incorporación. Quedo pendiente de la revisión.,access
+REQ-0119,access-05,Quiero reportar este problema. Necesitamos dar de alta un usuario con acceso al portal. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0120,access-05,Desde mi puesto observo esto. Solicito crear una cuenta para una nueva incorporación. Sucede de forma intermitente.,access
+REQ-0121,access-06,Tengo este inconveniente. Mi contraseña venció y el cambio de clave falla. Ocurre desde esta mañana.,access
+REQ-0122,access-06,Buen día. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Sucede de forma intermitente.,access
+REQ-0123,access-06,Buen día. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Necesito continuar con mi trabajo.,access
+REQ-0124,access-06,Hola. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Puedo aportar más información si hace falta.,access
+REQ-0125,access-06,Quiero reportar este problema. Mi contraseña venció y el cambio de clave falla. Puedo aportar más información si hace falta.,access
+REQ-0126,access-06,Hola. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Ocurre desde esta mañana.,access
+REQ-0127,access-06,Desde mi puesto observo esto. Mi contraseña venció y el cambio de clave falla. Quedo pendiente de la revisión.,access
+REQ-0128,access-06,Desde mi puesto observo esto. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Puedo aportar más información si hace falta.,access
+REQ-0129,access-06,Necesito ayuda con lo siguiente. Mi contraseña venció y el cambio de clave falla. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0130,access-06,Quiero reportar este problema. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Sucede de forma intermitente.,access
+REQ-0131,access-06,Les comparto mi solicitud. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0132,access-06,Buen día. Mi contraseña venció y el cambio de clave falla. Ocurre desde esta mañana.,access
+REQ-0133,access-06,Solicito una revisión. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Quedo pendiente de la revisión.,access
+REQ-0134,access-06,Buen día. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Puedo aportar más información si hace falta.,access
+REQ-0135,access-06,Necesito ayuda con lo siguiente. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Ocurre desde esta mañana.,access
+REQ-0136,access-06,Buen día. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Agradezco su ayuda.,access
+REQ-0137,access-06,Solicito una revisión. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Agradezco su ayuda.,access
+REQ-0138,access-06,Solicito una revisión. Mi contraseña venció y el cambio de clave falla. Agradezco su ayuda.,access
+REQ-0139,access-06,Buen día. Mi contraseña venció y el cambio de clave falla. Quedo pendiente de la revisión.,access
+REQ-0140,access-06,Necesito ayuda con lo siguiente. Mi contraseña venció y el cambio de clave falla. Quedo pendiente de la revisión.,access
+REQ-0141,access-06,Buen día. Mi contraseña venció y el cambio de clave falla. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0142,access-06,Buen día. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0143,access-06,Desde mi puesto observo esto. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Sucede de forma intermitente.,access
+REQ-0144,access-06,Les comparto mi solicitud. El sistema solicita renovar la clave pero no acepta la nueva contraseña. Puedo aportar más información si hace falta.,access
+REQ-0145,access-07,Les comparto mi solicitud. Necesito que revisen el rol de aprobación asignado a mi cuenta. Es la primera vez que lo reporto.,access
+REQ-0146,access-07,Desde mi puesto observo esto. Necesito que revisen el rol de aprobación asignado a mi cuenta. Quedo pendiente de la revisión.,access
+REQ-0147,access-07,Solicito una revisión. Mi usuario entra pero no tiene permisos para aprobar solicitudes. Ocurre desde esta mañana.,access
+REQ-0148,access-07,Les comparto mi solicitud. Necesito que revisen el rol de aprobación asignado a mi cuenta. Ocurre desde esta mañana.,access
+REQ-0149,access-07,Hola. Necesito que revisen el rol de aprobación asignado a mi cuenta. Sucede de forma intermitente.,access
+REQ-0150,access-07,Tengo este inconveniente. Necesito que revisen el rol de aprobación asignado a mi cuenta. Sucede de forma intermitente.,access
+REQ-0151,access-07,Solicito una revisión. Mi usuario entra pero no tiene permisos para aprobar solicitudes. Puedo aportar más información si hace falta.,access
+REQ-0152,access-07,Necesito ayuda con lo siguiente. Mi usuario entra pero no tiene permisos para aprobar solicitudes. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0153,access-07,Les comparto mi solicitud. Necesito que revisen el rol de aprobación asignado a mi cuenta. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0154,access-07,Solicito una revisión. Mi usuario entra pero no tiene permisos para aprobar solicitudes. Sucede de forma intermitente.,access
+REQ-0155,access-07,Buen día. Necesito que revisen el rol de aprobación asignado a mi cuenta. Ocurre desde esta mañana.,access
+REQ-0156,access-07,Les comparto mi solicitud. Mi usuario entra pero no tiene permisos para aprobar solicitudes. Es la primera vez que lo reporto.,access
+REQ-0157,access-07,Tengo este inconveniente. Mi usuario entra pero no tiene permisos para aprobar solicitudes. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0158,access-07,Quiero reportar este problema. Mi usuario entra pero no tiene permisos para aprobar solicitudes. Necesito continuar con mi trabajo.,access
+REQ-0159,access-07,Tengo este inconveniente. Mi usuario entra pero no tiene permisos para aprobar solicitudes. Es la primera vez que lo reporto.,access
+REQ-0160,access-07,Solicito una revisión. Necesito que revisen el rol de aprobación asignado a mi cuenta. Quedo pendiente de la revisión.,access
+REQ-0161,access-07,Hola. Mi usuario entra pero no tiene permisos para aprobar solicitudes. Puedo aportar más información si hace falta.,access
+REQ-0162,access-07,Les comparto mi solicitud. Necesito que revisen el rol de aprobación asignado a mi cuenta. Necesito continuar con mi trabajo.,access
+REQ-0163,access-07,Tengo este inconveniente. Necesito que revisen el rol de aprobación asignado a mi cuenta. Quedo pendiente de la revisión.,access
+REQ-0164,access-07,Desde mi puesto observo esto. Mi usuario entra pero no tiene permisos para aprobar solicitudes. Agradezco su ayuda.,access
+REQ-0165,access-07,Desde mi puesto observo esto. Necesito que revisen el rol de aprobación asignado a mi cuenta. Agradezco su ayuda.,access
+REQ-0166,access-07,Hola. Necesito que revisen el rol de aprobación asignado a mi cuenta. Agradezco su ayuda.,access
+REQ-0167,access-07,Quiero reportar este problema. Mi usuario entra pero no tiene permisos para aprobar solicitudes. Agradezco su ayuda.,access
+REQ-0168,access-07,Desde mi puesto observo esto. Mi usuario entra pero no tiene permisos para aprobar solicitudes. Quedo pendiente de la revisión.,access
+REQ-0169,access-08,Solicito una revisión. Solicito revocar los accesos de una cuenta que ya no se utiliza. Puedo aportar más información si hace falta.,access
+REQ-0170,access-08,Necesito ayuda con lo siguiente. Hay que desactivar un usuario y retirar sus permisos. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0171,access-08,Solicito una revisión. Hay que desactivar un usuario y retirar sus permisos. Puedo aportar más información si hace falta.,access
+REQ-0172,access-08,Desde mi puesto observo esto. Hay que desactivar un usuario y retirar sus permisos. Quedo pendiente de la revisión.,access
+REQ-0173,access-08,Tengo este inconveniente. Solicito revocar los accesos de una cuenta que ya no se utiliza. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0174,access-08,Hola. Solicito revocar los accesos de una cuenta que ya no se utiliza. Necesito continuar con mi trabajo.,access
+REQ-0175,access-08,Desde mi puesto observo esto. Hay que desactivar un usuario y retirar sus permisos. Necesito continuar con mi trabajo.,access
+REQ-0176,access-08,Buen día. Solicito revocar los accesos de una cuenta que ya no se utiliza. Necesito continuar con mi trabajo.,access
+REQ-0177,access-08,Quiero reportar este problema. Solicito revocar los accesos de una cuenta que ya no se utiliza. Es la primera vez que lo reporto.,access
+REQ-0178,access-08,Solicito una revisión. Solicito revocar los accesos de una cuenta que ya no se utiliza. Ocurre desde esta mañana.,access
+REQ-0179,access-08,Quiero reportar este problema. Solicito revocar los accesos de una cuenta que ya no se utiliza. Puedo aportar más información si hace falta.,access
+REQ-0180,access-08,Desde mi puesto observo esto. Hay que desactivar un usuario y retirar sus permisos. Ocurre desde esta mañana.,access
+REQ-0181,access-08,Solicito una revisión. Solicito revocar los accesos de una cuenta que ya no se utiliza. Es la primera vez que lo reporto.,access
+REQ-0182,access-08,Solicito una revisión. Solicito revocar los accesos de una cuenta que ya no se utiliza. Sucede de forma intermitente.,access
+REQ-0183,access-08,Tengo este inconveniente. Solicito revocar los accesos de una cuenta que ya no se utiliza. Necesito continuar con mi trabajo.,access
+REQ-0184,access-08,Tengo este inconveniente. Hay que desactivar un usuario y retirar sus permisos. Es la primera vez que lo reporto.,access
+REQ-0185,access-08,Les comparto mi solicitud. Solicito revocar los accesos de una cuenta que ya no se utiliza. Agradezco su ayuda.,access
+REQ-0186,access-08,Desde mi puesto observo esto. Hay que desactivar un usuario y retirar sus permisos. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0187,access-08,Les comparto mi solicitud. Hay que desactivar un usuario y retirar sus permisos. Quedo pendiente de la revisión.,access
+REQ-0188,access-08,Les comparto mi solicitud. Hay que desactivar un usuario y retirar sus permisos. Es la primera vez que lo reporto.,access
+REQ-0189,access-08,Solicito una revisión. Solicito revocar los accesos de una cuenta que ya no se utiliza. Necesito continuar con mi trabajo.,access
+REQ-0190,access-08,Quiero reportar este problema. Hay que desactivar un usuario y retirar sus permisos. Sucede de forma intermitente.,access
+REQ-0191,access-08,Quiero reportar este problema. Hay que desactivar un usuario y retirar sus permisos. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0192,access-08,Necesito ayuda con lo siguiente. Hay que desactivar un usuario y retirar sus permisos. Es la primera vez que lo reporto.,access
+REQ-0193,access-09,Necesito ayuda con lo siguiente. La sesión se cierra y vuelve a pedir mis credenciales. Es la primera vez que lo reporto.,access
+REQ-0194,access-09,Quiero reportar este problema. La sesión se cierra y vuelve a pedir mis credenciales. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0195,access-09,Les comparto mi solicitud. La sesión se cierra y vuelve a pedir mis credenciales. Es la primera vez que lo reporto.,access
+REQ-0196,access-09,Tengo este inconveniente. La sesión se cierra y vuelve a pedir mis credenciales. Es la primera vez que lo reporto.,access
+REQ-0197,access-09,Quiero reportar este problema. El portal no conserva la autenticación de mi usuario. Agradezco su ayuda.,access
+REQ-0198,access-09,Necesito ayuda con lo siguiente. El portal no conserva la autenticación de mi usuario. Agradezco su ayuda.,access
+REQ-0199,access-09,Solicito una revisión. El portal no conserva la autenticación de mi usuario. Quedo pendiente de la revisión.,access
+REQ-0200,access-09,Tengo este inconveniente. El portal no conserva la autenticación de mi usuario. Agradezco su ayuda.,access
+REQ-0201,access-09,Desde mi puesto observo esto. La sesión se cierra y vuelve a pedir mis credenciales. Puedo aportar más información si hace falta.,access
+REQ-0202,access-09,Tengo este inconveniente. El portal no conserva la autenticación de mi usuario. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0203,access-09,Les comparto mi solicitud. La sesión se cierra y vuelve a pedir mis credenciales. Sucede de forma intermitente.,access
+REQ-0204,access-09,Buen día. La sesión se cierra y vuelve a pedir mis credenciales. Es la primera vez que lo reporto.,access
+REQ-0205,access-09,Buen día. El portal no conserva la autenticación de mi usuario. Necesito continuar con mi trabajo.,access
+REQ-0206,access-09,Buen día. La sesión se cierra y vuelve a pedir mis credenciales. Agradezco su ayuda.,access
+REQ-0207,access-09,Quiero reportar este problema. El portal no conserva la autenticación de mi usuario. Necesito continuar con mi trabajo.,access
+REQ-0208,access-09,Solicito una revisión. El portal no conserva la autenticación de mi usuario. Es la primera vez que lo reporto.,access
+REQ-0209,access-09,Desde mi puesto observo esto. El portal no conserva la autenticación de mi usuario. Agradezco su ayuda.,access
+REQ-0210,access-09,Buen día. La sesión se cierra y vuelve a pedir mis credenciales. Sucede de forma intermitente.,access
+REQ-0211,access-09,Tengo este inconveniente. El portal no conserva la autenticación de mi usuario. Ocurre desde esta mañana.,access
+REQ-0212,access-09,Necesito ayuda con lo siguiente. La sesión se cierra y vuelve a pedir mis credenciales. Agradezco su ayuda.,access
+REQ-0213,access-09,Les comparto mi solicitud. La sesión se cierra y vuelve a pedir mis credenciales. Necesito continuar con mi trabajo.,access
+REQ-0214,access-09,Hola. La sesión se cierra y vuelve a pedir mis credenciales. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0215,access-09,Les comparto mi solicitud. El portal no conserva la autenticación de mi usuario. Ocurre desde esta mañana.,access
+REQ-0216,access-09,Les comparto mi solicitud. El portal no conserva la autenticación de mi usuario. Puedo aportar más información si hace falta.,access
+REQ-0217,access-10,Desde mi puesto observo esto. La recuperación de contraseña rechaza el enlace de restablecimiento. Quedo pendiente de la revisión.,access
+REQ-0218,access-10,Buen día. La recuperación de contraseña rechaza el enlace de restablecimiento. Agradezco su ayuda.,access
+REQ-0219,access-10,Necesito ayuda con lo siguiente. El enlace para recuperar mi cuenta indica que ya expiró. Quedo pendiente de la revisión.,access
+REQ-0220,access-10,Desde mi puesto observo esto. La recuperación de contraseña rechaza el enlace de restablecimiento. Puedo aportar más información si hace falta.,access
+REQ-0221,access-10,Necesito ayuda con lo siguiente. El enlace para recuperar mi cuenta indica que ya expiró. Agradezco su ayuda.,access
+REQ-0222,access-10,Hola. La recuperación de contraseña rechaza el enlace de restablecimiento. Quedo pendiente de la revisión.,access
+REQ-0223,access-10,Desde mi puesto observo esto. El enlace para recuperar mi cuenta indica que ya expiró. Quedo pendiente de la revisión.,access
+REQ-0224,access-10,Desde mi puesto observo esto. El enlace para recuperar mi cuenta indica que ya expiró. Es la primera vez que lo reporto.,access
+REQ-0225,access-10,Hola. El enlace para recuperar mi cuenta indica que ya expiró. Quedo pendiente de la revisión.,access
+REQ-0226,access-10,Les comparto mi solicitud. El enlace para recuperar mi cuenta indica que ya expiró. Quedo pendiente de la revisión.,access
+REQ-0227,access-10,Desde mi puesto observo esto. La recuperación de contraseña rechaza el enlace de restablecimiento. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0228,access-10,Buen día. El enlace para recuperar mi cuenta indica que ya expiró. Quedo pendiente de la revisión.,access
+REQ-0229,access-10,Les comparto mi solicitud. La recuperación de contraseña rechaza el enlace de restablecimiento. Agradezco su ayuda.,access
+REQ-0230,access-10,Solicito una revisión. La recuperación de contraseña rechaza el enlace de restablecimiento. Ocurre desde esta mañana.,access
+REQ-0231,access-10,Solicito una revisión. El enlace para recuperar mi cuenta indica que ya expiró. Es la primera vez que lo reporto.,access
+REQ-0232,access-10,Solicito una revisión. El enlace para recuperar mi cuenta indica que ya expiró. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0233,access-10,Desde mi puesto observo esto. El enlace para recuperar mi cuenta indica que ya expiró. Necesito continuar con mi trabajo.,access
+REQ-0234,access-10,Les comparto mi solicitud. El enlace para recuperar mi cuenta indica que ya expiró. Agradezco su ayuda.,access
+REQ-0235,access-10,Les comparto mi solicitud. El enlace para recuperar mi cuenta indica que ya expiró. Puedo aportar más información si hace falta.,access
+REQ-0236,access-10,Quiero reportar este problema. La recuperación de contraseña rechaza el enlace de restablecimiento. Quedo pendiente de la revisión.,access
+REQ-0237,access-10,Quiero reportar este problema. La recuperación de contraseña rechaza el enlace de restablecimiento. Ocurre desde esta mañana.,access
+REQ-0238,access-10,Tengo este inconveniente. La recuperación de contraseña rechaza el enlace de restablecimiento. Necesito continuar con mi trabajo.,access
+REQ-0239,access-10,Buen día. El enlace para recuperar mi cuenta indica que ya expiró. Puedo aportar más información si hace falta.,access
+REQ-0240,access-10,Tengo este inconveniente. El enlace para recuperar mi cuenta indica que ya expiró. Sucede de forma intermitente.,access
+REQ-0241,access-11,"Hola. La carpeta se ve, pero recibo acceso denegado al guardar. Sucede de forma intermitente.",access
+REQ-0242,access-11,"Desde mi puesto observo esto. La carpeta se ve, pero recibo acceso denegado al guardar. Necesito continuar con mi trabajo.",access
+REQ-0243,access-11,Solicito una revisión. Puedo leer el archivo compartido pero mi usuario no tiene permiso de escritura. Puedo aportar más información si hace falta.,access
+REQ-0244,access-11,"Buen día. La carpeta se ve, pero recibo acceso denegado al guardar. Quedo pendiente de la revisión.",access
+REQ-0245,access-11,"Tengo este inconveniente. La carpeta se ve, pero recibo acceso denegado al guardar. Sucede de forma intermitente.",access
+REQ-0246,access-11,Hola. Puedo leer el archivo compartido pero mi usuario no tiene permiso de escritura. Ocurre desde esta mañana.,access
+REQ-0247,access-11,"Desde mi puesto observo esto. La carpeta se ve, pero recibo acceso denegado al guardar. Agradezco su ayuda.",access
+REQ-0248,access-11,"Solicito una revisión. La carpeta se ve, pero recibo acceso denegado al guardar. Es la primera vez que lo reporto.",access
+REQ-0249,access-11,Les comparto mi solicitud. Puedo leer el archivo compartido pero mi usuario no tiene permiso de escritura. Sucede de forma intermitente.,access
+REQ-0250,access-11,"Solicito una revisión. La carpeta se ve, pero recibo acceso denegado al guardar. Ocurre desde esta mañana.",access
+REQ-0251,access-11,"Hola. La carpeta se ve, pero recibo acceso denegado al guardar. Es la primera vez que lo reporto.",access
+REQ-0252,access-11,Tengo este inconveniente. Puedo leer el archivo compartido pero mi usuario no tiene permiso de escritura. Necesito continuar con mi trabajo.,access
+REQ-0253,access-11,Quiero reportar este problema. Puedo leer el archivo compartido pero mi usuario no tiene permiso de escritura. Sucede de forma intermitente.,access
+REQ-0254,access-11,Hola. Puedo leer el archivo compartido pero mi usuario no tiene permiso de escritura. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0255,access-11,Necesito ayuda con lo siguiente. Puedo leer el archivo compartido pero mi usuario no tiene permiso de escritura. Ocurre desde esta mañana.,access
+REQ-0256,access-11,"Quiero reportar este problema. La carpeta se ve, pero recibo acceso denegado al guardar. Necesito continuar con mi trabajo.",access
+REQ-0257,access-11,Quiero reportar este problema. Puedo leer el archivo compartido pero mi usuario no tiene permiso de escritura. Es la primera vez que lo reporto.,access
+REQ-0258,access-11,"Buen día. La carpeta se ve, pero recibo acceso denegado al guardar. Sucede de forma intermitente.",access
+REQ-0259,access-11,Buen día. Puedo leer el archivo compartido pero mi usuario no tiene permiso de escritura. Quedo pendiente de la revisión.,access
+REQ-0260,access-11,Hola. Puedo leer el archivo compartido pero mi usuario no tiene permiso de escritura. Puedo aportar más información si hace falta.,access
+REQ-0261,access-11,"Hola. La carpeta se ve, pero recibo acceso denegado al guardar. Ya lo intenté nuevamente y sigue igual.",access
+REQ-0262,access-11,Hola. Puedo leer el archivo compartido pero mi usuario no tiene permiso de escritura. Necesito continuar con mi trabajo.,access
+REQ-0263,access-11,"Quiero reportar este problema. La carpeta se ve, pero recibo acceso denegado al guardar. Ya lo intenté nuevamente y sigue igual.",access
+REQ-0264,access-11,Buen día. Puedo leer el archivo compartido pero mi usuario no tiene permiso de escritura. Sucede de forma intermitente.,access
+REQ-0265,access-12,Necesito ayuda con lo siguiente. Cambiar de computadora no resuelve el rechazo de mis credenciales. Agradezco su ayuda.,access
+REQ-0266,access-12,"Les comparto mi solicitud. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Agradezco su ayuda.",access
+REQ-0267,access-12,"Desde mi puesto observo esto. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Necesito continuar con mi trabajo.",access
+REQ-0268,access-12,Buen día. Cambiar de computadora no resuelve el rechazo de mis credenciales. Es la primera vez que lo reporto.,access
+REQ-0269,access-12,Necesito ayuda con lo siguiente. Cambiar de computadora no resuelve el rechazo de mis credenciales. Quedo pendiente de la revisión.,access
+REQ-0270,access-12,"Tengo este inconveniente. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Ya lo intenté nuevamente y sigue igual.",access
+REQ-0271,access-12,"Quiero reportar este problema. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Ya lo intenté nuevamente y sigue igual.",access
+REQ-0272,access-12,"Les comparto mi solicitud. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Es la primera vez que lo reporto.",access
+REQ-0273,access-12,"Solicito una revisión. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Quedo pendiente de la revisión.",access
+REQ-0274,access-12,Desde mi puesto observo esto. Cambiar de computadora no resuelve el rechazo de mis credenciales. Necesito continuar con mi trabajo.,access
+REQ-0275,access-12,"Tengo este inconveniente. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Necesito continuar con mi trabajo.",access
+REQ-0276,access-12,"Tengo este inconveniente. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Agradezco su ayuda.",access
+REQ-0277,access-12,"Buen día. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Agradezco su ayuda.",access
+REQ-0278,access-12,Buen día. Cambiar de computadora no resuelve el rechazo de mis credenciales. Necesito continuar con mi trabajo.,access
+REQ-0279,access-12,"Hola. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Sucede de forma intermitente.",access
+REQ-0280,access-12,Quiero reportar este problema. Cambiar de computadora no resuelve el rechazo de mis credenciales. Agradezco su ayuda.,access
+REQ-0281,access-12,Necesito ayuda con lo siguiente. Cambiar de computadora no resuelve el rechazo de mis credenciales. Ya lo intenté nuevamente y sigue igual.,access
+REQ-0282,access-12,"Buen día. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Quedo pendiente de la revisión.",access
+REQ-0283,access-12,"Necesito ayuda con lo siguiente. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Quedo pendiente de la revisión.",access
+REQ-0284,access-12,Les comparto mi solicitud. Cambiar de computadora no resuelve el rechazo de mis credenciales. Sucede de forma intermitente.,access
+REQ-0285,access-12,"Hola. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Ya lo intenté nuevamente y sigue igual.",access
+REQ-0286,access-12,Necesito ayuda con lo siguiente. Cambiar de computadora no resuelve el rechazo de mis credenciales. Ocurre desde esta mañana.,access
+REQ-0287,access-12,"Desde mi puesto observo esto. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Es la primera vez que lo reporto.",access
+REQ-0288,access-12,"Les comparto mi solicitud. Internet funciona, pero el sistema dice que mi usuario no está autorizado. Ya lo intenté nuevamente y sigue igual.",access
+REQ-0289,network-01,Buen día. El wifi se desconecta cada pocos minutos. Puedo aportar más información si hace falta.,network
+REQ-0290,network-01,Quiero reportar este problema. La conexión inalámbrica pierde señal durante el trabajo. Puedo aportar más información si hace falta.,network
+REQ-0291,network-01,Necesito ayuda con lo siguiente. La conexión inalámbrica pierde señal durante el trabajo. Puedo aportar más información si hace falta.,network
+REQ-0292,network-01,Solicito una revisión. La conexión inalámbrica pierde señal durante el trabajo. Quedo pendiente de la revisión.,network
+REQ-0293,network-01,Solicito una revisión. La conexión inalámbrica pierde señal durante el trabajo. Sucede de forma intermitente.,network
+REQ-0294,network-01,Les comparto mi solicitud. El wifi se desconecta cada pocos minutos. Puedo aportar más información si hace falta.,network
+REQ-0295,network-01,Tengo este inconveniente. La conexión inalámbrica pierde señal durante el trabajo. Quedo pendiente de la revisión.,network
+REQ-0296,network-01,Solicito una revisión. La conexión inalámbrica pierde señal durante el trabajo. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0297,network-01,Quiero reportar este problema. La conexión inalámbrica pierde señal durante el trabajo. Ocurre desde esta mañana.,network
+REQ-0298,network-01,Solicito una revisión. El wifi se desconecta cada pocos minutos. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0299,network-01,Desde mi puesto observo esto. El wifi se desconecta cada pocos minutos. Necesito continuar con mi trabajo.,network
+REQ-0300,network-01,Buen día. El wifi se desconecta cada pocos minutos. Es la primera vez que lo reporto.,network
+REQ-0301,network-01,Les comparto mi solicitud. La conexión inalámbrica pierde señal durante el trabajo. Agradezco su ayuda.,network
+REQ-0302,network-01,Desde mi puesto observo esto. El wifi se desconecta cada pocos minutos. Quedo pendiente de la revisión.,network
+REQ-0303,network-01,Tengo este inconveniente. El wifi se desconecta cada pocos minutos. Es la primera vez que lo reporto.,network
+REQ-0304,network-01,Buen día. La conexión inalámbrica pierde señal durante el trabajo. Agradezco su ayuda.,network
+REQ-0305,network-01,Les comparto mi solicitud. El wifi se desconecta cada pocos minutos. Quedo pendiente de la revisión.,network
+REQ-0306,network-01,Tengo este inconveniente. La conexión inalámbrica pierde señal durante el trabajo. Puedo aportar más información si hace falta.,network
+REQ-0307,network-01,Tengo este inconveniente. La conexión inalámbrica pierde señal durante el trabajo. Agradezco su ayuda.,network
+REQ-0308,network-01,Solicito una revisión. El wifi se desconecta cada pocos minutos. Agradezco su ayuda.,network
+REQ-0309,network-02,Hola. Ninguna computadora del área tiene acceso a internet. Puedo aportar más información si hace falta.,network
+REQ-0310,network-02,Buen día. Todas las páginas quedan sin conexión en varios equipos. Es la primera vez que lo reporto.,network
+REQ-0311,network-02,Desde mi puesto observo esto. Todas las páginas quedan sin conexión en varios equipos. Quedo pendiente de la revisión.,network
+REQ-0312,network-02,Hola. Ninguna computadora del área tiene acceso a internet. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0313,network-02,Buen día. Todas las páginas quedan sin conexión en varios equipos. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0314,network-02,Tengo este inconveniente. Todas las páginas quedan sin conexión en varios equipos. Puedo aportar más información si hace falta.,network
+REQ-0315,network-02,Tengo este inconveniente. Ninguna computadora del área tiene acceso a internet. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0316,network-02,Quiero reportar este problema. Ninguna computadora del área tiene acceso a internet. Es la primera vez que lo reporto.,network
+REQ-0317,network-02,Solicito una revisión. Todas las páginas quedan sin conexión en varios equipos. Agradezco su ayuda.,network
+REQ-0318,network-02,Buen día. Todas las páginas quedan sin conexión en varios equipos. Agradezco su ayuda.,network
+REQ-0319,network-02,Quiero reportar este problema. Todas las páginas quedan sin conexión en varios equipos. Ocurre desde esta mañana.,network
+REQ-0320,network-02,Les comparto mi solicitud. Ninguna computadora del área tiene acceso a internet. Quedo pendiente de la revisión.,network
+REQ-0321,network-02,Hola. Todas las páginas quedan sin conexión en varios equipos. Puedo aportar más información si hace falta.,network
+REQ-0322,network-02,Buen día. Todas las páginas quedan sin conexión en varios equipos. Puedo aportar más información si hace falta.,network
+REQ-0323,network-02,Solicito una revisión. Todas las páginas quedan sin conexión en varios equipos. Ocurre desde esta mañana.,network
+REQ-0324,network-02,Tengo este inconveniente. Ninguna computadora del área tiene acceso a internet. Es la primera vez que lo reporto.,network
+REQ-0325,network-02,Tengo este inconveniente. Ninguna computadora del área tiene acceso a internet. Necesito continuar con mi trabajo.,network
+REQ-0326,network-02,Tengo este inconveniente. Ninguna computadora del área tiene acceso a internet. Quedo pendiente de la revisión.,network
+REQ-0327,network-02,Hola. Todas las páginas quedan sin conexión en varios equipos. Necesito continuar con mi trabajo.,network
+REQ-0328,network-02,Solicito una revisión. Ninguna computadora del área tiene acceso a internet. Ocurre desde esta mañana.,network
+REQ-0329,network-03,Necesito ayuda con lo siguiente. El túnel de red remota se corta al conectar la VPN. Necesito continuar con mi trabajo.,network
+REQ-0330,network-03,Tengo este inconveniente. La VPN no establece conexión desde mi casa. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0331,network-03,Les comparto mi solicitud. La VPN no establece conexión desde mi casa. Necesito continuar con mi trabajo.,network
+REQ-0332,network-03,Quiero reportar este problema. La VPN no establece conexión desde mi casa. Puedo aportar más información si hace falta.,network
+REQ-0333,network-03,Les comparto mi solicitud. La VPN no establece conexión desde mi casa. Quedo pendiente de la revisión.,network
+REQ-0334,network-03,Solicito una revisión. El túnel de red remota se corta al conectar la VPN. Ocurre desde esta mañana.,network
+REQ-0335,network-03,Quiero reportar este problema. El túnel de red remota se corta al conectar la VPN. Sucede de forma intermitente.,network
+REQ-0336,network-03,Buen día. El túnel de red remota se corta al conectar la VPN. Quedo pendiente de la revisión.,network
+REQ-0337,network-03,Les comparto mi solicitud. La VPN no establece conexión desde mi casa. Es la primera vez que lo reporto.,network
+REQ-0338,network-03,Desde mi puesto observo esto. El túnel de red remota se corta al conectar la VPN. Sucede de forma intermitente.,network
+REQ-0339,network-03,Necesito ayuda con lo siguiente. La VPN no establece conexión desde mi casa. Ocurre desde esta mañana.,network
+REQ-0340,network-03,Hola. La VPN no establece conexión desde mi casa. Ocurre desde esta mañana.,network
+REQ-0341,network-03,Buen día. La VPN no establece conexión desde mi casa. Es la primera vez que lo reporto.,network
+REQ-0342,network-03,Buen día. La VPN no establece conexión desde mi casa. Ocurre desde esta mañana.,network
+REQ-0343,network-03,Hola. La VPN no establece conexión desde mi casa. Quedo pendiente de la revisión.,network
+REQ-0344,network-03,Necesito ayuda con lo siguiente. El túnel de red remota se corta al conectar la VPN. Sucede de forma intermitente.,network
+REQ-0345,network-03,Tengo este inconveniente. El túnel de red remota se corta al conectar la VPN. Agradezco su ayuda.,network
+REQ-0346,network-03,Desde mi puesto observo esto. La VPN no establece conexión desde mi casa. Es la primera vez que lo reporto.,network
+REQ-0347,network-03,Hola. La VPN no establece conexión desde mi casa. Agradezco su ayuda.,network
+REQ-0348,network-03,Desde mi puesto observo esto. La VPN no establece conexión desde mi casa. Agradezco su ayuda.,network
+REQ-0349,network-04,Les comparto mi solicitud. La conexión ethernet no obtiene acceso a la red. Quedo pendiente de la revisión.,network
+REQ-0350,network-04,Buen día. La conexión ethernet no obtiene acceso a la red. Necesito continuar con mi trabajo.,network
+REQ-0351,network-04,Solicito una revisión. La conexión ethernet no obtiene acceso a la red. Puedo aportar más información si hace falta.,network
+REQ-0352,network-04,Desde mi puesto observo esto. La conexión ethernet no obtiene acceso a la red. Agradezco su ayuda.,network
+REQ-0353,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Necesito continuar con mi trabajo.,network
+REQ-0354,network-04,Quiero reportar este problema. La conexión ethernet no obtiene acceso a la red. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0355,network-04,Les comparto mi solicitud. La conexión ethernet no obtiene acceso a la red. Necesito continuar con mi trabajo.,network
+REQ-0356,network-04,Desde mi puesto observo esto. La conexión ethernet no obtiene acceso a la red. Es la primera vez que lo reporto.,network
+REQ-0357,network-04,Desde mi puesto observo esto. La conexión ethernet no obtiene acceso a la red. Quedo pendiente de la revisión.,network
+REQ-0358,network-04,Hola. El cable de red está conectado pero no hay internet. Puedo aportar más información si hace falta.,network
+REQ-0359,network-04,Tengo este inconveniente. El cable de red está conectado pero no hay internet. Agradezco su ayuda.,network
+REQ-0360,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Puedo aportar más información si hace falta.,network
+REQ-0361,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Ocurre desde esta mañana.,network
+REQ-0362,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Agradezco su ayuda.,network
+REQ-0363,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Sucede de forma intermitente.,network
+REQ-0364,network-04,Hola. El cable de red está conectado pero no hay internet. Necesito continuar con mi trabajo.,network
+REQ-0365,network-04,Desde mi puesto observo esto. La conexión ethernet no obtiene acceso a la red. Necesito continuar con mi trabajo.,network
+REQ-0366,network-04,Buen día. La conexión ethernet no obtiene acceso a la red. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0367,network-04,Quiero reportar este problema. La conexión ethernet no obtiene acceso a la red. Es la primera vez que lo reporto.,network
+REQ-0368,network-04,Necesito ayuda con lo siguiente. El cable de red está conectado pero no hay internet. Necesito continuar con mi trabajo.,network
+REQ-0369,network-05,Tengo este inconveniente. La navegación es muy lenta en varios equipos del área. Quedo pendiente de la revisión.,network
+REQ-0370,network-05,Tengo este inconveniente. La navegación es muy lenta en varios equipos del área. Sucede de forma intermitente.,network
+REQ-0371,network-05,Solicito una revisión. Las páginas tardan mucho en cargar en todos los navegadores. Es la primera vez que lo reporto.,network
+REQ-0372,network-05,Solicito una revisión. Las páginas tardan mucho en cargar en todos los navegadores. Sucede de forma intermitente.,network
+REQ-0373,network-05,Quiero reportar este problema. La navegación es muy lenta en varios equipos del área. Necesito continuar con mi trabajo.,network
+REQ-0374,network-05,Tengo este inconveniente. Las páginas tardan mucho en cargar en todos los navegadores. Quedo pendiente de la revisión.,network
+REQ-0375,network-05,Hola. La navegación es muy lenta en varios equipos del área. Es la primera vez que lo reporto.,network
+REQ-0376,network-05,Solicito una revisión. La navegación es muy lenta en varios equipos del área. Sucede de forma intermitente.,network
+REQ-0377,network-05,Desde mi puesto observo esto. Las páginas tardan mucho en cargar en todos los navegadores. Sucede de forma intermitente.,network
+REQ-0378,network-05,Desde mi puesto observo esto. Las páginas tardan mucho en cargar en todos los navegadores. Ocurre desde esta mañana.,network
+REQ-0379,network-05,Les comparto mi solicitud. Las páginas tardan mucho en cargar en todos los navegadores. Quedo pendiente de la revisión.,network
+REQ-0380,network-05,Buen día. Las páginas tardan mucho en cargar en todos los navegadores. Quedo pendiente de la revisión.,network
+REQ-0381,network-05,Solicito una revisión. La navegación es muy lenta en varios equipos del área. Puedo aportar más información si hace falta.,network
+REQ-0382,network-05,Hola. Las páginas tardan mucho en cargar en todos los navegadores. Quedo pendiente de la revisión.,network
+REQ-0383,network-05,Buen día. La navegación es muy lenta en varios equipos del área. Es la primera vez que lo reporto.,network
+REQ-0384,network-05,Les comparto mi solicitud. Las páginas tardan mucho en cargar en todos los navegadores. Agradezco su ayuda.,network
+REQ-0385,network-05,Necesito ayuda con lo siguiente. La navegación es muy lenta en varios equipos del área. Sucede de forma intermitente.,network
+REQ-0386,network-05,Necesito ayuda con lo siguiente. La navegación es muy lenta en varios equipos del área. Necesito continuar con mi trabajo.,network
+REQ-0387,network-05,Les comparto mi solicitud. Las páginas tardan mucho en cargar en todos los navegadores. Necesito continuar con mi trabajo.,network
+REQ-0388,network-05,Quiero reportar este problema. La navegación es muy lenta en varios equipos del área. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0389,network-06,Les comparto mi solicitud. No recibimos dirección IP al conectarnos a la red. Ocurre desde esta mañana.,network
+REQ-0390,network-06,Tengo este inconveniente. No recibimos dirección IP al conectarnos a la red. Puedo aportar más información si hace falta.,network
+REQ-0391,network-06,Necesito ayuda con lo siguiente. La computadora muestra un conflicto de dirección de red. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0392,network-06,Tengo este inconveniente. La computadora muestra un conflicto de dirección de red. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0393,network-06,Desde mi puesto observo esto. No recibimos dirección IP al conectarnos a la red. Puedo aportar más información si hace falta.,network
+REQ-0394,network-06,Hola. No recibimos dirección IP al conectarnos a la red. Ocurre desde esta mañana.,network
+REQ-0395,network-06,Tengo este inconveniente. No recibimos dirección IP al conectarnos a la red. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0396,network-06,Desde mi puesto observo esto. La computadora muestra un conflicto de dirección de red. Necesito continuar con mi trabajo.,network
+REQ-0397,network-06,Hola. La computadora muestra un conflicto de dirección de red. Agradezco su ayuda.,network
+REQ-0398,network-06,Les comparto mi solicitud. La computadora muestra un conflicto de dirección de red. Ocurre desde esta mañana.,network
+REQ-0399,network-06,Desde mi puesto observo esto. No recibimos dirección IP al conectarnos a la red. Ocurre desde esta mañana.,network
+REQ-0400,network-06,Buen día. La computadora muestra un conflicto de dirección de red. Puedo aportar más información si hace falta.,network
+REQ-0401,network-06,Solicito una revisión. No recibimos dirección IP al conectarnos a la red. Puedo aportar más información si hace falta.,network
+REQ-0402,network-06,Hola. La computadora muestra un conflicto de dirección de red. Quedo pendiente de la revisión.,network
+REQ-0403,network-06,Les comparto mi solicitud. La computadora muestra un conflicto de dirección de red. Es la primera vez que lo reporto.,network
+REQ-0404,network-06,Les comparto mi solicitud. La computadora muestra un conflicto de dirección de red. Puedo aportar más información si hace falta.,network
+REQ-0405,network-06,Solicito una revisión. No recibimos dirección IP al conectarnos a la red. Es la primera vez que lo reporto.,network
+REQ-0406,network-06,Buen día. La computadora muestra un conflicto de dirección de red. Quedo pendiente de la revisión.,network
+REQ-0407,network-06,Solicito una revisión. No recibimos dirección IP al conectarnos a la red. Sucede de forma intermitente.,network
+REQ-0408,network-06,Hola. La computadora muestra un conflicto de dirección de red. Ocurre desde esta mañana.,network
+REQ-0409,network-07,Tengo este inconveniente. La señal inalámbrica no llega a la sala de reuniones. Quedo pendiente de la revisión.,network
+REQ-0410,network-07,Les comparto mi solicitud. Hay una zona sin cobertura wifi en el segundo piso. Sucede de forma intermitente.,network
+REQ-0411,network-07,Hola. Hay una zona sin cobertura wifi en el segundo piso. Ocurre desde esta mañana.,network
+REQ-0412,network-07,Les comparto mi solicitud. La señal inalámbrica no llega a la sala de reuniones. Puedo aportar más información si hace falta.,network
+REQ-0413,network-07,Necesito ayuda con lo siguiente. Hay una zona sin cobertura wifi en el segundo piso. Es la primera vez que lo reporto.,network
+REQ-0414,network-07,Buen día. La señal inalámbrica no llega a la sala de reuniones. Sucede de forma intermitente.,network
+REQ-0415,network-07,Tengo este inconveniente. Hay una zona sin cobertura wifi en el segundo piso. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0416,network-07,Buen día. La señal inalámbrica no llega a la sala de reuniones. Es la primera vez que lo reporto.,network
+REQ-0417,network-07,Buen día. Hay una zona sin cobertura wifi en el segundo piso. Necesito continuar con mi trabajo.,network
+REQ-0418,network-07,Tengo este inconveniente. La señal inalámbrica no llega a la sala de reuniones. Necesito continuar con mi trabajo.,network
+REQ-0419,network-07,Tengo este inconveniente. La señal inalámbrica no llega a la sala de reuniones. Sucede de forma intermitente.,network
+REQ-0420,network-07,Necesito ayuda con lo siguiente. La señal inalámbrica no llega a la sala de reuniones. Necesito continuar con mi trabajo.,network
+REQ-0421,network-07,Necesito ayuda con lo siguiente. Hay una zona sin cobertura wifi en el segundo piso. Agradezco su ayuda.,network
+REQ-0422,network-07,Necesito ayuda con lo siguiente. Hay una zona sin cobertura wifi en el segundo piso. Ocurre desde esta mañana.,network
+REQ-0423,network-07,Quiero reportar este problema. Hay una zona sin cobertura wifi en el segundo piso. Ocurre desde esta mañana.,network
+REQ-0424,network-07,Les comparto mi solicitud. La señal inalámbrica no llega a la sala de reuniones. Sucede de forma intermitente.,network
+REQ-0425,network-07,Necesito ayuda con lo siguiente. Hay una zona sin cobertura wifi en el segundo piso. Sucede de forma intermitente.,network
+REQ-0426,network-07,Tengo este inconveniente. Hay una zona sin cobertura wifi en el segundo piso. Sucede de forma intermitente.,network
+REQ-0427,network-07,Les comparto mi solicitud. Hay una zona sin cobertura wifi en el segundo piso. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0428,network-07,Tengo este inconveniente. Hay una zona sin cobertura wifi en el segundo piso. Agradezco su ayuda.,network
+REQ-0429,network-08,Quiero reportar este problema. La red deja de responder cuando varios equipos se conectan. Puedo aportar más información si hace falta.,network
+REQ-0430,network-08,Quiero reportar este problema. Se pierde conectividad al aumentar el tráfico del área. Necesito continuar con mi trabajo.,network
+REQ-0431,network-08,Les comparto mi solicitud. Se pierde conectividad al aumentar el tráfico del área. Es la primera vez que lo reporto.,network
+REQ-0432,network-08,Necesito ayuda con lo siguiente. La red deja de responder cuando varios equipos se conectan. Sucede de forma intermitente.,network
+REQ-0433,network-08,Hola. Se pierde conectividad al aumentar el tráfico del área. Necesito continuar con mi trabajo.,network
+REQ-0434,network-08,Solicito una revisión. Se pierde conectividad al aumentar el tráfico del área. Ocurre desde esta mañana.,network
+REQ-0435,network-08,Buen día. La red deja de responder cuando varios equipos se conectan. Sucede de forma intermitente.,network
+REQ-0436,network-08,Tengo este inconveniente. La red deja de responder cuando varios equipos se conectan. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0437,network-08,Solicito una revisión. La red deja de responder cuando varios equipos se conectan. Puedo aportar más información si hace falta.,network
+REQ-0438,network-08,Hola. Se pierde conectividad al aumentar el tráfico del área. Agradezco su ayuda.,network
+REQ-0439,network-08,Tengo este inconveniente. Se pierde conectividad al aumentar el tráfico del área. Puedo aportar más información si hace falta.,network
+REQ-0440,network-08,Desde mi puesto observo esto. Se pierde conectividad al aumentar el tráfico del área. Puedo aportar más información si hace falta.,network
+REQ-0441,network-08,Quiero reportar este problema. Se pierde conectividad al aumentar el tráfico del área. Quedo pendiente de la revisión.,network
+REQ-0442,network-08,Quiero reportar este problema. Se pierde conectividad al aumentar el tráfico del área. Sucede de forma intermitente.,network
+REQ-0443,network-08,Necesito ayuda con lo siguiente. Se pierde conectividad al aumentar el tráfico del área. Sucede de forma intermitente.,network
+REQ-0444,network-08,Desde mi puesto observo esto. Se pierde conectividad al aumentar el tráfico del área. Es la primera vez que lo reporto.,network
+REQ-0445,network-08,Les comparto mi solicitud. La red deja de responder cuando varios equipos se conectan. Necesito continuar con mi trabajo.,network
+REQ-0446,network-08,Desde mi puesto observo esto. Se pierde conectividad al aumentar el tráfico del área. Quedo pendiente de la revisión.,network
+REQ-0447,network-08,Tengo este inconveniente. La red deja de responder cuando varios equipos se conectan. Quedo pendiente de la revisión.,network
+REQ-0448,network-08,Buen día. Se pierde conectividad al aumentar el tráfico del área. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0449,network-09,Les comparto mi solicitud. Aparece un error de DNS al abrir páginas web. Agradezco su ayuda.,network
+REQ-0450,network-09,Desde mi puesto observo esto. Aparece un error de DNS al abrir páginas web. Agradezco su ayuda.,network
+REQ-0451,network-09,"Tengo este inconveniente. No se resuelven los nombres de los sitios, aunque la conexión está activa. Sucede de forma intermitente.",network
+REQ-0452,network-09,"Solicito una revisión. No se resuelven los nombres de los sitios, aunque la conexión está activa. Sucede de forma intermitente.",network
+REQ-0453,network-09,"Buen día. No se resuelven los nombres de los sitios, aunque la conexión está activa. Ya lo intenté nuevamente y sigue igual.",network
+REQ-0454,network-09,"Necesito ayuda con lo siguiente. No se resuelven los nombres de los sitios, aunque la conexión está activa. Necesito continuar con mi trabajo.",network
+REQ-0455,network-09,Necesito ayuda con lo siguiente. Aparece un error de DNS al abrir páginas web. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0456,network-09,"Tengo este inconveniente. No se resuelven los nombres de los sitios, aunque la conexión está activa. Agradezco su ayuda.",network
+REQ-0457,network-09,"Solicito una revisión. No se resuelven los nombres de los sitios, aunque la conexión está activa. Ya lo intenté nuevamente y sigue igual.",network
+REQ-0458,network-09,"Les comparto mi solicitud. No se resuelven los nombres de los sitios, aunque la conexión está activa. Sucede de forma intermitente.",network
+REQ-0459,network-09,"Solicito una revisión. No se resuelven los nombres de los sitios, aunque la conexión está activa. Necesito continuar con mi trabajo.",network
+REQ-0460,network-09,"Les comparto mi solicitud. No se resuelven los nombres de los sitios, aunque la conexión está activa. Necesito continuar con mi trabajo.",network
+REQ-0461,network-09,Tengo este inconveniente. Aparece un error de DNS al abrir páginas web. Ocurre desde esta mañana.,network
+REQ-0462,network-09,"Les comparto mi solicitud. No se resuelven los nombres de los sitios, aunque la conexión está activa. Ya lo intenté nuevamente y sigue igual.",network
+REQ-0463,network-09,Quiero reportar este problema. Aparece un error de DNS al abrir páginas web. Sucede de forma intermitente.,network
+REQ-0464,network-09,Hola. Aparece un error de DNS al abrir páginas web. Sucede de forma intermitente.,network
+REQ-0465,network-09,"Necesito ayuda con lo siguiente. No se resuelven los nombres de los sitios, aunque la conexión está activa. Puedo aportar más información si hace falta.",network
+REQ-0466,network-09,Hola. Aparece un error de DNS al abrir páginas web. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0467,network-09,Solicito una revisión. Aparece un error de DNS al abrir páginas web. Necesito continuar con mi trabajo.,network
+REQ-0468,network-09,"Solicito una revisión. No se resuelven los nombres de los sitios, aunque la conexión está activa. Ocurre desde esta mañana.",network
+REQ-0469,network-10,Desde mi puesto observo esto. La llamada por video se corta y también falla la navegación. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0470,network-10,Buen día. La llamada por video se corta y también falla la navegación. Sucede de forma intermitente.,network
+REQ-0471,network-10,Solicito una revisión. Las reuniones pierden audio cuando la conexión a internet se interrumpe. Es la primera vez que lo reporto.,network
+REQ-0472,network-10,Buen día. Las reuniones pierden audio cuando la conexión a internet se interrumpe. Es la primera vez que lo reporto.,network
+REQ-0473,network-10,Buen día. La llamada por video se corta y también falla la navegación. Es la primera vez que lo reporto.,network
+REQ-0474,network-10,Quiero reportar este problema. La llamada por video se corta y también falla la navegación. Ocurre desde esta mañana.,network
+REQ-0475,network-10,Desde mi puesto observo esto. La llamada por video se corta y también falla la navegación. Sucede de forma intermitente.,network
+REQ-0476,network-10,Necesito ayuda con lo siguiente. La llamada por video se corta y también falla la navegación. Necesito continuar con mi trabajo.,network
+REQ-0477,network-10,Desde mi puesto observo esto. Las reuniones pierden audio cuando la conexión a internet se interrumpe. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0478,network-10,Les comparto mi solicitud. Las reuniones pierden audio cuando la conexión a internet se interrumpe. Puedo aportar más información si hace falta.,network
+REQ-0479,network-10,Quiero reportar este problema. Las reuniones pierden audio cuando la conexión a internet se interrumpe. Ocurre desde esta mañana.,network
+REQ-0480,network-10,Tengo este inconveniente. La llamada por video se corta y también falla la navegación. Quedo pendiente de la revisión.,network
+REQ-0481,network-10,Necesito ayuda con lo siguiente. La llamada por video se corta y también falla la navegación. Puedo aportar más información si hace falta.,network
+REQ-0482,network-10,Desde mi puesto observo esto. La llamada por video se corta y también falla la navegación. Agradezco su ayuda.,network
+REQ-0483,network-10,Hola. Las reuniones pierden audio cuando la conexión a internet se interrumpe. Puedo aportar más información si hace falta.,network
+REQ-0484,network-10,Quiero reportar este problema. Las reuniones pierden audio cuando la conexión a internet se interrumpe. Sucede de forma intermitente.,network
+REQ-0485,network-10,Desde mi puesto observo esto. La llamada por video se corta y también falla la navegación. Necesito continuar con mi trabajo.,network
+REQ-0486,network-10,Solicito una revisión. La llamada por video se corta y también falla la navegación. Quedo pendiente de la revisión.,network
+REQ-0487,network-10,Desde mi puesto observo esto. Las reuniones pierden audio cuando la conexión a internet se interrumpe. Es la primera vez que lo reporto.,network
+REQ-0488,network-10,Quiero reportar este problema. La llamada por video se corta y también falla la navegación. Quedo pendiente de la revisión.,network
+REQ-0489,network-11,Solicito una revisión. No veo otros equipos ni el servidor en la red local. Ocurre desde esta mañana.,network
+REQ-0490,network-11,Hola. No veo otros equipos ni el servidor en la red local. Es la primera vez que lo reporto.,network
+REQ-0491,network-11,Quiero reportar este problema. No veo otros equipos ni el servidor en la red local. Quedo pendiente de la revisión.,network
+REQ-0492,network-11,Hola. No veo otros equipos ni el servidor en la red local. Ocurre desde esta mañana.,network
+REQ-0493,network-11,Desde mi puesto observo esto. No veo otros equipos ni el servidor en la red local. Ocurre desde esta mañana.,network
+REQ-0494,network-11,Les comparto mi solicitud. Los recursos de la red interna no responden desde mi puesto. Necesito continuar con mi trabajo.,network
+REQ-0495,network-11,Quiero reportar este problema. Los recursos de la red interna no responden desde mi puesto. Puedo aportar más información si hace falta.,network
+REQ-0496,network-11,Desde mi puesto observo esto. Los recursos de la red interna no responden desde mi puesto. Necesito continuar con mi trabajo.,network
+REQ-0497,network-11,Tengo este inconveniente. Los recursos de la red interna no responden desde mi puesto. Agradezco su ayuda.,network
+REQ-0498,network-11,Tengo este inconveniente. Los recursos de la red interna no responden desde mi puesto. Puedo aportar más información si hace falta.,network
+REQ-0499,network-11,Hola. No veo otros equipos ni el servidor en la red local. Quedo pendiente de la revisión.,network
+REQ-0500,network-11,Les comparto mi solicitud. Los recursos de la red interna no responden desde mi puesto. Quedo pendiente de la revisión.,network
+REQ-0501,network-11,Necesito ayuda con lo siguiente. Los recursos de la red interna no responden desde mi puesto. Quedo pendiente de la revisión.,network
+REQ-0502,network-11,Les comparto mi solicitud. No veo otros equipos ni el servidor en la red local. Quedo pendiente de la revisión.,network
+REQ-0503,network-11,Desde mi puesto observo esto. No veo otros equipos ni el servidor en la red local. Puedo aportar más información si hace falta.,network
+REQ-0504,network-11,Buen día. Los recursos de la red interna no responden desde mi puesto. Necesito continuar con mi trabajo.,network
+REQ-0505,network-11,Necesito ayuda con lo siguiente. No veo otros equipos ni el servidor en la red local. Ocurre desde esta mañana.,network
+REQ-0506,network-11,Hola. No veo otros equipos ni el servidor en la red local. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0507,network-11,Solicito una revisión. No veo otros equipos ni el servidor en la red local. Ya lo intenté nuevamente y sigue igual.,network
+REQ-0508,network-11,Desde mi puesto observo esto. Los recursos de la red interna no responden desde mi puesto. Puedo aportar más información si hace falta.,network
+REQ-0509,network-12,Buen día. El punto de acceso reinicia y deja sin conexión al área. Es la primera vez que lo reporto.,network
+REQ-0510,network-12,Hola. El router pierde la conexión varias veces durante el día. Sucede de forma intermitente.,network
+REQ-0511,network-12,Quiero reportar este problema. El punto de acceso reinicia y deja sin conexión al área. Sucede de forma intermitente.,network
+REQ-0512,network-12,Buen día. El router pierde la conexión varias veces durante el día. Puedo aportar más información si hace falta.,network
+REQ-0513,network-12,Tengo este inconveniente. El router pierde la conexión varias veces durante el día. Sucede de forma intermitente.,network
+REQ-0514,network-12,Necesito ayuda con lo siguiente. El router pierde la conexión varias veces durante el día. Quedo pendiente de la revisión.,network
+REQ-0515,network-12,Necesito ayuda con lo siguiente. El router pierde la conexión varias veces durante el día. Ocurre desde esta mañana.,network
+REQ-0516,network-12,Buen día. El punto de acceso reinicia y deja sin conexión al área. Ocurre desde esta mañana.,network
+REQ-0517,network-12,Hola. El router pierde la conexión varias veces durante el día. Es la primera vez que lo reporto.,network
+REQ-0518,network-12,Quiero reportar este problema. El router pierde la conexión varias veces durante el día. Ocurre desde esta mañana.,network
+REQ-0519,network-12,Tengo este inconveniente. El punto de acceso reinicia y deja sin conexión al área. Necesito continuar con mi trabajo.,network
+REQ-0520,network-12,Buen día. El punto de acceso reinicia y deja sin conexión al área. Puedo aportar más información si hace falta.,network
+REQ-0521,network-12,Hola. El punto de acceso reinicia y deja sin conexión al área. Quedo pendiente de la revisión.,network
+REQ-0522,network-12,Buen día. El router pierde la conexión varias veces durante el día. Es la primera vez que lo reporto.,network
+REQ-0523,network-12,Les comparto mi solicitud. El router pierde la conexión varias veces durante el día. Ocurre desde esta mañana.,network
+REQ-0524,network-12,Solicito una revisión. El router pierde la conexión varias veces durante el día. Puedo aportar más información si hace falta.,network
+REQ-0525,network-12,Buen día. El router pierde la conexión varias veces durante el día. Sucede de forma intermitente.,network
+REQ-0526,network-12,Solicito una revisión. El punto de acceso reinicia y deja sin conexión al área. Sucede de forma intermitente.,network
+REQ-0527,network-12,Hola. El router pierde la conexión varias veces durante el día. Puedo aportar más información si hace falta.,network
+REQ-0528,network-12,Les comparto mi solicitud. El punto de acceso reinicia y deja sin conexión al área. Ocurre desde esta mañana.,network
+REQ-0529,hardware-01,Solicito una revisión. El monitor permanece negro y no muestra imagen. Agradezco su ayuda.,hardware
+REQ-0530,hardware-01,Buen día. El monitor permanece negro y no muestra imagen. Quedo pendiente de la revisión.,hardware
+REQ-0531,hardware-01,Solicito una revisión. La pantalla no enciende aunque la computadora está funcionando. Es la primera vez que lo reporto.,hardware
+REQ-0532,hardware-01,Les comparto mi solicitud. El monitor permanece negro y no muestra imagen. Ocurre desde esta mañana.,hardware
+REQ-0533,hardware-01,Quiero reportar este problema. El monitor permanece negro y no muestra imagen. Agradezco su ayuda.,hardware
+REQ-0534,hardware-01,Necesito ayuda con lo siguiente. El monitor permanece negro y no muestra imagen. Sucede de forma intermitente.,hardware
+REQ-0535,hardware-01,Les comparto mi solicitud. El monitor permanece negro y no muestra imagen. Agradezco su ayuda.,hardware
+REQ-0536,hardware-01,Les comparto mi solicitud. La pantalla no enciende aunque la computadora está funcionando. Quedo pendiente de la revisión.,hardware
+REQ-0537,hardware-01,Necesito ayuda con lo siguiente. El monitor permanece negro y no muestra imagen. Quedo pendiente de la revisión.,hardware
+REQ-0538,hardware-01,Buen día. La pantalla no enciende aunque la computadora está funcionando. Agradezco su ayuda.,hardware
+REQ-0539,hardware-01,Buen día. El monitor permanece negro y no muestra imagen. Es la primera vez que lo reporto.,hardware
+REQ-0540,hardware-01,Necesito ayuda con lo siguiente. La pantalla no enciende aunque la computadora está funcionando. Es la primera vez que lo reporto.,hardware
+REQ-0541,hardware-01,Solicito una revisión. La pantalla no enciende aunque la computadora está funcionando. Ocurre desde esta mañana.,hardware
+REQ-0542,hardware-01,Necesito ayuda con lo siguiente. El monitor permanece negro y no muestra imagen. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0543,hardware-01,Buen día. El monitor permanece negro y no muestra imagen. Ocurre desde esta mañana.,hardware
+REQ-0544,hardware-01,Buen día. El monitor permanece negro y no muestra imagen. Agradezco su ayuda.,hardware
+REQ-0545,hardware-02,Hola. Varias teclas del teclado dejaron de responder. Necesito continuar con mi trabajo.,hardware
+REQ-0546,hardware-02,Buen día. Varias teclas del teclado dejaron de responder. Sucede de forma intermitente.,hardware
+REQ-0547,hardware-02,Tengo este inconveniente. Varias teclas del teclado dejaron de responder. Puedo aportar más información si hace falta.,hardware
+REQ-0548,hardware-02,Quiero reportar este problema. El teclado físico escribe caracteres repetidos sin tocarlo. Es la primera vez que lo reporto.,hardware
+REQ-0549,hardware-02,Quiero reportar este problema. El teclado físico escribe caracteres repetidos sin tocarlo. Puedo aportar más información si hace falta.,hardware
+REQ-0550,hardware-02,Les comparto mi solicitud. Varias teclas del teclado dejaron de responder. Necesito continuar con mi trabajo.,hardware
+REQ-0551,hardware-02,Quiero reportar este problema. El teclado físico escribe caracteres repetidos sin tocarlo. Necesito continuar con mi trabajo.,hardware
+REQ-0552,hardware-02,Hola. El teclado físico escribe caracteres repetidos sin tocarlo. Puedo aportar más información si hace falta.,hardware
+REQ-0553,hardware-02,Buen día. Varias teclas del teclado dejaron de responder. Quedo pendiente de la revisión.,hardware
+REQ-0554,hardware-02,Hola. El teclado físico escribe caracteres repetidos sin tocarlo. Necesito continuar con mi trabajo.,hardware
+REQ-0555,hardware-02,Hola. El teclado físico escribe caracteres repetidos sin tocarlo. Quedo pendiente de la revisión.,hardware
+REQ-0556,hardware-02,Quiero reportar este problema. Varias teclas del teclado dejaron de responder. Es la primera vez que lo reporto.,hardware
+REQ-0557,hardware-02,Desde mi puesto observo esto. Varias teclas del teclado dejaron de responder. Es la primera vez que lo reporto.,hardware
+REQ-0558,hardware-02,Les comparto mi solicitud. El teclado físico escribe caracteres repetidos sin tocarlo. Ocurre desde esta mañana.,hardware
+REQ-0559,hardware-02,Hola. Varias teclas del teclado dejaron de responder. Quedo pendiente de la revisión.,hardware
+REQ-0560,hardware-02,Buen día. Varias teclas del teclado dejaron de responder. Agradezco su ayuda.,hardware
+REQ-0561,hardware-03,Solicito una revisión. El ratón no mueve el cursor y su cable está dañado. Ocurre desde esta mañana.,hardware
+REQ-0562,hardware-03,Necesito ayuda con lo siguiente. El mouse físico deja de responder al hacer clic. Necesito continuar con mi trabajo.,hardware
+REQ-0563,hardware-03,Tengo este inconveniente. El ratón no mueve el cursor y su cable está dañado. Agradezco su ayuda.,hardware
+REQ-0564,hardware-03,Quiero reportar este problema. El ratón no mueve el cursor y su cable está dañado. Agradezco su ayuda.,hardware
+REQ-0565,hardware-03,Hola. El ratón no mueve el cursor y su cable está dañado. Agradezco su ayuda.,hardware
+REQ-0566,hardware-03,Buen día. El ratón no mueve el cursor y su cable está dañado. Ocurre desde esta mañana.,hardware
+REQ-0567,hardware-03,Desde mi puesto observo esto. El mouse físico deja de responder al hacer clic. Ocurre desde esta mañana.,hardware
+REQ-0568,hardware-03,Les comparto mi solicitud. El ratón no mueve el cursor y su cable está dañado. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0569,hardware-03,Les comparto mi solicitud. El ratón no mueve el cursor y su cable está dañado. Ocurre desde esta mañana.,hardware
+REQ-0570,hardware-03,Buen día. El ratón no mueve el cursor y su cable está dañado. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0571,hardware-03,Les comparto mi solicitud. El ratón no mueve el cursor y su cable está dañado. Es la primera vez que lo reporto.,hardware
+REQ-0572,hardware-03,Buen día. El ratón no mueve el cursor y su cable está dañado. Necesito continuar con mi trabajo.,hardware
+REQ-0573,hardware-03,Tengo este inconveniente. El mouse físico deja de responder al hacer clic. Quedo pendiente de la revisión.,hardware
+REQ-0574,hardware-03,Buen día. El ratón no mueve el cursor y su cable está dañado. Quedo pendiente de la revisión.,hardware
+REQ-0575,hardware-03,Desde mi puesto observo esto. El ratón no mueve el cursor y su cable está dañado. Puedo aportar más información si hace falta.,hardware
+REQ-0576,hardware-03,Necesito ayuda con lo siguiente. El mouse físico deja de responder al hacer clic. Quedo pendiente de la revisión.,hardware
+REQ-0577,hardware-04,Buen día. El equipo portátil se apaga al retirar el cargador. Quedo pendiente de la revisión.,hardware
+REQ-0578,hardware-04,Solicito una revisión. El equipo portátil se apaga al retirar el cargador. Quedo pendiente de la revisión.,hardware
+REQ-0579,hardware-04,Desde mi puesto observo esto. El equipo portátil se apaga al retirar el cargador. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0580,hardware-04,Desde mi puesto observo esto. La batería de la laptop no carga con el adaptador conectado. Es la primera vez que lo reporto.,hardware
+REQ-0581,hardware-04,Les comparto mi solicitud. La batería de la laptop no carga con el adaptador conectado. Es la primera vez que lo reporto.,hardware
+REQ-0582,hardware-04,Solicito una revisión. La batería de la laptop no carga con el adaptador conectado. Puedo aportar más información si hace falta.,hardware
+REQ-0583,hardware-04,Necesito ayuda con lo siguiente. La batería de la laptop no carga con el adaptador conectado. Sucede de forma intermitente.,hardware
+REQ-0584,hardware-04,Quiero reportar este problema. El equipo portátil se apaga al retirar el cargador. Es la primera vez que lo reporto.,hardware
+REQ-0585,hardware-04,Solicito una revisión. El equipo portátil se apaga al retirar el cargador. Sucede de forma intermitente.,hardware
+REQ-0586,hardware-04,Hola. La batería de la laptop no carga con el adaptador conectado. Puedo aportar más información si hace falta.,hardware
+REQ-0587,hardware-04,Tengo este inconveniente. La batería de la laptop no carga con el adaptador conectado. Necesito continuar con mi trabajo.,hardware
+REQ-0588,hardware-04,Tengo este inconveniente. La batería de la laptop no carga con el adaptador conectado. Sucede de forma intermitente.,hardware
+REQ-0589,hardware-04,Les comparto mi solicitud. El equipo portátil se apaga al retirar el cargador. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0590,hardware-04,Quiero reportar este problema. La batería de la laptop no carga con el adaptador conectado. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0591,hardware-04,Solicito una revisión. El equipo portátil se apaga al retirar el cargador. Puedo aportar más información si hace falta.,hardware
+REQ-0592,hardware-04,Desde mi puesto observo esto. El equipo portátil se apaga al retirar el cargador. Es la primera vez que lo reporto.,hardware
+REQ-0593,hardware-05,Desde mi puesto observo esto. La impresora atasca el papel dentro del mecanismo. Puedo aportar más información si hace falta.,hardware
+REQ-0594,hardware-05,Necesito ayuda con lo siguiente. La impresora atasca el papel dentro del mecanismo. Sucede de forma intermitente.,hardware
+REQ-0595,hardware-05,Les comparto mi solicitud. La impresora atasca el papel dentro del mecanismo. Quedo pendiente de la revisión.,hardware
+REQ-0596,hardware-05,Les comparto mi solicitud. Las hojas se quedan trabadas en la bandeja de la impresora. Puedo aportar más información si hace falta.,hardware
+REQ-0597,hardware-05,Hola. Las hojas se quedan trabadas en la bandeja de la impresora. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0598,hardware-05,Solicito una revisión. Las hojas se quedan trabadas en la bandeja de la impresora. Sucede de forma intermitente.,hardware
+REQ-0599,hardware-05,Buen día. Las hojas se quedan trabadas en la bandeja de la impresora. Ocurre desde esta mañana.,hardware
+REQ-0600,hardware-05,Necesito ayuda con lo siguiente. Las hojas se quedan trabadas en la bandeja de la impresora. Puedo aportar más información si hace falta.,hardware
+REQ-0601,hardware-05,Necesito ayuda con lo siguiente. La impresora atasca el papel dentro del mecanismo. Agradezco su ayuda.,hardware
+REQ-0602,hardware-05,Quiero reportar este problema. La impresora atasca el papel dentro del mecanismo. Necesito continuar con mi trabajo.,hardware
+REQ-0603,hardware-05,Necesito ayuda con lo siguiente. Las hojas se quedan trabadas en la bandeja de la impresora. Quedo pendiente de la revisión.,hardware
+REQ-0604,hardware-05,Buen día. La impresora atasca el papel dentro del mecanismo. Agradezco su ayuda.,hardware
+REQ-0605,hardware-05,Solicito una revisión. La impresora atasca el papel dentro del mecanismo. Quedo pendiente de la revisión.,hardware
+REQ-0606,hardware-05,Buen día. La impresora atasca el papel dentro del mecanismo. Quedo pendiente de la revisión.,hardware
+REQ-0607,hardware-05,Solicito una revisión. Las hojas se quedan trabadas en la bandeja de la impresora. Ocurre desde esta mañana.,hardware
+REQ-0608,hardware-05,Solicito una revisión. La impresora atasca el papel dentro del mecanismo. Sucede de forma intermitente.,hardware
+REQ-0609,hardware-06,Buen día. El equipo se sobrecalienta y se apaga después de unos minutos. Es la primera vez que lo reporto.,hardware
+REQ-0610,hardware-06,Les comparto mi solicitud. El equipo se sobrecalienta y se apaga después de unos minutos. Sucede de forma intermitente.,hardware
+REQ-0611,hardware-06,Quiero reportar este problema. El ventilador hace ruido y la computadora se calienta demasiado. Sucede de forma intermitente.,hardware
+REQ-0612,hardware-06,Buen día. El equipo se sobrecalienta y se apaga después de unos minutos. Sucede de forma intermitente.,hardware
+REQ-0613,hardware-06,Les comparto mi solicitud. El ventilador hace ruido y la computadora se calienta demasiado. Ocurre desde esta mañana.,hardware
+REQ-0614,hardware-06,Tengo este inconveniente. El equipo se sobrecalienta y se apaga después de unos minutos. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0615,hardware-06,Quiero reportar este problema. El equipo se sobrecalienta y se apaga después de unos minutos. Quedo pendiente de la revisión.,hardware
+REQ-0616,hardware-06,Hola. El ventilador hace ruido y la computadora se calienta demasiado. Agradezco su ayuda.,hardware
+REQ-0617,hardware-06,Quiero reportar este problema. El equipo se sobrecalienta y se apaga después de unos minutos. Necesito continuar con mi trabajo.,hardware
+REQ-0618,hardware-06,Les comparto mi solicitud. El ventilador hace ruido y la computadora se calienta demasiado. Necesito continuar con mi trabajo.,hardware
+REQ-0619,hardware-06,Buen día. El equipo se sobrecalienta y se apaga después de unos minutos. Necesito continuar con mi trabajo.,hardware
+REQ-0620,hardware-06,Necesito ayuda con lo siguiente. El ventilador hace ruido y la computadora se calienta demasiado. Agradezco su ayuda.,hardware
+REQ-0621,hardware-06,Necesito ayuda con lo siguiente. El ventilador hace ruido y la computadora se calienta demasiado. Ocurre desde esta mañana.,hardware
+REQ-0622,hardware-06,Tengo este inconveniente. El ventilador hace ruido y la computadora se calienta demasiado. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0623,hardware-06,Solicito una revisión. El equipo se sobrecalienta y se apaga después de unos minutos. Es la primera vez que lo reporto.,hardware
+REQ-0624,hardware-06,Tengo este inconveniente. El ventilador hace ruido y la computadora se calienta demasiado. Sucede de forma intermitente.,hardware
+REQ-0625,hardware-07,Desde mi puesto observo esto. El disco hace sonidos extraños y el equipo no arranca. Es la primera vez que lo reporto.,hardware
+REQ-0626,hardware-07,Buen día. La computadora no detecta la unidad física de almacenamiento. Sucede de forma intermitente.,hardware
+REQ-0627,hardware-07,Hola. El disco hace sonidos extraños y el equipo no arranca. Sucede de forma intermitente.,hardware
+REQ-0628,hardware-07,Tengo este inconveniente. El disco hace sonidos extraños y el equipo no arranca. Quedo pendiente de la revisión.,hardware
+REQ-0629,hardware-07,Desde mi puesto observo esto. La computadora no detecta la unidad física de almacenamiento. Quedo pendiente de la revisión.,hardware
+REQ-0630,hardware-07,Buen día. La computadora no detecta la unidad física de almacenamiento. Necesito continuar con mi trabajo.,hardware
+REQ-0631,hardware-07,Hola. La computadora no detecta la unidad física de almacenamiento. Sucede de forma intermitente.,hardware
+REQ-0632,hardware-07,Les comparto mi solicitud. La computadora no detecta la unidad física de almacenamiento. Sucede de forma intermitente.,hardware
+REQ-0633,hardware-07,Solicito una revisión. La computadora no detecta la unidad física de almacenamiento. Agradezco su ayuda.,hardware
+REQ-0634,hardware-07,Quiero reportar este problema. La computadora no detecta la unidad física de almacenamiento. Sucede de forma intermitente.,hardware
+REQ-0635,hardware-07,Necesito ayuda con lo siguiente. El disco hace sonidos extraños y el equipo no arranca. Ocurre desde esta mañana.,hardware
+REQ-0636,hardware-07,Hola. La computadora no detecta la unidad física de almacenamiento. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0637,hardware-07,Buen día. El disco hace sonidos extraños y el equipo no arranca. Es la primera vez que lo reporto.,hardware
+REQ-0638,hardware-07,Quiero reportar este problema. La computadora no detecta la unidad física de almacenamiento. Puedo aportar más información si hace falta.,hardware
+REQ-0639,hardware-07,Quiero reportar este problema. El disco hace sonidos extraños y el equipo no arranca. Necesito continuar con mi trabajo.,hardware
+REQ-0640,hardware-07,Necesito ayuda con lo siguiente. La computadora no detecta la unidad física de almacenamiento. Agradezco su ayuda.,hardware
+REQ-0641,hardware-08,Tengo este inconveniente. La cámara integrada no muestra imagen en ninguna aplicación. Quedo pendiente de la revisión.,hardware
+REQ-0642,hardware-08,Solicito una revisión. El dispositivo de cámara está físicamente dañado. Puedo aportar más información si hace falta.,hardware
+REQ-0643,hardware-08,Tengo este inconveniente. El dispositivo de cámara está físicamente dañado. Puedo aportar más información si hace falta.,hardware
+REQ-0644,hardware-08,Les comparto mi solicitud. La cámara integrada no muestra imagen en ninguna aplicación. Es la primera vez que lo reporto.,hardware
+REQ-0645,hardware-08,Solicito una revisión. La cámara integrada no muestra imagen en ninguna aplicación. Puedo aportar más información si hace falta.,hardware
+REQ-0646,hardware-08,Tengo este inconveniente. La cámara integrada no muestra imagen en ninguna aplicación. Puedo aportar más información si hace falta.,hardware
+REQ-0647,hardware-08,Les comparto mi solicitud. La cámara integrada no muestra imagen en ninguna aplicación. Agradezco su ayuda.,hardware
+REQ-0648,hardware-08,Desde mi puesto observo esto. La cámara integrada no muestra imagen en ninguna aplicación. Necesito continuar con mi trabajo.,hardware
+REQ-0649,hardware-08,Desde mi puesto observo esto. El dispositivo de cámara está físicamente dañado. Es la primera vez que lo reporto.,hardware
+REQ-0650,hardware-08,Quiero reportar este problema. El dispositivo de cámara está físicamente dañado. Puedo aportar más información si hace falta.,hardware
+REQ-0651,hardware-08,Buen día. La cámara integrada no muestra imagen en ninguna aplicación. Puedo aportar más información si hace falta.,hardware
+REQ-0652,hardware-08,Necesito ayuda con lo siguiente. La cámara integrada no muestra imagen en ninguna aplicación. Necesito continuar con mi trabajo.,hardware
+REQ-0653,hardware-08,Desde mi puesto observo esto. El dispositivo de cámara está físicamente dañado. Agradezco su ayuda.,hardware
+REQ-0654,hardware-08,Buen día. La cámara integrada no muestra imagen en ninguna aplicación. Necesito continuar con mi trabajo.,hardware
+REQ-0655,hardware-08,Hola. El dispositivo de cámara está físicamente dañado. Quedo pendiente de la revisión.,hardware
+REQ-0656,hardware-08,Desde mi puesto observo esto. La cámara integrada no muestra imagen en ninguna aplicación. Agradezco su ayuda.,hardware
+REQ-0657,hardware-09,Tengo este inconveniente. El conector físico está flojo y desconecta los accesorios. Es la primera vez que lo reporto.,hardware
+REQ-0658,hardware-09,Quiero reportar este problema. Un puerto USB no reconoce ningún dispositivo conectado. Puedo aportar más información si hace falta.,hardware
+REQ-0659,hardware-09,Quiero reportar este problema. El conector físico está flojo y desconecta los accesorios. Ocurre desde esta mañana.,hardware
+REQ-0660,hardware-09,Necesito ayuda con lo siguiente. El conector físico está flojo y desconecta los accesorios. Agradezco su ayuda.,hardware
+REQ-0661,hardware-09,Desde mi puesto observo esto. Un puerto USB no reconoce ningún dispositivo conectado. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0662,hardware-09,Desde mi puesto observo esto. El conector físico está flojo y desconecta los accesorios. Agradezco su ayuda.,hardware
+REQ-0663,hardware-09,Buen día. Un puerto USB no reconoce ningún dispositivo conectado. Agradezco su ayuda.,hardware
+REQ-0664,hardware-09,Les comparto mi solicitud. Un puerto USB no reconoce ningún dispositivo conectado. Necesito continuar con mi trabajo.,hardware
+REQ-0665,hardware-09,Les comparto mi solicitud. El conector físico está flojo y desconecta los accesorios. Agradezco su ayuda.,hardware
+REQ-0666,hardware-09,Necesito ayuda con lo siguiente. El conector físico está flojo y desconecta los accesorios. Necesito continuar con mi trabajo.,hardware
+REQ-0667,hardware-09,Tengo este inconveniente. El conector físico está flojo y desconecta los accesorios. Ocurre desde esta mañana.,hardware
+REQ-0668,hardware-09,Necesito ayuda con lo siguiente. El conector físico está flojo y desconecta los accesorios. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0669,hardware-09,Necesito ayuda con lo siguiente. El conector físico está flojo y desconecta los accesorios. Puedo aportar más información si hace falta.,hardware
+REQ-0670,hardware-09,Quiero reportar este problema. El conector físico está flojo y desconecta los accesorios. Quedo pendiente de la revisión.,hardware
+REQ-0671,hardware-09,Tengo este inconveniente. Un puerto USB no reconoce ningún dispositivo conectado. Necesito continuar con mi trabajo.,hardware
+REQ-0672,hardware-09,Les comparto mi solicitud. Un puerto USB no reconoce ningún dispositivo conectado. Agradezco su ayuda.,hardware
+REQ-0673,hardware-10,Solicito una revisión. El micrófono tiene el cable roto y no capta sonido. Quedo pendiente de la revisión.,hardware
+REQ-0674,hardware-10,Hola. Los auriculares están dañados y solo se escucha de un lado. Es la primera vez que lo reporto.,hardware
+REQ-0675,hardware-10,Tengo este inconveniente. Los auriculares están dañados y solo se escucha de un lado. Agradezco su ayuda.,hardware
+REQ-0676,hardware-10,Hola. Los auriculares están dañados y solo se escucha de un lado. Ocurre desde esta mañana.,hardware
+REQ-0677,hardware-10,Solicito una revisión. Los auriculares están dañados y solo se escucha de un lado. Es la primera vez que lo reporto.,hardware
+REQ-0678,hardware-10,Buen día. El micrófono tiene el cable roto y no capta sonido. Agradezco su ayuda.,hardware
+REQ-0679,hardware-10,Desde mi puesto observo esto. El micrófono tiene el cable roto y no capta sonido. Agradezco su ayuda.,hardware
+REQ-0680,hardware-10,Solicito una revisión. Los auriculares están dañados y solo se escucha de un lado. Necesito continuar con mi trabajo.,hardware
+REQ-0681,hardware-10,Buen día. El micrófono tiene el cable roto y no capta sonido. Ocurre desde esta mañana.,hardware
+REQ-0682,hardware-10,Tengo este inconveniente. El micrófono tiene el cable roto y no capta sonido. Necesito continuar con mi trabajo.,hardware
+REQ-0683,hardware-10,Hola. Los auriculares están dañados y solo se escucha de un lado. Puedo aportar más información si hace falta.,hardware
+REQ-0684,hardware-10,Tengo este inconveniente. El micrófono tiene el cable roto y no capta sonido. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0685,hardware-10,Quiero reportar este problema. El micrófono tiene el cable roto y no capta sonido. Agradezco su ayuda.,hardware
+REQ-0686,hardware-10,Quiero reportar este problema. El micrófono tiene el cable roto y no capta sonido. Quedo pendiente de la revisión.,hardware
+REQ-0687,hardware-10,Solicito una revisión. Los auriculares están dañados y solo se escucha de un lado. Puedo aportar más información si hace falta.,hardware
+REQ-0688,hardware-10,Necesito ayuda con lo siguiente. El micrófono tiene el cable roto y no capta sonido. Puedo aportar más información si hace falta.,hardware
+REQ-0689,hardware-11,Necesito ayuda con lo siguiente. La fuente de alimentación del equipo no entrega energía. Necesito continuar con mi trabajo.,hardware
+REQ-0690,hardware-11,Solicito una revisión. El botón de encendido está roto y no prende la computadora. Puedo aportar más información si hace falta.,hardware
+REQ-0691,hardware-11,Les comparto mi solicitud. La fuente de alimentación del equipo no entrega energía. Ocurre desde esta mañana.,hardware
+REQ-0692,hardware-11,Hola. La fuente de alimentación del equipo no entrega energía. Sucede de forma intermitente.,hardware
+REQ-0693,hardware-11,Les comparto mi solicitud. La fuente de alimentación del equipo no entrega energía. Quedo pendiente de la revisión.,hardware
+REQ-0694,hardware-11,Solicito una revisión. La fuente de alimentación del equipo no entrega energía. Puedo aportar más información si hace falta.,hardware
+REQ-0695,hardware-11,Desde mi puesto observo esto. La fuente de alimentación del equipo no entrega energía. Sucede de forma intermitente.,hardware
+REQ-0696,hardware-11,Hola. La fuente de alimentación del equipo no entrega energía. Agradezco su ayuda.,hardware
+REQ-0697,hardware-11,Hola. La fuente de alimentación del equipo no entrega energía. Ocurre desde esta mañana.,hardware
+REQ-0698,hardware-11,Tengo este inconveniente. La fuente de alimentación del equipo no entrega energía. Ocurre desde esta mañana.,hardware
+REQ-0699,hardware-11,Desde mi puesto observo esto. La fuente de alimentación del equipo no entrega energía. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0700,hardware-11,Desde mi puesto observo esto. El botón de encendido está roto y no prende la computadora. Puedo aportar más información si hace falta.,hardware
+REQ-0701,hardware-11,Hola. La fuente de alimentación del equipo no entrega energía. Necesito continuar con mi trabajo.,hardware
+REQ-0702,hardware-11,Les comparto mi solicitud. El botón de encendido está roto y no prende la computadora. Necesito continuar con mi trabajo.,hardware
+REQ-0703,hardware-11,Buen día. La fuente de alimentación del equipo no entrega energía. Sucede de forma intermitente.,hardware
+REQ-0704,hardware-11,Buen día. La fuente de alimentación del equipo no entrega energía. Es la primera vez que lo reporto.,hardware
+REQ-0705,hardware-12,Solicito una revisión. La impresora necesita cambio del cartucho porque las páginas salen en blanco. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0706,hardware-12,Desde mi puesto observo esto. Las hojas salen con manchas y falta tóner en la impresora. Sucede de forma intermitente.,hardware
+REQ-0707,hardware-12,Hola. La impresora necesita cambio del cartucho porque las páginas salen en blanco. Agradezco su ayuda.,hardware
+REQ-0708,hardware-12,Buen día. Las hojas salen con manchas y falta tóner en la impresora. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0709,hardware-12,Les comparto mi solicitud. La impresora necesita cambio del cartucho porque las páginas salen en blanco. Sucede de forma intermitente.,hardware
+REQ-0710,hardware-12,Les comparto mi solicitud. La impresora necesita cambio del cartucho porque las páginas salen en blanco. Ya lo intenté nuevamente y sigue igual.,hardware
+REQ-0711,hardware-12,Tengo este inconveniente. La impresora necesita cambio del cartucho porque las páginas salen en blanco. Ocurre desde esta mañana.,hardware
+REQ-0712,hardware-12,Necesito ayuda con lo siguiente. Las hojas salen con manchas y falta tóner en la impresora. Agradezco su ayuda.,hardware
+REQ-0713,hardware-12,Hola. La impresora necesita cambio del cartucho porque las páginas salen en blanco. Quedo pendiente de la revisión.,hardware
+REQ-0714,hardware-12,Tengo este inconveniente. La impresora necesita cambio del cartucho porque las páginas salen en blanco. Quedo pendiente de la revisión.,hardware
+REQ-0715,hardware-12,Necesito ayuda con lo siguiente. Las hojas salen con manchas y falta tóner en la impresora. Necesito continuar con mi trabajo.,hardware
+REQ-0716,hardware-12,Quiero reportar este problema. Las hojas salen con manchas y falta tóner en la impresora. Agradezco su ayuda.,hardware
+REQ-0717,hardware-12,Tengo este inconveniente. Las hojas salen con manchas y falta tóner en la impresora. Agradezco su ayuda.,hardware
+REQ-0718,hardware-12,Solicito una revisión. Las hojas salen con manchas y falta tóner en la impresora. Ocurre desde esta mañana.,hardware
+REQ-0719,hardware-12,Desde mi puesto observo esto. La impresora necesita cambio del cartucho porque las páginas salen en blanco. Quedo pendiente de la revisión.,hardware
+REQ-0720,hardware-12,Hola. La impresora necesita cambio del cartucho porque las páginas salen en blanco. Necesito continuar con mi trabajo.,hardware
+REQ-0721,software-01,Necesito ayuda con lo siguiente. La aplicación muestra un error al confirmar los cambios. Puedo aportar más información si hace falta.,software
+REQ-0722,software-01,Buen día. El programa de gestión se cierra al guardar un registro. Es la primera vez que lo reporto.,software
+REQ-0723,software-01,Necesito ayuda con lo siguiente. El programa de gestión se cierra al guardar un registro. Necesito continuar con mi trabajo.,software
+REQ-0724,software-01,Les comparto mi solicitud. El programa de gestión se cierra al guardar un registro. Puedo aportar más información si hace falta.,software
+REQ-0725,software-01,Hola. La aplicación muestra un error al confirmar los cambios. Ocurre desde esta mañana.,software
+REQ-0726,software-01,Quiero reportar este problema. La aplicación muestra un error al confirmar los cambios. Ocurre desde esta mañana.,software
+REQ-0727,software-01,Solicito una revisión. La aplicación muestra un error al confirmar los cambios. Sucede de forma intermitente.,software
+REQ-0728,software-01,Les comparto mi solicitud. La aplicación muestra un error al confirmar los cambios. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0729,software-01,Tengo este inconveniente. La aplicación muestra un error al confirmar los cambios. Necesito continuar con mi trabajo.,software
+REQ-0730,software-01,Les comparto mi solicitud. La aplicación muestra un error al confirmar los cambios. Quedo pendiente de la revisión.,software
+REQ-0731,software-01,Tengo este inconveniente. El programa de gestión se cierra al guardar un registro. Es la primera vez que lo reporto.,software
+REQ-0732,software-01,Necesito ayuda con lo siguiente. La aplicación muestra un error al confirmar los cambios. Es la primera vez que lo reporto.,software
+REQ-0733,software-01,Quiero reportar este problema. La aplicación muestra un error al confirmar los cambios. Sucede de forma intermitente.,software
+REQ-0734,software-01,Tengo este inconveniente. El programa de gestión se cierra al guardar un registro. Quedo pendiente de la revisión.,software
+REQ-0735,software-01,Tengo este inconveniente. El programa de gestión se cierra al guardar un registro. Ocurre desde esta mañana.,software
+REQ-0736,software-01,Buen día. La aplicación muestra un error al confirmar los cambios. Puedo aportar más información si hace falta.,software
+REQ-0737,software-01,Les comparto mi solicitud. El programa de gestión se cierra al guardar un registro. Quedo pendiente de la revisión.,software
+REQ-0738,software-01,Tengo este inconveniente. El programa de gestión se cierra al guardar un registro. Sucede de forma intermitente.,software
+REQ-0739,software-02,Necesito ayuda con lo siguiente. La actualización de la aplicación no termina de instalarse. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0740,software-02,Necesito ayuda con lo siguiente. El instalador del programa queda detenido a la mitad. Necesito continuar con mi trabajo.,software
+REQ-0741,software-02,Quiero reportar este problema. La actualización de la aplicación no termina de instalarse. Sucede de forma intermitente.,software
+REQ-0742,software-02,Desde mi puesto observo esto. La actualización de la aplicación no termina de instalarse. Agradezco su ayuda.,software
+REQ-0743,software-02,Tengo este inconveniente. La actualización de la aplicación no termina de instalarse. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0744,software-02,Buen día. El instalador del programa queda detenido a la mitad. Es la primera vez que lo reporto.,software
+REQ-0745,software-02,Les comparto mi solicitud. El instalador del programa queda detenido a la mitad. Puedo aportar más información si hace falta.,software
+REQ-0746,software-02,Buen día. El instalador del programa queda detenido a la mitad. Agradezco su ayuda.,software
+REQ-0747,software-02,Buen día. El instalador del programa queda detenido a la mitad. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0748,software-02,Solicito una revisión. La actualización de la aplicación no termina de instalarse. Ocurre desde esta mañana.,software
+REQ-0749,software-02,Quiero reportar este problema. La actualización de la aplicación no termina de instalarse. Necesito continuar con mi trabajo.,software
+REQ-0750,software-02,Quiero reportar este problema. El instalador del programa queda detenido a la mitad. Es la primera vez que lo reporto.,software
+REQ-0751,software-02,Necesito ayuda con lo siguiente. La actualización de la aplicación no termina de instalarse. Sucede de forma intermitente.,software
+REQ-0752,software-02,Solicito una revisión. El instalador del programa queda detenido a la mitad. Agradezco su ayuda.,software
+REQ-0753,software-02,Les comparto mi solicitud. El instalador del programa queda detenido a la mitad. Quedo pendiente de la revisión.,software
+REQ-0754,software-02,Hola. El instalador del programa queda detenido a la mitad. Es la primera vez que lo reporto.,software
+REQ-0755,software-02,Hola. La actualización de la aplicación no termina de instalarse. Necesito continuar con mi trabajo.,software
+REQ-0756,software-02,Buen día. La actualización de la aplicación no termina de instalarse. Necesito continuar con mi trabajo.,software
+REQ-0757,software-03,Les comparto mi solicitud. La aplicación de planillas deja de responder con documentos grandes. Necesito continuar con mi trabajo.,software
+REQ-0758,software-03,Solicito una revisión. La hoja de cálculo se bloquea al abrir un archivo. Ocurre desde esta mañana.,software
+REQ-0759,software-03,Hola. La aplicación de planillas deja de responder con documentos grandes. Quedo pendiente de la revisión.,software
+REQ-0760,software-03,Desde mi puesto observo esto. La hoja de cálculo se bloquea al abrir un archivo. Sucede de forma intermitente.,software
+REQ-0761,software-03,Buen día. La hoja de cálculo se bloquea al abrir un archivo. Agradezco su ayuda.,software
+REQ-0762,software-03,Hola. La aplicación de planillas deja de responder con documentos grandes. Agradezco su ayuda.,software
+REQ-0763,software-03,Les comparto mi solicitud. La hoja de cálculo se bloquea al abrir un archivo. Necesito continuar con mi trabajo.,software
+REQ-0764,software-03,Les comparto mi solicitud. La hoja de cálculo se bloquea al abrir un archivo. Puedo aportar más información si hace falta.,software
+REQ-0765,software-03,Hola. La hoja de cálculo se bloquea al abrir un archivo. Quedo pendiente de la revisión.,software
+REQ-0766,software-03,Necesito ayuda con lo siguiente. La hoja de cálculo se bloquea al abrir un archivo. Quedo pendiente de la revisión.,software
+REQ-0767,software-03,Les comparto mi solicitud. La aplicación de planillas deja de responder con documentos grandes. Puedo aportar más información si hace falta.,software
+REQ-0768,software-03,Tengo este inconveniente. La aplicación de planillas deja de responder con documentos grandes. Sucede de forma intermitente.,software
+REQ-0769,software-03,Hola. La hoja de cálculo se bloquea al abrir un archivo. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0770,software-03,Solicito una revisión. La hoja de cálculo se bloquea al abrir un archivo. Es la primera vez que lo reporto.,software
+REQ-0771,software-03,Necesito ayuda con lo siguiente. La hoja de cálculo se bloquea al abrir un archivo. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0772,software-03,Buen día. La hoja de cálculo se bloquea al abrir un archivo. Sucede de forma intermitente.,software
+REQ-0773,software-03,Buen día. La aplicación de planillas deja de responder con documentos grandes. Quedo pendiente de la revisión.,software
+REQ-0774,software-03,Quiero reportar este problema. La aplicación de planillas deja de responder con documentos grandes. Puedo aportar más información si hace falta.,software
+REQ-0775,software-04,Les comparto mi solicitud. El sistema genera un informe vacío aunque existen registros. Puedo aportar más información si hace falta.,software
+REQ-0776,software-04,Quiero reportar este problema. La función de reportes de la aplicación no muestra los datos guardados. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0777,software-04,Quiero reportar este problema. El sistema genera un informe vacío aunque existen registros. Sucede de forma intermitente.,software
+REQ-0778,software-04,Tengo este inconveniente. La función de reportes de la aplicación no muestra los datos guardados. Es la primera vez que lo reporto.,software
+REQ-0779,software-04,Quiero reportar este problema. El sistema genera un informe vacío aunque existen registros. Ocurre desde esta mañana.,software
+REQ-0780,software-04,Quiero reportar este problema. La función de reportes de la aplicación no muestra los datos guardados. Quedo pendiente de la revisión.,software
+REQ-0781,software-04,Solicito una revisión. La función de reportes de la aplicación no muestra los datos guardados. Necesito continuar con mi trabajo.,software
+REQ-0782,software-04,Tengo este inconveniente. El sistema genera un informe vacío aunque existen registros. Necesito continuar con mi trabajo.,software
+REQ-0783,software-04,Hola. El sistema genera un informe vacío aunque existen registros. Ocurre desde esta mañana.,software
+REQ-0784,software-04,Desde mi puesto observo esto. La función de reportes de la aplicación no muestra los datos guardados. Necesito continuar con mi trabajo.,software
+REQ-0785,software-04,Hola. La función de reportes de la aplicación no muestra los datos guardados. Necesito continuar con mi trabajo.,software
+REQ-0786,software-04,Necesito ayuda con lo siguiente. El sistema genera un informe vacío aunque existen registros. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0787,software-04,Necesito ayuda con lo siguiente. El sistema genera un informe vacío aunque existen registros. Necesito continuar con mi trabajo.,software
+REQ-0788,software-04,Solicito una revisión. El sistema genera un informe vacío aunque existen registros. Quedo pendiente de la revisión.,software
+REQ-0789,software-04,Buen día. La función de reportes de la aplicación no muestra los datos guardados. Quedo pendiente de la revisión.,software
+REQ-0790,software-04,Buen día. La función de reportes de la aplicación no muestra los datos guardados. Necesito continuar con mi trabajo.,software
+REQ-0791,software-04,Solicito una revisión. El sistema genera un informe vacío aunque existen registros. Agradezco su ayuda.,software
+REQ-0792,software-04,Buen día. El sistema genera un informe vacío aunque existen registros. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0793,software-05,Les comparto mi solicitud. Solicito configurar un programa nuevo en mi computadora. Quedo pendiente de la revisión.,software
+REQ-0794,software-05,Tengo este inconveniente. Solicito configurar un programa nuevo en mi computadora. Quedo pendiente de la revisión.,software
+REQ-0795,software-05,Hola. Solicito configurar un programa nuevo en mi computadora. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0796,software-05,Necesito ayuda con lo siguiente. Solicito configurar un programa nuevo en mi computadora. Sucede de forma intermitente.,software
+REQ-0797,software-05,Hola. Solicito configurar un programa nuevo en mi computadora. Sucede de forma intermitente.,software
+REQ-0798,software-05,Solicito una revisión. Solicito configurar un programa nuevo en mi computadora. Necesito continuar con mi trabajo.,software
+REQ-0799,software-05,Buen día. Solicito configurar un programa nuevo en mi computadora. Sucede de forma intermitente.,software
+REQ-0800,software-05,Les comparto mi solicitud. Necesito instalar una aplicación de diseño autorizada. Sucede de forma intermitente.,software
+REQ-0801,software-05,Necesito ayuda con lo siguiente. Necesito instalar una aplicación de diseño autorizada. Necesito continuar con mi trabajo.,software
+REQ-0802,software-05,Necesito ayuda con lo siguiente. Necesito instalar una aplicación de diseño autorizada. Agradezco su ayuda.,software
+REQ-0803,software-05,Necesito ayuda con lo siguiente. Solicito configurar un programa nuevo en mi computadora. Quedo pendiente de la revisión.,software
+REQ-0804,software-05,Quiero reportar este problema. Necesito instalar una aplicación de diseño autorizada. Puedo aportar más información si hace falta.,software
+REQ-0805,software-05,Desde mi puesto observo esto. Necesito instalar una aplicación de diseño autorizada. Quedo pendiente de la revisión.,software
+REQ-0806,software-05,Necesito ayuda con lo siguiente. Necesito instalar una aplicación de diseño autorizada. Sucede de forma intermitente.,software
+REQ-0807,software-05,Buen día. Solicito configurar un programa nuevo en mi computadora. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0808,software-05,Quiero reportar este problema. Necesito instalar una aplicación de diseño autorizada. Ocurre desde esta mañana.,software
+REQ-0809,software-05,Les comparto mi solicitud. Necesito instalar una aplicación de diseño autorizada. Agradezco su ayuda.,software
+REQ-0810,software-05,Tengo este inconveniente. Solicito configurar un programa nuevo en mi computadora. Puedo aportar más información si hace falta.,software
+REQ-0811,software-06,Buen día. Una extensión hace fallar la aplicación web al completar datos. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0812,software-06,Tengo este inconveniente. Una extensión hace fallar la aplicación web al completar datos. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0813,software-06,Les comparto mi solicitud. Una extensión hace fallar la aplicación web al completar datos. Puedo aportar más información si hace falta.,software
+REQ-0814,software-06,Buen día. Una extensión hace fallar la aplicación web al completar datos. Ocurre desde esta mañana.,software
+REQ-0815,software-06,Hola. Una extensión hace fallar la aplicación web al completar datos. Quedo pendiente de la revisión.,software
+REQ-0816,software-06,"Buen día. El navegador se cierra al usar el formulario, pero internet funciona. Puedo aportar más información si hace falta.",software
+REQ-0817,software-06,"Quiero reportar este problema. El navegador se cierra al usar el formulario, pero internet funciona. Ya lo intenté nuevamente y sigue igual.",software
+REQ-0818,software-06,Desde mi puesto observo esto. Una extensión hace fallar la aplicación web al completar datos. Puedo aportar más información si hace falta.,software
+REQ-0819,software-06,Tengo este inconveniente. Una extensión hace fallar la aplicación web al completar datos. Agradezco su ayuda.,software
+REQ-0820,software-06,Solicito una revisión. Una extensión hace fallar la aplicación web al completar datos. Ocurre desde esta mañana.,software
+REQ-0821,software-06,Necesito ayuda con lo siguiente. Una extensión hace fallar la aplicación web al completar datos. Ocurre desde esta mañana.,software
+REQ-0822,software-06,"Buen día. El navegador se cierra al usar el formulario, pero internet funciona. Ya lo intenté nuevamente y sigue igual.",software
+REQ-0823,software-06,Necesito ayuda con lo siguiente. Una extensión hace fallar la aplicación web al completar datos. Agradezco su ayuda.,software
+REQ-0824,software-06,"Necesito ayuda con lo siguiente. El navegador se cierra al usar el formulario, pero internet funciona. Puedo aportar más información si hace falta.",software
+REQ-0825,software-06,Solicito una revisión. Una extensión hace fallar la aplicación web al completar datos. Es la primera vez que lo reporto.,software
+REQ-0826,software-06,Quiero reportar este problema. Una extensión hace fallar la aplicación web al completar datos. Puedo aportar más información si hace falta.,software
+REQ-0827,software-06,Necesito ayuda con lo siguiente. Una extensión hace fallar la aplicación web al completar datos. Puedo aportar más información si hace falta.,software
+REQ-0828,software-06,Hola. Una extensión hace fallar la aplicación web al completar datos. Necesito continuar con mi trabajo.,software
+REQ-0829,software-07,Necesito ayuda con lo siguiente. El archivo exportado por el sistema tiene columnas desordenadas. Necesito continuar con mi trabajo.,software
+REQ-0830,software-07,Desde mi puesto observo esto. El archivo exportado por el sistema tiene columnas desordenadas. Agradezco su ayuda.,software
+REQ-0831,software-07,Solicito una revisión. El archivo exportado por el sistema tiene columnas desordenadas. Necesito continuar con mi trabajo.,software
+REQ-0832,software-07,Buen día. El archivo exportado por el sistema tiene columnas desordenadas. Sucede de forma intermitente.,software
+REQ-0833,software-07,Solicito una revisión. El archivo exportado por el sistema tiene columnas desordenadas. Quedo pendiente de la revisión.,software
+REQ-0834,software-07,Les comparto mi solicitud. La función de exportación genera un documento con formato incorrecto. Quedo pendiente de la revisión.,software
+REQ-0835,software-07,Solicito una revisión. El archivo exportado por el sistema tiene columnas desordenadas. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0836,software-07,Buen día. El archivo exportado por el sistema tiene columnas desordenadas. Puedo aportar más información si hace falta.,software
+REQ-0837,software-07,Les comparto mi solicitud. El archivo exportado por el sistema tiene columnas desordenadas. Agradezco su ayuda.,software
+REQ-0838,software-07,Desde mi puesto observo esto. La función de exportación genera un documento con formato incorrecto. Es la primera vez que lo reporto.,software
+REQ-0839,software-07,Quiero reportar este problema. El archivo exportado por el sistema tiene columnas desordenadas. Sucede de forma intermitente.,software
+REQ-0840,software-07,Desde mi puesto observo esto. La función de exportación genera un documento con formato incorrecto. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0841,software-07,Tengo este inconveniente. La función de exportación genera un documento con formato incorrecto. Es la primera vez que lo reporto.,software
+REQ-0842,software-07,Desde mi puesto observo esto. La función de exportación genera un documento con formato incorrecto. Ocurre desde esta mañana.,software
+REQ-0843,software-07,Hola. El archivo exportado por el sistema tiene columnas desordenadas. Es la primera vez que lo reporto.,software
+REQ-0844,software-07,Buen día. El archivo exportado por el sistema tiene columnas desordenadas. Agradezco su ayuda.,software
+REQ-0845,software-07,Solicito una revisión. La función de exportación genera un documento con formato incorrecto. Sucede de forma intermitente.,software
+REQ-0846,software-07,Les comparto mi solicitud. La función de exportación genera un documento con formato incorrecto. Agradezco su ayuda.,software
+REQ-0847,software-08,Buen día. El software instalado requiere activar nuevamente su licencia. Puedo aportar más información si hace falta.,software
+REQ-0848,software-08,Necesito ayuda con lo siguiente. La aplicación avisa que la licencia del programa expiró. Quedo pendiente de la revisión.,software
+REQ-0849,software-08,Tengo este inconveniente. La aplicación avisa que la licencia del programa expiró. Agradezco su ayuda.,software
+REQ-0850,software-08,Quiero reportar este problema. La aplicación avisa que la licencia del programa expiró. Necesito continuar con mi trabajo.,software
+REQ-0851,software-08,Tengo este inconveniente. La aplicación avisa que la licencia del programa expiró. Necesito continuar con mi trabajo.,software
+REQ-0852,software-08,Hola. La aplicación avisa que la licencia del programa expiró. Puedo aportar más información si hace falta.,software
+REQ-0853,software-08,Les comparto mi solicitud. El software instalado requiere activar nuevamente su licencia. Ocurre desde esta mañana.,software
+REQ-0854,software-08,Hola. El software instalado requiere activar nuevamente su licencia. Quedo pendiente de la revisión.,software
+REQ-0855,software-08,Les comparto mi solicitud. El software instalado requiere activar nuevamente su licencia. Agradezco su ayuda.,software
+REQ-0856,software-08,Desde mi puesto observo esto. La aplicación avisa que la licencia del programa expiró. Agradezco su ayuda.,software
+REQ-0857,software-08,Buen día. El software instalado requiere activar nuevamente su licencia. Es la primera vez que lo reporto.,software
+REQ-0858,software-08,Solicito una revisión. El software instalado requiere activar nuevamente su licencia. Es la primera vez que lo reporto.,software
+REQ-0859,software-08,Desde mi puesto observo esto. La aplicación avisa que la licencia del programa expiró. Quedo pendiente de la revisión.,software
+REQ-0860,software-08,Quiero reportar este problema. El software instalado requiere activar nuevamente su licencia. Necesito continuar con mi trabajo.,software
+REQ-0861,software-08,Les comparto mi solicitud. La aplicación avisa que la licencia del programa expiró. Puedo aportar más información si hace falta.,software
+REQ-0862,software-08,Solicito una revisión. El software instalado requiere activar nuevamente su licencia. Ocurre desde esta mañana.,software
+REQ-0863,software-08,Necesito ayuda con lo siguiente. La aplicación avisa que la licencia del programa expiró. Puedo aportar más información si hace falta.,software
+REQ-0864,software-08,Desde mi puesto observo esto. La aplicación avisa que la licencia del programa expiró. Es la primera vez que lo reporto.,software
+REQ-0865,software-09,Quiero reportar este problema. La pantalla de consulta del sistema muestra resultados repetidos. Es la primera vez que lo reporto.,software
+REQ-0866,software-09,Buen día. El buscador de la aplicación devuelve registros duplicados. Es la primera vez que lo reporto.,software
+REQ-0867,software-09,Buen día. La pantalla de consulta del sistema muestra resultados repetidos. Ocurre desde esta mañana.,software
+REQ-0868,software-09,Buen día. El buscador de la aplicación devuelve registros duplicados. Quedo pendiente de la revisión.,software
+REQ-0869,software-09,Quiero reportar este problema. El buscador de la aplicación devuelve registros duplicados. Quedo pendiente de la revisión.,software
+REQ-0870,software-09,Hola. La pantalla de consulta del sistema muestra resultados repetidos. Puedo aportar más información si hace falta.,software
+REQ-0871,software-09,Buen día. El buscador de la aplicación devuelve registros duplicados. Necesito continuar con mi trabajo.,software
+REQ-0872,software-09,Buen día. La pantalla de consulta del sistema muestra resultados repetidos. Agradezco su ayuda.,software
+REQ-0873,software-09,Desde mi puesto observo esto. El buscador de la aplicación devuelve registros duplicados. Es la primera vez que lo reporto.,software
+REQ-0874,software-09,Les comparto mi solicitud. El buscador de la aplicación devuelve registros duplicados. Es la primera vez que lo reporto.,software
+REQ-0875,software-09,Desde mi puesto observo esto. El buscador de la aplicación devuelve registros duplicados. Puedo aportar más información si hace falta.,software
+REQ-0876,software-09,Necesito ayuda con lo siguiente. El buscador de la aplicación devuelve registros duplicados. Agradezco su ayuda.,software
+REQ-0877,software-09,Quiero reportar este problema. La pantalla de consulta del sistema muestra resultados repetidos. Quedo pendiente de la revisión.,software
+REQ-0878,software-09,Hola. El buscador de la aplicación devuelve registros duplicados. Puedo aportar más información si hace falta.,software
+REQ-0879,software-09,Buen día. La pantalla de consulta del sistema muestra resultados repetidos. Sucede de forma intermitente.,software
+REQ-0880,software-09,Necesito ayuda con lo siguiente. La pantalla de consulta del sistema muestra resultados repetidos. Necesito continuar con mi trabajo.,software
+REQ-0881,software-09,Solicito una revisión. La pantalla de consulta del sistema muestra resultados repetidos. Es la primera vez que lo reporto.,software
+REQ-0882,software-09,Necesito ayuda con lo siguiente. La pantalla de consulta del sistema muestra resultados repetidos. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0883,software-10,Quiero reportar este problema. La nueva versión de la aplicación falla al iniciarse. Ocurre desde esta mañana.,software
+REQ-0884,software-10,"Hola. Después de actualizar, el programa ya no abre. Puedo aportar más información si hace falta.",software
+REQ-0885,software-10,"Necesito ayuda con lo siguiente. Después de actualizar, el programa ya no abre. Ya lo intenté nuevamente y sigue igual.",software
+REQ-0886,software-10,"Necesito ayuda con lo siguiente. Después de actualizar, el programa ya no abre. Ocurre desde esta mañana.",software
+REQ-0887,software-10,"Hola. Después de actualizar, el programa ya no abre. Ya lo intenté nuevamente y sigue igual.",software
+REQ-0888,software-10,Solicito una revisión. La nueva versión de la aplicación falla al iniciarse. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0889,software-10,Tengo este inconveniente. La nueva versión de la aplicación falla al iniciarse. Ocurre desde esta mañana.,software
+REQ-0890,software-10,Les comparto mi solicitud. La nueva versión de la aplicación falla al iniciarse. Es la primera vez que lo reporto.,software
+REQ-0891,software-10,Hola. La nueva versión de la aplicación falla al iniciarse. Sucede de forma intermitente.,software
+REQ-0892,software-10,Quiero reportar este problema. La nueva versión de la aplicación falla al iniciarse. Agradezco su ayuda.,software
+REQ-0893,software-10,"Desde mi puesto observo esto. Después de actualizar, el programa ya no abre. Es la primera vez que lo reporto.",software
+REQ-0894,software-10,Les comparto mi solicitud. La nueva versión de la aplicación falla al iniciarse. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0895,software-10,"Desde mi puesto observo esto. Después de actualizar, el programa ya no abre. Agradezco su ayuda.",software
+REQ-0896,software-10,Solicito una revisión. La nueva versión de la aplicación falla al iniciarse. Necesito continuar con mi trabajo.,software
+REQ-0897,software-10,Hola. La nueva versión de la aplicación falla al iniciarse. Quedo pendiente de la revisión.,software
+REQ-0898,software-10,Necesito ayuda con lo siguiente. La nueva versión de la aplicación falla al iniciarse. Ocurre desde esta mañana.,software
+REQ-0899,software-10,"Buen día. Después de actualizar, el programa ya no abre. Es la primera vez que lo reporto.",software
+REQ-0900,software-10,"Necesito ayuda con lo siguiente. Después de actualizar, el programa ya no abre. Puedo aportar más información si hace falta.",software
+REQ-0901,software-11,Hola. El programa de cálculo no procesa correctamente las fórmulas del documento. Sucede de forma intermitente.,software
+REQ-0902,software-11,Les comparto mi solicitud. El programa de cálculo no procesa correctamente las fórmulas del documento. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0903,software-11,Les comparto mi solicitud. La fórmula de la planilla produce un error al recalcular. Puedo aportar más información si hace falta.,software
+REQ-0904,software-11,Quiero reportar este problema. La fórmula de la planilla produce un error al recalcular. Es la primera vez que lo reporto.,software
+REQ-0905,software-11,Tengo este inconveniente. El programa de cálculo no procesa correctamente las fórmulas del documento. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0906,software-11,Les comparto mi solicitud. La fórmula de la planilla produce un error al recalcular. Agradezco su ayuda.,software
+REQ-0907,software-11,Necesito ayuda con lo siguiente. La fórmula de la planilla produce un error al recalcular. Puedo aportar más información si hace falta.,software
+REQ-0908,software-11,Hola. El programa de cálculo no procesa correctamente las fórmulas del documento. Quedo pendiente de la revisión.,software
+REQ-0909,software-11,Desde mi puesto observo esto. El programa de cálculo no procesa correctamente las fórmulas del documento. Es la primera vez que lo reporto.,software
+REQ-0910,software-11,Buen día. La fórmula de la planilla produce un error al recalcular. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0911,software-11,Quiero reportar este problema. El programa de cálculo no procesa correctamente las fórmulas del documento. Ocurre desde esta mañana.,software
+REQ-0912,software-11,Solicito una revisión. La fórmula de la planilla produce un error al recalcular. Quedo pendiente de la revisión.,software
+REQ-0913,software-11,Les comparto mi solicitud. El programa de cálculo no procesa correctamente las fórmulas del documento. Ocurre desde esta mañana.,software
+REQ-0914,software-11,Hola. La fórmula de la planilla produce un error al recalcular. Sucede de forma intermitente.,software
+REQ-0915,software-11,Tengo este inconveniente. La fórmula de la planilla produce un error al recalcular. Quedo pendiente de la revisión.,software
+REQ-0916,software-11,Quiero reportar este problema. La fórmula de la planilla produce un error al recalcular. Ocurre desde esta mañana.,software
+REQ-0917,software-11,Tengo este inconveniente. La fórmula de la planilla produce un error al recalcular. Ocurre desde esta mañana.,software
+REQ-0918,software-11,Necesito ayuda con lo siguiente. El programa de cálculo no procesa correctamente las fórmulas del documento. Quedo pendiente de la revisión.,software
+REQ-0919,software-12,Necesito ayuda con lo siguiente. La función de importar datos falla con el documento seleccionado. Ocurre desde esta mañana.,software
+REQ-0920,software-12,Necesito ayuda con lo siguiente. La aplicación no reconoce el formato de un archivo importado. Agradezco su ayuda.,software
+REQ-0921,software-12,Hola. La función de importar datos falla con el documento seleccionado. Puedo aportar más información si hace falta.,software
+REQ-0922,software-12,Hola. La aplicación no reconoce el formato de un archivo importado. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0923,software-12,Solicito una revisión. La función de importar datos falla con el documento seleccionado. Necesito continuar con mi trabajo.,software
+REQ-0924,software-12,Solicito una revisión. La función de importar datos falla con el documento seleccionado. Es la primera vez que lo reporto.,software
+REQ-0925,software-12,Quiero reportar este problema. La función de importar datos falla con el documento seleccionado. Ocurre desde esta mañana.,software
+REQ-0926,software-12,Buen día. La función de importar datos falla con el documento seleccionado. Puedo aportar más información si hace falta.,software
+REQ-0927,software-12,Hola. La aplicación no reconoce el formato de un archivo importado. Sucede de forma intermitente.,software
+REQ-0928,software-12,Buen día. La función de importar datos falla con el documento seleccionado. Sucede de forma intermitente.,software
+REQ-0929,software-12,Tengo este inconveniente. La aplicación no reconoce el formato de un archivo importado. Es la primera vez que lo reporto.,software
+REQ-0930,software-12,Solicito una revisión. La función de importar datos falla con el documento seleccionado. Sucede de forma intermitente.,software
+REQ-0931,software-12,Tengo este inconveniente. La aplicación no reconoce el formato de un archivo importado. Agradezco su ayuda.,software
+REQ-0932,software-12,Desde mi puesto observo esto. La aplicación no reconoce el formato de un archivo importado. Puedo aportar más información si hace falta.,software
+REQ-0933,software-12,Hola. La función de importar datos falla con el documento seleccionado. Quedo pendiente de la revisión.,software
+REQ-0934,software-12,Necesito ayuda con lo siguiente. La aplicación no reconoce el formato de un archivo importado. Ya lo intenté nuevamente y sigue igual.,software
+REQ-0935,software-12,Desde mi puesto observo esto. La función de importar datos falla con el documento seleccionado. Necesito continuar con mi trabajo.,software
+REQ-0936,software-12,Tengo este inconveniente. La función de importar datos falla con el documento seleccionado. Necesito continuar con mi trabajo.,software
+REQ-0937,email-01,Hola. El correo no termina de enviar los mensajes pendientes. Necesito continuar con mi trabajo.,email
+REQ-0938,email-01,Desde mi puesto observo esto. Los mensajes enviados quedan en la bandeja de salida. Agradezco su ayuda.,email
+REQ-0939,email-01,Tengo este inconveniente. El correo no termina de enviar los mensajes pendientes. Sucede de forma intermitente.,email
+REQ-0940,email-01,Tengo este inconveniente. Los mensajes enviados quedan en la bandeja de salida. Agradezco su ayuda.,email
+REQ-0941,email-01,Desde mi puesto observo esto. Los mensajes enviados quedan en la bandeja de salida. Puedo aportar más información si hace falta.,email
+REQ-0942,email-01,Les comparto mi solicitud. Los mensajes enviados quedan en la bandeja de salida. Es la primera vez que lo reporto.,email
+REQ-0943,email-01,Tengo este inconveniente. El correo no termina de enviar los mensajes pendientes. Es la primera vez que lo reporto.,email
+REQ-0944,email-01,Hola. El correo no termina de enviar los mensajes pendientes. Agradezco su ayuda.,email
+REQ-0945,email-01,Les comparto mi solicitud. Los mensajes enviados quedan en la bandeja de salida. Ya lo intenté nuevamente y sigue igual.,email
+REQ-0946,email-01,Necesito ayuda con lo siguiente. Los mensajes enviados quedan en la bandeja de salida. Necesito continuar con mi trabajo.,email
+REQ-0947,email-01,Tengo este inconveniente. Los mensajes enviados quedan en la bandeja de salida. Ocurre desde esta mañana.,email
+REQ-0948,email-01,Hola. Los mensajes enviados quedan en la bandeja de salida. Quedo pendiente de la revisión.,email
+REQ-0949,email-01,Buen día. El correo no termina de enviar los mensajes pendientes. Es la primera vez que lo reporto.,email
+REQ-0950,email-01,Desde mi puesto observo esto. El correo no termina de enviar los mensajes pendientes. Sucede de forma intermitente.,email
+REQ-0951,email-02,Les comparto mi solicitud. No llegan correos nuevos aunque la conexión funciona. Sucede de forma intermitente.,email
+REQ-0952,email-02,Solicito una revisión. No llegan correos nuevos aunque la conexión funciona. Quedo pendiente de la revisión.,email
+REQ-0953,email-02,Les comparto mi solicitud. No llegan correos nuevos aunque la conexión funciona. Necesito continuar con mi trabajo.,email
+REQ-0954,email-02,Quiero reportar este problema. La bandeja de entrada no recibe mensajes desde esta mañana. Necesito continuar con mi trabajo.,email
+REQ-0955,email-02,Hola. No llegan correos nuevos aunque la conexión funciona. Quedo pendiente de la revisión.,email
+REQ-0956,email-02,Solicito una revisión. La bandeja de entrada no recibe mensajes desde esta mañana. Agradezco su ayuda.,email
+REQ-0957,email-02,Buen día. No llegan correos nuevos aunque la conexión funciona. Quedo pendiente de la revisión.,email
+REQ-0958,email-02,Les comparto mi solicitud. No llegan correos nuevos aunque la conexión funciona. Agradezco su ayuda.,email
+REQ-0959,email-02,Hola. No llegan correos nuevos aunque la conexión funciona. Sucede de forma intermitente.,email
+REQ-0960,email-02,Necesito ayuda con lo siguiente. No llegan correos nuevos aunque la conexión funciona. Ya lo intenté nuevamente y sigue igual.,email
+REQ-0961,email-02,Quiero reportar este problema. La bandeja de entrada no recibe mensajes desde esta mañana. Agradezco su ayuda.,email
+REQ-0962,email-02,Tengo este inconveniente. La bandeja de entrada no recibe mensajes desde esta mañana. Es la primera vez que lo reporto.,email
+REQ-0963,email-02,Hola. La bandeja de entrada no recibe mensajes desde esta mañana. Es la primera vez que lo reporto.,email
+REQ-0964,email-02,Quiero reportar este problema. No llegan correos nuevos aunque la conexión funciona. Ya lo intenté nuevamente y sigue igual.,email
+REQ-0965,email-03,Necesito ayuda con lo siguiente. Mi correo está lleno y necesito revisar su cuota de almacenamiento. Ya lo intenté nuevamente y sigue igual.,email
+REQ-0966,email-03,Desde mi puesto observo esto. El buzón indica que se agotó el espacio disponible. Quedo pendiente de la revisión.,email
+REQ-0967,email-03,Buen día. Mi correo está lleno y necesito revisar su cuota de almacenamiento. Ya lo intenté nuevamente y sigue igual.,email
+REQ-0968,email-03,Solicito una revisión. Mi correo está lleno y necesito revisar su cuota de almacenamiento. Quedo pendiente de la revisión.,email
+REQ-0969,email-03,Tengo este inconveniente. Mi correo está lleno y necesito revisar su cuota de almacenamiento. Ya lo intenté nuevamente y sigue igual.,email
+REQ-0970,email-03,Les comparto mi solicitud. Mi correo está lleno y necesito revisar su cuota de almacenamiento. Ya lo intenté nuevamente y sigue igual.,email
+REQ-0971,email-03,Buen día. El buzón indica que se agotó el espacio disponible. Necesito continuar con mi trabajo.,email
+REQ-0972,email-03,Tengo este inconveniente. El buzón indica que se agotó el espacio disponible. Sucede de forma intermitente.,email
+REQ-0973,email-03,Tengo este inconveniente. Mi correo está lleno y necesito revisar su cuota de almacenamiento. Ocurre desde esta mañana.,email
+REQ-0974,email-03,Necesito ayuda con lo siguiente. Mi correo está lleno y necesito revisar su cuota de almacenamiento. Es la primera vez que lo reporto.,email
+REQ-0975,email-03,Solicito una revisión. Mi correo está lleno y necesito revisar su cuota de almacenamiento. Necesito continuar con mi trabajo.,email
+REQ-0976,email-03,Quiero reportar este problema. El buzón indica que se agotó el espacio disponible. Necesito continuar con mi trabajo.,email
+REQ-0977,email-03,Solicito una revisión. Mi correo está lleno y necesito revisar su cuota de almacenamiento. Puedo aportar más información si hace falta.,email
+REQ-0978,email-03,Les comparto mi solicitud. El buzón indica que se agotó el espacio disponible. Sucede de forma intermitente.,email
+REQ-0979,email-04,Solicito una revisión. No puedo enviar documentos como adjuntos en los mensajes. Sucede de forma intermitente.,email
+REQ-0980,email-04,Les comparto mi solicitud. Los archivos adjuntos no se agregan al mensaje de correo. Quedo pendiente de la revisión.,email
+REQ-0981,email-04,Buen día. Los archivos adjuntos no se agregan al mensaje de correo. Ocurre desde esta mañana.,email
+REQ-0982,email-04,Hola. Los archivos adjuntos no se agregan al mensaje de correo. Ya lo intenté nuevamente y sigue igual.,email
+REQ-0983,email-04,Les comparto mi solicitud. Los archivos adjuntos no se agregan al mensaje de correo. Ya lo intenté nuevamente y sigue igual.,email
+REQ-0984,email-04,Hola. No puedo enviar documentos como adjuntos en los mensajes. Ya lo intenté nuevamente y sigue igual.,email
+REQ-0985,email-04,Les comparto mi solicitud. Los archivos adjuntos no se agregan al mensaje de correo. Ocurre desde esta mañana.,email
+REQ-0986,email-04,Desde mi puesto observo esto. No puedo enviar documentos como adjuntos en los mensajes. Agradezco su ayuda.,email
+REQ-0987,email-04,Les comparto mi solicitud. No puedo enviar documentos como adjuntos en los mensajes. Es la primera vez que lo reporto.,email
+REQ-0988,email-04,Necesito ayuda con lo siguiente. No puedo enviar documentos como adjuntos en los mensajes. Puedo aportar más información si hace falta.,email
+REQ-0989,email-04,Les comparto mi solicitud. No puedo enviar documentos como adjuntos en los mensajes. Ya lo intenté nuevamente y sigue igual.,email
+REQ-0990,email-04,Hola. No puedo enviar documentos como adjuntos en los mensajes. Sucede de forma intermitente.,email
+REQ-0991,email-04,Desde mi puesto observo esto. Los archivos adjuntos no se agregan al mensaje de correo. Quedo pendiente de la revisión.,email
+REQ-0992,email-04,Hola. No puedo enviar documentos como adjuntos en los mensajes. Es la primera vez que lo reporto.,email
+REQ-0993,email-05,Tengo este inconveniente. Mensajes esperados aparecen como correo no deseado. Puedo aportar más información si hace falta.,email
+REQ-0994,email-05,Desde mi puesto observo esto. Los correos de un proveedor terminan en la carpeta de spam. Necesito continuar con mi trabajo.,email
+REQ-0995,email-05,Quiero reportar este problema. Los correos de un proveedor terminan en la carpeta de spam. Puedo aportar más información si hace falta.,email
+REQ-0996,email-05,Solicito una revisión. Mensajes esperados aparecen como correo no deseado. Quedo pendiente de la revisión.,email
+REQ-0997,email-05,Necesito ayuda con lo siguiente. Los correos de un proveedor terminan en la carpeta de spam. Quedo pendiente de la revisión.,email
+REQ-0998,email-05,Necesito ayuda con lo siguiente. Los correos de un proveedor terminan en la carpeta de spam. Sucede de forma intermitente.,email
+REQ-0999,email-05,Hola. Mensajes esperados aparecen como correo no deseado. Puedo aportar más información si hace falta.,email
+REQ-1000,email-05,Hola. Los correos de un proveedor terminan en la carpeta de spam. Agradezco su ayuda.,email
+REQ-1001,email-05,Buen día. Los correos de un proveedor terminan en la carpeta de spam. Agradezco su ayuda.,email
+REQ-1002,email-05,Necesito ayuda con lo siguiente. Los correos de un proveedor terminan en la carpeta de spam. Puedo aportar más información si hace falta.,email
+REQ-1003,email-05,Buen día. Mensajes esperados aparecen como correo no deseado. Sucede de forma intermitente.,email
+REQ-1004,email-05,Hola. Mensajes esperados aparecen como correo no deseado. Es la primera vez que lo reporto.,email
+REQ-1005,email-05,Necesito ayuda con lo siguiente. Mensajes esperados aparecen como correo no deseado. Quedo pendiente de la revisión.,email
+REQ-1006,email-05,Solicito una revisión. Los correos de un proveedor terminan en la carpeta de spam. Ocurre desde esta mañana.,email
+REQ-1007,email-06,Solicito una revisión. Los mensajes rebotan cuando los envío a una dirección externa. Es la primera vez que lo reporto.,email
+REQ-1008,email-06,Buen día. El destinatario devuelve un aviso de correo rechazado. Puedo aportar más información si hace falta.,email
+REQ-1009,email-06,Hola. Los mensajes rebotan cuando los envío a una dirección externa. Puedo aportar más información si hace falta.,email
+REQ-1010,email-06,Tengo este inconveniente. El destinatario devuelve un aviso de correo rechazado. Ya lo intenté nuevamente y sigue igual.,email
+REQ-1011,email-06,Hola. Los mensajes rebotan cuando los envío a una dirección externa. Ocurre desde esta mañana.,email
+REQ-1012,email-06,Solicito una revisión. El destinatario devuelve un aviso de correo rechazado. Agradezco su ayuda.,email
+REQ-1013,email-06,Hola. El destinatario devuelve un aviso de correo rechazado. Ocurre desde esta mañana.,email
+REQ-1014,email-06,Necesito ayuda con lo siguiente. Los mensajes rebotan cuando los envío a una dirección externa. Agradezco su ayuda.,email
+REQ-1015,email-06,Hola. El destinatario devuelve un aviso de correo rechazado. Agradezco su ayuda.,email
+REQ-1016,email-06,Hola. El destinatario devuelve un aviso de correo rechazado. Es la primera vez que lo reporto.,email
+REQ-1017,email-06,Hola. El destinatario devuelve un aviso de correo rechazado. Puedo aportar más información si hace falta.,email
+REQ-1018,email-06,Tengo este inconveniente. Los mensajes rebotan cuando los envío a una dirección externa. Agradezco su ayuda.,email
+REQ-1019,email-06,Buen día. El destinatario devuelve un aviso de correo rechazado. Agradezco su ayuda.,email
+REQ-1020,email-06,Quiero reportar este problema. El destinatario devuelve un aviso de correo rechazado. Quedo pendiente de la revisión.,email
+REQ-1021,email-07,Buen día. La firma del correo no aparece en los mensajes enviados. Sucede de forma intermitente.,email
+REQ-1022,email-07,Necesito ayuda con lo siguiente. Necesito configurar una firma al final de los mensajes. Necesito continuar con mi trabajo.,email
+REQ-1023,email-07,Buen día. La firma del correo no aparece en los mensajes enviados. Quedo pendiente de la revisión.,email
+REQ-1024,email-07,Tengo este inconveniente. La firma del correo no aparece en los mensajes enviados. Puedo aportar más información si hace falta.,email
+REQ-1025,email-07,Desde mi puesto observo esto. La firma del correo no aparece en los mensajes enviados. Es la primera vez que lo reporto.,email
+REQ-1026,email-07,Tengo este inconveniente. Necesito configurar una firma al final de los mensajes. Sucede de forma intermitente.,email
+REQ-1027,email-07,Les comparto mi solicitud. Necesito configurar una firma al final de los mensajes. Es la primera vez que lo reporto.,email
+REQ-1028,email-07,Quiero reportar este problema. La firma del correo no aparece en los mensajes enviados. Ya lo intenté nuevamente y sigue igual.,email
+REQ-1029,email-07,Buen día. Necesito configurar una firma al final de los mensajes. Ocurre desde esta mañana.,email
+REQ-1030,email-07,Buen día. Necesito configurar una firma al final de los mensajes. Necesito continuar con mi trabajo.,email
+REQ-1031,email-07,Hola. Necesito configurar una firma al final de los mensajes. Agradezco su ayuda.,email
+REQ-1032,email-07,Quiero reportar este problema. La firma del correo no aparece en los mensajes enviados. Necesito continuar con mi trabajo.,email
+REQ-1033,email-07,Hola. La firma del correo no aparece en los mensajes enviados. Necesito continuar con mi trabajo.,email
+REQ-1034,email-07,Solicito una revisión. Necesito configurar una firma al final de los mensajes. Necesito continuar con mi trabajo.,email
+REQ-1035,email-08,Hola. Los mensajes del buzón aparecen distintos en mis dispositivos. Ya lo intenté nuevamente y sigue igual.,email
+REQ-1036,email-08,Desde mi puesto observo esto. El correo no sincroniza las carpetas entre el teléfono y la computadora. Agradezco su ayuda.,email
+REQ-1037,email-08,Desde mi puesto observo esto. Los mensajes del buzón aparecen distintos en mis dispositivos. Necesito continuar con mi trabajo.,email
+REQ-1038,email-08,Buen día. Los mensajes del buzón aparecen distintos en mis dispositivos. Ya lo intenté nuevamente y sigue igual.,email
+REQ-1039,email-08,Desde mi puesto observo esto. Los mensajes del buzón aparecen distintos en mis dispositivos. Sucede de forma intermitente.,email
+REQ-1040,email-08,Tengo este inconveniente. Los mensajes del buzón aparecen distintos en mis dispositivos. Ya lo intenté nuevamente y sigue igual.,email
+REQ-1041,email-08,Quiero reportar este problema. Los mensajes del buzón aparecen distintos en mis dispositivos. Necesito continuar con mi trabajo.,email
+REQ-1042,email-08,Buen día. Los mensajes del buzón aparecen distintos en mis dispositivos. Ocurre desde esta mañana.,email
+REQ-1043,email-08,Hola. Los mensajes del buzón aparecen distintos en mis dispositivos. Ocurre desde esta mañana.,email
+REQ-1044,email-08,Les comparto mi solicitud. El correo no sincroniza las carpetas entre el teléfono y la computadora. Quedo pendiente de la revisión.,email
+REQ-1045,email-08,Necesito ayuda con lo siguiente. Los mensajes del buzón aparecen distintos en mis dispositivos. Puedo aportar más información si hace falta.,email
+REQ-1046,email-08,Hola. El correo no sincroniza las carpetas entre el teléfono y la computadora. Agradezco su ayuda.,email
+REQ-1047,email-08,Les comparto mi solicitud. Los mensajes del buzón aparecen distintos en mis dispositivos. Necesito continuar con mi trabajo.,email
+REQ-1048,email-08,Les comparto mi solicitud. El correo no sincroniza las carpetas entre el teléfono y la computadora. Ocurre desde esta mañana.,email
+REQ-1049,email-09,Tengo este inconveniente. Quiero configurar el aviso de vacaciones en el correo. Agradezco su ayuda.,email
+REQ-1050,email-09,Les comparto mi solicitud. Necesito activar una respuesta automática de ausencia. Agradezco su ayuda.,email
+REQ-1051,email-09,Hola. Quiero configurar el aviso de vacaciones en el correo. Sucede de forma intermitente.,email
+REQ-1052,email-09,Buen día. Quiero configurar el aviso de vacaciones en el correo. Puedo aportar más información si hace falta.,email
+REQ-1053,email-09,Buen día. Necesito activar una respuesta automática de ausencia. Agradezco su ayuda.,email
+REQ-1054,email-09,Hola. Quiero configurar el aviso de vacaciones en el correo. Quedo pendiente de la revisión.,email
+REQ-1055,email-09,Les comparto mi solicitud. Necesito activar una respuesta automática de ausencia. Quedo pendiente de la revisión.,email
+REQ-1056,email-09,Quiero reportar este problema. Necesito activar una respuesta automática de ausencia. Ocurre desde esta mañana.,email
+REQ-1057,email-09,Hola. Necesito activar una respuesta automática de ausencia. Agradezco su ayuda.,email
+REQ-1058,email-09,Necesito ayuda con lo siguiente. Quiero configurar el aviso de vacaciones en el correo. Es la primera vez que lo reporto.,email
+REQ-1059,email-09,Necesito ayuda con lo siguiente. Quiero configurar el aviso de vacaciones en el correo. Puedo aportar más información si hace falta.,email
+REQ-1060,email-09,Quiero reportar este problema. Quiero configurar el aviso de vacaciones en el correo. Agradezco su ayuda.,email
+REQ-1061,email-09,Hola. Quiero configurar el aviso de vacaciones en el correo. Puedo aportar más información si hace falta.,email
+REQ-1062,email-09,Quiero reportar este problema. Necesito activar una respuesta automática de ausencia. Es la primera vez que lo reporto.,email
+REQ-1063,email-10,Desde mi puesto observo esto. Los filtros de correo clasifican mal los mensajes recibidos. Agradezco su ayuda.,email
+REQ-1064,email-10,Hola. Una regla del buzón mueve mensajes a una carpeta equivocada. Puedo aportar más información si hace falta.,email
+REQ-1065,email-10,Tengo este inconveniente. Una regla del buzón mueve mensajes a una carpeta equivocada. Puedo aportar más información si hace falta.,email
+REQ-1066,email-10,Necesito ayuda con lo siguiente. Una regla del buzón mueve mensajes a una carpeta equivocada. Ya lo intenté nuevamente y sigue igual.,email
+REQ-1067,email-10,Necesito ayuda con lo siguiente. Los filtros de correo clasifican mal los mensajes recibidos. Ocurre desde esta mañana.,email
+REQ-1068,email-10,Solicito una revisión. Una regla del buzón mueve mensajes a una carpeta equivocada. Necesito continuar con mi trabajo.,email
+REQ-1069,email-10,Necesito ayuda con lo siguiente. Una regla del buzón mueve mensajes a una carpeta equivocada. Es la primera vez que lo reporto.,email
+REQ-1070,email-10,Quiero reportar este problema. Una regla del buzón mueve mensajes a una carpeta equivocada. Ocurre desde esta mañana.,email
+REQ-1071,email-10,Desde mi puesto observo esto. Una regla del buzón mueve mensajes a una carpeta equivocada. Es la primera vez que lo reporto.,email
+REQ-1072,email-10,Solicito una revisión. Los filtros de correo clasifican mal los mensajes recibidos. Ocurre desde esta mañana.,email
+REQ-1073,email-10,Hola. Los filtros de correo clasifican mal los mensajes recibidos. Puedo aportar más información si hace falta.,email
+REQ-1074,email-10,Les comparto mi solicitud. Una regla del buzón mueve mensajes a una carpeta equivocada. Agradezco su ayuda.,email
+REQ-1075,email-10,Necesito ayuda con lo siguiente. Los filtros de correo clasifican mal los mensajes recibidos. Quedo pendiente de la revisión.,email
+REQ-1076,email-10,Les comparto mi solicitud. Los filtros de correo clasifican mal los mensajes recibidos. Necesito continuar con mi trabajo.,email
+REQ-1077,email-11,Tengo este inconveniente. Las invitaciones por correo no llegan a los participantes. Agradezco su ayuda.,email
+REQ-1078,email-11,Necesito ayuda con lo siguiente. El calendario del correo no envía las invitaciones a reuniones. Sucede de forma intermitente.,email
+REQ-1079,email-11,Necesito ayuda con lo siguiente. El calendario del correo no envía las invitaciones a reuniones. Agradezco su ayuda.,email
+REQ-1080,email-11,Quiero reportar este problema. Las invitaciones por correo no llegan a los participantes. Es la primera vez que lo reporto.,email
+REQ-1081,email-11,Solicito una revisión. Las invitaciones por correo no llegan a los participantes. Ocurre desde esta mañana.,email
+REQ-1082,email-11,Tengo este inconveniente. Las invitaciones por correo no llegan a los participantes. Quedo pendiente de la revisión.,email
+REQ-1083,email-11,Solicito una revisión. El calendario del correo no envía las invitaciones a reuniones. Puedo aportar más información si hace falta.,email
+REQ-1084,email-11,Hola. El calendario del correo no envía las invitaciones a reuniones. Quedo pendiente de la revisión.,email
+REQ-1085,email-11,Solicito una revisión. Las invitaciones por correo no llegan a los participantes. Sucede de forma intermitente.,email
+REQ-1086,email-11,Tengo este inconveniente. El calendario del correo no envía las invitaciones a reuniones. Necesito continuar con mi trabajo.,email
+REQ-1087,email-11,Necesito ayuda con lo siguiente. Las invitaciones por correo no llegan a los participantes. Puedo aportar más información si hace falta.,email
+REQ-1088,email-11,Desde mi puesto observo esto. El calendario del correo no envía las invitaciones a reuniones. Necesito continuar con mi trabajo.,email
+REQ-1089,email-11,Hola. El calendario del correo no envía las invitaciones a reuniones. Agradezco su ayuda.,email
+REQ-1090,email-11,Hola. Las invitaciones por correo no llegan a los participantes. Necesito continuar con mi trabajo.,email
+REQ-1091,email-12,Tengo este inconveniente. La lista de distribución omite destinatarios al enviar mensajes. Es la primera vez que lo reporto.,email
+REQ-1092,email-12,Solicito una revisión. Los correos al grupo de trabajo no llegan a todos los integrantes. Necesito continuar con mi trabajo.,email
+REQ-1093,email-12,Hola. Los correos al grupo de trabajo no llegan a todos los integrantes. Ocurre desde esta mañana.,email
+REQ-1094,email-12,Solicito una revisión. Los correos al grupo de trabajo no llegan a todos los integrantes. Ya lo intenté nuevamente y sigue igual.,email
+REQ-1095,email-12,Tengo este inconveniente. La lista de distribución omite destinatarios al enviar mensajes. Ocurre desde esta mañana.,email
+REQ-1096,email-12,Quiero reportar este problema. La lista de distribución omite destinatarios al enviar mensajes. Necesito continuar con mi trabajo.,email
+REQ-1097,email-12,Necesito ayuda con lo siguiente. La lista de distribución omite destinatarios al enviar mensajes. Es la primera vez que lo reporto.,email
+REQ-1098,email-12,Solicito una revisión. La lista de distribución omite destinatarios al enviar mensajes. Ya lo intenté nuevamente y sigue igual.,email
+REQ-1099,email-12,Les comparto mi solicitud. Los correos al grupo de trabajo no llegan a todos los integrantes. Ya lo intenté nuevamente y sigue igual.,email
+REQ-1100,email-12,Hola. La lista de distribución omite destinatarios al enviar mensajes. Ya lo intenté nuevamente y sigue igual.,email
+REQ-1101,email-12,Quiero reportar este problema. Los correos al grupo de trabajo no llegan a todos los integrantes. Agradezco su ayuda.,email
+REQ-1102,email-12,Buen día. La lista de distribución omite destinatarios al enviar mensajes. Ocurre desde esta mañana.,email
+REQ-1103,email-12,Necesito ayuda con lo siguiente. La lista de distribución omite destinatarios al enviar mensajes. Agradezco su ayuda.,email
+REQ-1104,email-12,Hola. La lista de distribución omite destinatarios al enviar mensajes. Es la primera vez que lo reporto.,email

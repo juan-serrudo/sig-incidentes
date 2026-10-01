@@ -1,0 +1,185 @@
+ticket_id,family_id,message,category,model_prediction,baseline_prediction,score,needs_review
+REQ-0025,access-02,Les comparto mi solicitud. La cuenta aparece bloqueada al entrar al sistema. Es la primera vez que lo reporto.,access,network,access,0.2922495959403638,True
+REQ-0026,access-02,Solicito una revisión. Mi usuario quedó bloqueado después de varios intentos. Quedo pendiente de la revisión.,access,access,access,0.42429135641742616,False
+REQ-0027,access-02,Solicito una revisión. Mi usuario quedó bloqueado después de varios intentos. Sucede de forma intermitente.,access,access,access,0.4014540663243706,False
+REQ-0028,access-02,Desde mi puesto observo esto. Mi usuario quedó bloqueado después de varios intentos. Es la primera vez que lo reporto.,access,access,access,0.4601231624697431,False
+REQ-0029,access-02,Necesito ayuda con lo siguiente. Mi usuario quedó bloqueado después de varios intentos. Puedo aportar más información si hace falta.,access,access,access,0.3573331576786722,True
+REQ-0030,access-02,Quiero reportar este problema. Mi usuario quedó bloqueado después de varios intentos. Puedo aportar más información si hace falta.,access,access,access,0.38660731922885977,False
+REQ-0031,access-02,Les comparto mi solicitud. La cuenta aparece bloqueada al entrar al sistema. Agradezco su ayuda.,access,software,access,0.30173388324842293,True
+REQ-0032,access-02,Hola. Mi usuario quedó bloqueado después de varios intentos. Puedo aportar más información si hace falta.,access,access,access,0.365271572138364,False
+REQ-0033,access-02,Hola. La cuenta aparece bloqueada al entrar al sistema. Quedo pendiente de la revisión.,access,software,access,0.3838639382831059,False
+REQ-0034,access-02,Necesito ayuda con lo siguiente. Mi usuario quedó bloqueado después de varios intentos. Es la primera vez que lo reporto.,access,access,access,0.4018705918578132,False
+REQ-0035,access-02,Les comparto mi solicitud. La cuenta aparece bloqueada al entrar al sistema. Ya lo intenté nuevamente y sigue igual.,access,software,access,0.32842420507313974,True
+REQ-0036,access-02,Buen día. Mi usuario quedó bloqueado después de varios intentos. Puedo aportar más información si hace falta.,access,access,access,0.36527995002946045,False
+REQ-0037,access-02,Necesito ayuda con lo siguiente. La cuenta aparece bloqueada al entrar al sistema. Es la primera vez que lo reporto.,access,software,access,0.3384141872879857,True
+REQ-0038,access-02,Necesito ayuda con lo siguiente. La cuenta aparece bloqueada al entrar al sistema. Agradezco su ayuda.,access,software,access,0.3585274424019817,True
+REQ-0039,access-02,Quiero reportar este problema. La cuenta aparece bloqueada al entrar al sistema. Quedo pendiente de la revisión.,access,software,access,0.40307709712755924,False
+REQ-0040,access-02,Desde mi puesto observo esto. Mi usuario quedó bloqueado después de varios intentos. Quedo pendiente de la revisión.,access,access,access,0.4620709187252677,False
+REQ-0041,access-02,Quiero reportar este problema. Mi usuario quedó bloqueado después de varios intentos. Ocurre desde esta mañana.,access,access,access,0.3854229077850742,False
+REQ-0042,access-02,Tengo este inconveniente. La cuenta aparece bloqueada al entrar al sistema. Agradezco su ayuda.,access,network,access,0.2729773535384421,True
+REQ-0043,access-02,Desde mi puesto observo esto. La cuenta aparece bloqueada al entrar al sistema. Sucede de forma intermitente.,access,network,access,0.3713178751604104,False
+REQ-0044,access-02,Quiero reportar este problema. Mi usuario quedó bloqueado después de varios intentos. Ya lo intenté nuevamente y sigue igual.,access,access,access,0.49183307643570895,False
+REQ-0045,access-02,Hola. Mi usuario quedó bloqueado después de varios intentos. Sucede de forma intermitente.,access,access,access,0.38356888319746385,False
+REQ-0046,access-02,Desde mi puesto observo esto. La cuenta aparece bloqueada al entrar al sistema. Agradezco su ayuda.,access,access,access,0.2853417971610672,True
+REQ-0047,access-02,Quiero reportar este problema. Mi usuario quedó bloqueado después de varios intentos. Sucede de forma intermitente.,access,access,access,0.40402840651881067,False
+REQ-0048,access-02,Desde mi puesto observo esto. Mi usuario quedó bloqueado después de varios intentos. Agradezco su ayuda.,access,access,access,0.4672965197456109,False
+REQ-0193,access-09,Necesito ayuda con lo siguiente. La sesión se cierra y vuelve a pedir mis credenciales. Es la primera vez que lo reporto.,access,access,access,0.32690121121655147,True
+REQ-0194,access-09,Quiero reportar este problema. La sesión se cierra y vuelve a pedir mis credenciales. Ya lo intenté nuevamente y sigue igual.,access,access,access,0.39787611325204203,False
+REQ-0195,access-09,Les comparto mi solicitud. La sesión se cierra y vuelve a pedir mis credenciales. Es la primera vez que lo reporto.,access,access,access,0.38007045873578943,False
+REQ-0196,access-09,Tengo este inconveniente. La sesión se cierra y vuelve a pedir mis credenciales. Es la primera vez que lo reporto.,access,access,access,0.3476035377109568,True
+REQ-0197,access-09,Quiero reportar este problema. El portal no conserva la autenticación de mi usuario. Agradezco su ayuda.,access,access,access,0.5305679656436383,False
+REQ-0198,access-09,Necesito ayuda con lo siguiente. El portal no conserva la autenticación de mi usuario. Agradezco su ayuda.,access,access,access,0.48159288334594363,False
+REQ-0199,access-09,Solicito una revisión. El portal no conserva la autenticación de mi usuario. Quedo pendiente de la revisión.,access,access,access,0.5603769296067677,False
+REQ-0200,access-09,Tengo este inconveniente. El portal no conserva la autenticación de mi usuario. Agradezco su ayuda.,access,access,access,0.52435739960515,False
+REQ-0201,access-09,Desde mi puesto observo esto. La sesión se cierra y vuelve a pedir mis credenciales. Puedo aportar más información si hace falta.,access,access,access,0.3740227317077269,False
+REQ-0202,access-09,Tengo este inconveniente. El portal no conserva la autenticación de mi usuario. Ya lo intenté nuevamente y sigue igual.,access,access,access,0.5898555864995102,False
+REQ-0203,access-09,Les comparto mi solicitud. La sesión se cierra y vuelve a pedir mis credenciales. Sucede de forma intermitente.,access,access,access,0.3480781864744326,True
+REQ-0204,access-09,Buen día. La sesión se cierra y vuelve a pedir mis credenciales. Es la primera vez que lo reporto.,access,access,access,0.34215768989411305,True
+REQ-0205,access-09,Buen día. El portal no conserva la autenticación de mi usuario. Necesito continuar con mi trabajo.,access,access,access,0.5526682257057264,False
+REQ-0206,access-09,Buen día. La sesión se cierra y vuelve a pedir mis credenciales. Agradezco su ayuda.,access,access,access,0.34761234508518596,True
+REQ-0207,access-09,Quiero reportar este problema. El portal no conserva la autenticación de mi usuario. Necesito continuar con mi trabajo.,access,access,access,0.5164813508731936,False
+REQ-0208,access-09,Solicito una revisión. El portal no conserva la autenticación de mi usuario. Es la primera vez que lo reporto.,access,access,access,0.5450926360464725,False
+REQ-0209,access-09,Desde mi puesto observo esto. El portal no conserva la autenticación de mi usuario. Agradezco su ayuda.,access,access,access,0.6098104858119668,False
+REQ-0210,access-09,Buen día. La sesión se cierra y vuelve a pedir mis credenciales. Sucede de forma intermitente.,access,access,access,0.3072259984243563,True
+REQ-0211,access-09,Tengo este inconveniente. El portal no conserva la autenticación de mi usuario. Ocurre desde esta mañana.,access,access,access,0.4650438684931711,False
+REQ-0212,access-09,Necesito ayuda con lo siguiente. La sesión se cierra y vuelve a pedir mis credenciales. Agradezco su ayuda.,access,access,access,0.3264712188036245,True
+REQ-0213,access-09,Les comparto mi solicitud. La sesión se cierra y vuelve a pedir mis credenciales. Necesito continuar con mi trabajo.,access,access,access,0.3770681524870704,False
+REQ-0214,access-09,Hola. La sesión se cierra y vuelve a pedir mis credenciales. Ya lo intenté nuevamente y sigue igual.,access,access,access,0.40127513914639,False
+REQ-0215,access-09,Les comparto mi solicitud. El portal no conserva la autenticación de mi usuario. Ocurre desde esta mañana.,access,access,access,0.5177997729180868,False
+REQ-0216,access-09,Les comparto mi solicitud. El portal no conserva la autenticación de mi usuario. Puedo aportar más información si hace falta.,access,access,access,0.49445005088165417,False
+REQ-0289,network-01,Buen día. El wifi se desconecta cada pocos minutos. Puedo aportar más información si hace falta.,network,hardware,network,0.47394895642497625,False
+REQ-0290,network-01,Quiero reportar este problema. La conexión inalámbrica pierde señal durante el trabajo. Puedo aportar más información si hace falta.,network,network,network,0.5952546759371823,False
+REQ-0291,network-01,Necesito ayuda con lo siguiente. La conexión inalámbrica pierde señal durante el trabajo. Puedo aportar más información si hace falta.,network,network,network,0.5656581403784026,False
+REQ-0292,network-01,Solicito una revisión. La conexión inalámbrica pierde señal durante el trabajo. Quedo pendiente de la revisión.,network,network,network,0.6455044776360801,False
+REQ-0293,network-01,Solicito una revisión. La conexión inalámbrica pierde señal durante el trabajo. Sucede de forma intermitente.,network,network,network,0.6791757635791091,False
+REQ-0294,network-01,Les comparto mi solicitud. El wifi se desconecta cada pocos minutos. Puedo aportar más información si hace falta.,network,hardware,network,0.4631700291773007,False
+REQ-0295,network-01,Tengo este inconveniente. La conexión inalámbrica pierde señal durante el trabajo. Quedo pendiente de la revisión.,network,network,network,0.7098826318221555,False
+REQ-0296,network-01,Solicito una revisión. La conexión inalámbrica pierde señal durante el trabajo. Ya lo intenté nuevamente y sigue igual.,network,network,network,0.6001019169900305,False
+REQ-0297,network-01,Quiero reportar este problema. La conexión inalámbrica pierde señal durante el trabajo. Ocurre desde esta mañana.,network,network,network,0.707036560845478,False
+REQ-0298,network-01,Solicito una revisión. El wifi se desconecta cada pocos minutos. Ya lo intenté nuevamente y sigue igual.,network,hardware,network,0.39917723701545016,False
+REQ-0299,network-01,Desde mi puesto observo esto. El wifi se desconecta cada pocos minutos. Necesito continuar con mi trabajo.,network,hardware,network,0.44550413322914295,False
+REQ-0300,network-01,Buen día. El wifi se desconecta cada pocos minutos. Es la primera vez que lo reporto.,network,hardware,network,0.41182364262049276,False
+REQ-0301,network-01,Les comparto mi solicitud. La conexión inalámbrica pierde señal durante el trabajo. Agradezco su ayuda.,network,network,network,0.6397570050074678,False
+REQ-0302,network-01,Desde mi puesto observo esto. El wifi se desconecta cada pocos minutos. Quedo pendiente de la revisión.,network,hardware,network,0.41598600209491476,False
+REQ-0303,network-01,Tengo este inconveniente. El wifi se desconecta cada pocos minutos. Es la primera vez que lo reporto.,network,hardware,network,0.4443998122326757,False
+REQ-0304,network-01,Buen día. La conexión inalámbrica pierde señal durante el trabajo. Agradezco su ayuda.,network,network,network,0.6853210513696667,False
+REQ-0305,network-01,Les comparto mi solicitud. El wifi se desconecta cada pocos minutos. Quedo pendiente de la revisión.,network,hardware,network,0.4457425338527472,False
+REQ-0306,network-01,Tengo este inconveniente. La conexión inalámbrica pierde señal durante el trabajo. Puedo aportar más información si hace falta.,network,network,network,0.6537819249298374,False
+REQ-0307,network-01,Tengo este inconveniente. La conexión inalámbrica pierde señal durante el trabajo. Agradezco su ayuda.,network,network,network,0.6756800082827802,False
+REQ-0308,network-01,Solicito una revisión. El wifi se desconecta cada pocos minutos. Agradezco su ayuda.,network,hardware,network,0.5852043535726698,False
+REQ-0349,network-04,Les comparto mi solicitud. La conexión ethernet no obtiene acceso a la red. Quedo pendiente de la revisión.,network,network,network,0.7762544571827882,False
+REQ-0350,network-04,Buen día. La conexión ethernet no obtiene acceso a la red. Necesito continuar con mi trabajo.,network,network,network,0.8196911108224836,False
+REQ-0351,network-04,Solicito una revisión. La conexión ethernet no obtiene acceso a la red. Puedo aportar más información si hace falta.,network,network,network,0.7669907973671093,False
+REQ-0352,network-04,Desde mi puesto observo esto. La conexión ethernet no obtiene acceso a la red. Agradezco su ayuda.,network,network,network,0.7880734432458923,False
+REQ-0353,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Necesito continuar con mi trabajo.,network,access,network,0.35903770866631374,True
+REQ-0354,network-04,Quiero reportar este problema. La conexión ethernet no obtiene acceso a la red. Ya lo intenté nuevamente y sigue igual.,network,network,network,0.7468990307102885,False
+REQ-0355,network-04,Les comparto mi solicitud. La conexión ethernet no obtiene acceso a la red. Necesito continuar con mi trabajo.,network,network,network,0.7793446179080995,False
+REQ-0356,network-04,Desde mi puesto observo esto. La conexión ethernet no obtiene acceso a la red. Es la primera vez que lo reporto.,network,network,network,0.7771572995212831,False
+REQ-0357,network-04,Desde mi puesto observo esto. La conexión ethernet no obtiene acceso a la red. Quedo pendiente de la revisión.,network,network,network,0.7899565628153862,False
+REQ-0358,network-04,Hola. El cable de red está conectado pero no hay internet. Puedo aportar más información si hace falta.,network,access,network,0.2860600405319483,True
+REQ-0359,network-04,Tengo este inconveniente. El cable de red está conectado pero no hay internet. Agradezco su ayuda.,network,hardware,network,0.3468638745606577,True
+REQ-0360,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Puedo aportar más información si hace falta.,network,access,network,0.32637679794447405,True
+REQ-0361,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Ocurre desde esta mañana.,network,access,network,0.31633731438568735,True
+REQ-0362,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Agradezco su ayuda.,network,access,network,0.3580980416960763,True
+REQ-0363,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Sucede de forma intermitente.,network,access,network,0.33129226851499355,True
+REQ-0364,network-04,Hola. El cable de red está conectado pero no hay internet. Necesito continuar con mi trabajo.,network,access,network,0.33192599014646995,True
+REQ-0365,network-04,Desde mi puesto observo esto. La conexión ethernet no obtiene acceso a la red. Necesito continuar con mi trabajo.,network,network,network,0.792993928494191,False
+REQ-0366,network-04,Buen día. La conexión ethernet no obtiene acceso a la red. Ya lo intenté nuevamente y sigue igual.,network,network,network,0.8032859402563225,False
+REQ-0367,network-04,Quiero reportar este problema. La conexión ethernet no obtiene acceso a la red. Es la primera vez que lo reporto.,network,network,network,0.7370877215223833,False
+REQ-0368,network-04,Necesito ayuda con lo siguiente. El cable de red está conectado pero no hay internet. Necesito continuar con mi trabajo.,network,hardware,network,0.3140585423669954,True
+REQ-0545,hardware-02,Hola. Varias teclas del teclado dejaron de responder. Necesito continuar con mi trabajo.,hardware,network,hardware,0.292771853057461,True
+REQ-0546,hardware-02,Buen día. Varias teclas del teclado dejaron de responder. Sucede de forma intermitente.,hardware,network,hardware,0.37799204385033475,False
+REQ-0547,hardware-02,Tengo este inconveniente. Varias teclas del teclado dejaron de responder. Puedo aportar más información si hace falta.,hardware,network,hardware,0.33669132739186697,True
+REQ-0548,hardware-02,Quiero reportar este problema. El teclado físico escribe caracteres repetidos sin tocarlo. Es la primera vez que lo reporto.,hardware,software,hardware,0.26313768142893373,True
+REQ-0549,hardware-02,Quiero reportar este problema. El teclado físico escribe caracteres repetidos sin tocarlo. Puedo aportar más información si hace falta.,hardware,hardware,hardware,0.2720033836338205,True
+REQ-0550,hardware-02,Les comparto mi solicitud. Varias teclas del teclado dejaron de responder. Necesito continuar con mi trabajo.,hardware,software,hardware,0.27655733960268697,True
+REQ-0551,hardware-02,Quiero reportar este problema. El teclado físico escribe caracteres repetidos sin tocarlo. Necesito continuar con mi trabajo.,hardware,software,hardware,0.27662808786689624,True
+REQ-0552,hardware-02,Hola. El teclado físico escribe caracteres repetidos sin tocarlo. Puedo aportar más información si hace falta.,hardware,hardware,hardware,0.2537176209748073,True
+REQ-0553,hardware-02,Buen día. Varias teclas del teclado dejaron de responder. Quedo pendiente de la revisión.,hardware,software,hardware,0.353434605796487,True
+REQ-0554,hardware-02,Hola. El teclado físico escribe caracteres repetidos sin tocarlo. Necesito continuar con mi trabajo.,hardware,software,hardware,0.24726268037116436,True
+REQ-0555,hardware-02,Hola. El teclado físico escribe caracteres repetidos sin tocarlo. Quedo pendiente de la revisión.,hardware,software,hardware,0.29451442624633417,True
+REQ-0556,hardware-02,Quiero reportar este problema. Varias teclas del teclado dejaron de responder. Es la primera vez que lo reporto.,hardware,network,hardware,0.28967953195781576,True
+REQ-0557,hardware-02,Desde mi puesto observo esto. Varias teclas del teclado dejaron de responder. Es la primera vez que lo reporto.,hardware,network,hardware,0.3514026881459049,True
+REQ-0558,hardware-02,Les comparto mi solicitud. El teclado físico escribe caracteres repetidos sin tocarlo. Ocurre desde esta mañana.,hardware,hardware,hardware,0.2998564596031167,True
+REQ-0559,hardware-02,Hola. Varias teclas del teclado dejaron de responder. Quedo pendiente de la revisión.,hardware,software,hardware,0.3214676394073669,True
+REQ-0560,hardware-02,Buen día. Varias teclas del teclado dejaron de responder. Agradezco su ayuda.,hardware,software,hardware,0.2838359687405887,True
+REQ-0625,hardware-07,Desde mi puesto observo esto. El disco hace sonidos extraños y el equipo no arranca. Es la primera vez que lo reporto.,hardware,hardware,access,0.46955307996016316,False
+REQ-0626,hardware-07,Buen día. La computadora no detecta la unidad física de almacenamiento. Sucede de forma intermitente.,hardware,hardware,access,0.2922954706548376,True
+REQ-0627,hardware-07,Hola. El disco hace sonidos extraños y el equipo no arranca. Sucede de forma intermitente.,hardware,hardware,access,0.5503983275887944,False
+REQ-0628,hardware-07,Tengo este inconveniente. El disco hace sonidos extraños y el equipo no arranca. Quedo pendiente de la revisión.,hardware,hardware,access,0.6177658259584207,False
+REQ-0629,hardware-07,Desde mi puesto observo esto. La computadora no detecta la unidad física de almacenamiento. Quedo pendiente de la revisión.,hardware,access,access,0.2865593458001619,True
+REQ-0630,hardware-07,Buen día. La computadora no detecta la unidad física de almacenamiento. Necesito continuar con mi trabajo.,hardware,hardware,access,0.31997214235627386,True
+REQ-0631,hardware-07,Hola. La computadora no detecta la unidad física de almacenamiento. Sucede de forma intermitente.,hardware,hardware,access,0.2802231317718994,True
+REQ-0632,hardware-07,Les comparto mi solicitud. La computadora no detecta la unidad física de almacenamiento. Sucede de forma intermitente.,hardware,hardware,access,0.29345759795419163,True
+REQ-0633,hardware-07,Solicito una revisión. La computadora no detecta la unidad física de almacenamiento. Agradezco su ayuda.,hardware,hardware,access,0.4213258224946301,False
+REQ-0634,hardware-07,Quiero reportar este problema. La computadora no detecta la unidad física de almacenamiento. Sucede de forma intermitente.,hardware,network,access,0.23501726467706296,True
+REQ-0635,hardware-07,Necesito ayuda con lo siguiente. El disco hace sonidos extraños y el equipo no arranca. Ocurre desde esta mañana.,hardware,hardware,access,0.6572254269434976,False
+REQ-0636,hardware-07,Hola. La computadora no detecta la unidad física de almacenamiento. Ya lo intenté nuevamente y sigue igual.,hardware,access,access,0.2723486167358378,True
+REQ-0637,hardware-07,Buen día. El disco hace sonidos extraños y el equipo no arranca. Es la primera vez que lo reporto.,hardware,hardware,access,0.5169579540880404,False
+REQ-0638,hardware-07,Quiero reportar este problema. La computadora no detecta la unidad física de almacenamiento. Puedo aportar más información si hace falta.,hardware,hardware,access,0.2634489683532198,True
+REQ-0639,hardware-07,Quiero reportar este problema. El disco hace sonidos extraños y el equipo no arranca. Necesito continuar con mi trabajo.,hardware,hardware,access,0.554419942387579,False
+REQ-0640,hardware-07,Necesito ayuda con lo siguiente. La computadora no detecta la unidad física de almacenamiento. Agradezco su ayuda.,hardware,hardware,access,0.3971677366642833,False
+REQ-0847,software-08,Buen día. El software instalado requiere activar nuevamente su licencia. Puedo aportar más información si hace falta.,software,hardware,software,0.23611448022815898,True
+REQ-0848,software-08,Necesito ayuda con lo siguiente. La aplicación avisa que la licencia del programa expiró. Quedo pendiente de la revisión.,software,software,software,0.7985624234242892,False
+REQ-0849,software-08,Tengo este inconveniente. La aplicación avisa que la licencia del programa expiró. Agradezco su ayuda.,software,software,software,0.7164291016081129,False
+REQ-0850,software-08,Quiero reportar este problema. La aplicación avisa que la licencia del programa expiró. Necesito continuar con mi trabajo.,software,software,software,0.7998023851840386,False
+REQ-0851,software-08,Tengo este inconveniente. La aplicación avisa que la licencia del programa expiró. Necesito continuar con mi trabajo.,software,software,software,0.7625008895374727,False
+REQ-0852,software-08,Hola. La aplicación avisa que la licencia del programa expiró. Puedo aportar más información si hace falta.,software,software,software,0.7459376815227302,False
+REQ-0853,software-08,Les comparto mi solicitud. El software instalado requiere activar nuevamente su licencia. Ocurre desde esta mañana.,software,hardware,software,0.25063367626633953,True
+REQ-0854,software-08,Hola. El software instalado requiere activar nuevamente su licencia. Quedo pendiente de la revisión.,software,email,software,0.28664439418810644,True
+REQ-0855,software-08,Les comparto mi solicitud. El software instalado requiere activar nuevamente su licencia. Agradezco su ayuda.,software,email,software,0.2686530174211281,True
+REQ-0856,software-08,Desde mi puesto observo esto. La aplicación avisa que la licencia del programa expiró. Agradezco su ayuda.,software,software,software,0.672817098465425,False
+REQ-0857,software-08,Buen día. El software instalado requiere activar nuevamente su licencia. Es la primera vez que lo reporto.,software,email,software,0.221657243072456,True
+REQ-0858,software-08,Solicito una revisión. El software instalado requiere activar nuevamente su licencia. Es la primera vez que lo reporto.,software,email,software,0.22862447412445594,True
+REQ-0859,software-08,Desde mi puesto observo esto. La aplicación avisa que la licencia del programa expiró. Quedo pendiente de la revisión.,software,software,software,0.7136556474512393,False
+REQ-0860,software-08,Quiero reportar este problema. El software instalado requiere activar nuevamente su licencia. Necesito continuar con mi trabajo.,software,email,software,0.24844306303590913,True
+REQ-0861,software-08,Les comparto mi solicitud. La aplicación avisa que la licencia del programa expiró. Puedo aportar más información si hace falta.,software,software,software,0.7070138228624706,False
+REQ-0862,software-08,Solicito una revisión. El software instalado requiere activar nuevamente su licencia. Ocurre desde esta mañana.,software,hardware,software,0.2648202852883077,True
+REQ-0863,software-08,Necesito ayuda con lo siguiente. La aplicación avisa que la licencia del programa expiró. Puedo aportar más información si hace falta.,software,software,software,0.736962153611886,False
+REQ-0864,software-08,Desde mi puesto observo esto. La aplicación avisa que la licencia del programa expiró. Es la primera vez que lo reporto.,software,software,software,0.6368260517787542,False
+REQ-0883,software-10,Quiero reportar este problema. La nueva versión de la aplicación falla al iniciarse. Ocurre desde esta mañana.,software,software,software,0.6192094019816006,False
+REQ-0884,software-10,"Hola. Después de actualizar, el programa ya no abre. Puedo aportar más información si hace falta.",software,software,software,0.30666465918344227,True
+REQ-0885,software-10,"Necesito ayuda con lo siguiente. Después de actualizar, el programa ya no abre. Ya lo intenté nuevamente y sigue igual.",software,software,software,0.36142263567955607,False
+REQ-0886,software-10,"Necesito ayuda con lo siguiente. Después de actualizar, el programa ya no abre. Ocurre desde esta mañana.",software,software,software,0.29400480332373435,True
+REQ-0887,software-10,"Hola. Después de actualizar, el programa ya no abre. Ya lo intenté nuevamente y sigue igual.",software,software,software,0.33631342273387893,True
+REQ-0888,software-10,Solicito una revisión. La nueva versión de la aplicación falla al iniciarse. Ya lo intenté nuevamente y sigue igual.,software,software,software,0.6657300103590612,False
+REQ-0889,software-10,Tengo este inconveniente. La nueva versión de la aplicación falla al iniciarse. Ocurre desde esta mañana.,software,software,software,0.5510537248487742,False
+REQ-0890,software-10,Les comparto mi solicitud. La nueva versión de la aplicación falla al iniciarse. Es la primera vez que lo reporto.,software,software,software,0.576761962301879,False
+REQ-0891,software-10,Hola. La nueva versión de la aplicación falla al iniciarse. Sucede de forma intermitente.,software,software,software,0.6882806285764728,False
+REQ-0892,software-10,Quiero reportar este problema. La nueva versión de la aplicación falla al iniciarse. Agradezco su ayuda.,software,software,software,0.6679722368818464,False
+REQ-0893,software-10,"Desde mi puesto observo esto. Después de actualizar, el programa ya no abre. Es la primera vez que lo reporto.",software,access,software,0.33677889149965584,True
+REQ-0894,software-10,Les comparto mi solicitud. La nueva versión de la aplicación falla al iniciarse. Ya lo intenté nuevamente y sigue igual.,software,software,software,0.6309135391202901,False
+REQ-0895,software-10,"Desde mi puesto observo esto. Después de actualizar, el programa ya no abre. Agradezco su ayuda.",software,access,software,0.3211913866045567,True
+REQ-0896,software-10,Solicito una revisión. La nueva versión de la aplicación falla al iniciarse. Necesito continuar con mi trabajo.,software,software,software,0.6697053462962812,False
+REQ-0897,software-10,Hola. La nueva versión de la aplicación falla al iniciarse. Quedo pendiente de la revisión.,software,software,software,0.6939256153755693,False
+REQ-0898,software-10,Necesito ayuda con lo siguiente. La nueva versión de la aplicación falla al iniciarse. Ocurre desde esta mañana.,software,software,software,0.6272485619833231,False
+REQ-0899,software-10,"Buen día. Después de actualizar, el programa ya no abre. Es la primera vez que lo reporto.",software,software,software,0.32357781755615267,True
+REQ-0900,software-10,"Necesito ayuda con lo siguiente. Después de actualizar, el programa ya no abre. Puedo aportar más información si hace falta.",software,software,software,0.3329010499411257,True
+REQ-0979,email-04,Solicito una revisión. No puedo enviar documentos como adjuntos en los mensajes. Sucede de forma intermitente.,email,email,email,0.7108133099460372,False
+REQ-0980,email-04,Les comparto mi solicitud. Los archivos adjuntos no se agregan al mensaje de correo. Quedo pendiente de la revisión.,email,email,email,0.4192663948028279,False
+REQ-0981,email-04,Buen día. Los archivos adjuntos no se agregan al mensaje de correo. Ocurre desde esta mañana.,email,email,email,0.4688656845269245,False
+REQ-0982,email-04,Hola. Los archivos adjuntos no se agregan al mensaje de correo. Ya lo intenté nuevamente y sigue igual.,email,email,email,0.43309212638293304,False
+REQ-0983,email-04,Les comparto mi solicitud. Los archivos adjuntos no se agregan al mensaje de correo. Ya lo intenté nuevamente y sigue igual.,email,email,email,0.33994119388142213,True
+REQ-0984,email-04,Hola. No puedo enviar documentos como adjuntos en los mensajes. Ya lo intenté nuevamente y sigue igual.,email,email,email,0.6856932329789776,False
+REQ-0985,email-04,Les comparto mi solicitud. Los archivos adjuntos no se agregan al mensaje de correo. Ocurre desde esta mañana.,email,email,email,0.44200556183343725,False
+REQ-0986,email-04,Desde mi puesto observo esto. No puedo enviar documentos como adjuntos en los mensajes. Agradezco su ayuda.,email,email,email,0.6977517239594578,False
+REQ-0987,email-04,Les comparto mi solicitud. No puedo enviar documentos como adjuntos en los mensajes. Es la primera vez que lo reporto.,email,email,email,0.6801658369073595,False
+REQ-0988,email-04,Necesito ayuda con lo siguiente. No puedo enviar documentos como adjuntos en los mensajes. Puedo aportar más información si hace falta.,email,email,email,0.6767439286056097,False
+REQ-0989,email-04,Les comparto mi solicitud. No puedo enviar documentos como adjuntos en los mensajes. Ya lo intenté nuevamente y sigue igual.,email,email,email,0.6078151735146912,False
+REQ-0990,email-04,Hola. No puedo enviar documentos como adjuntos en los mensajes. Sucede de forma intermitente.,email,email,email,0.7794916897827997,False
+REQ-0991,email-04,Desde mi puesto observo esto. Los archivos adjuntos no se agregan al mensaje de correo. Quedo pendiente de la revisión.,email,email,email,0.38203054141823645,False
+REQ-0992,email-04,Hola. No puedo enviar documentos como adjuntos en los mensajes. Es la primera vez que lo reporto.,email,email,email,0.7512332192348941,False
+REQ-1091,email-12,Tengo este inconveniente. La lista de distribución omite destinatarios al enviar mensajes. Es la primera vez que lo reporto.,email,email,email,0.3799105645647385,False
+REQ-1092,email-12,Solicito una revisión. Los correos al grupo de trabajo no llegan a todos los integrantes. Necesito continuar con mi trabajo.,email,email,access,0.666818345676359,False
+REQ-1093,email-12,Hola. Los correos al grupo de trabajo no llegan a todos los integrantes. Ocurre desde esta mañana.,email,email,access,0.7395615871736618,False
+REQ-1094,email-12,Solicito una revisión. Los correos al grupo de trabajo no llegan a todos los integrantes. Ya lo intenté nuevamente y sigue igual.,email,email,access,0.5726431181335367,False
+REQ-1095,email-12,Tengo este inconveniente. La lista de distribución omite destinatarios al enviar mensajes. Ocurre desde esta mañana.,email,email,email,0.40036421328959304,False
+REQ-1096,email-12,Quiero reportar este problema. La lista de distribución omite destinatarios al enviar mensajes. Necesito continuar con mi trabajo.,email,email,email,0.430286066566756,False
+REQ-1097,email-12,Necesito ayuda con lo siguiente. La lista de distribución omite destinatarios al enviar mensajes. Es la primera vez que lo reporto.,email,email,email,0.3518513979734017,True
+REQ-1098,email-12,Solicito una revisión. La lista de distribución omite destinatarios al enviar mensajes. Ya lo intenté nuevamente y sigue igual.,email,software,email,0.2935173805017442,True
+REQ-1099,email-12,Les comparto mi solicitud. Los correos al grupo de trabajo no llegan a todos los integrantes. Ya lo intenté nuevamente y sigue igual.,email,email,access,0.5565803627658659,False
+REQ-1100,email-12,Hola. La lista de distribución omite destinatarios al enviar mensajes. Ya lo intenté nuevamente y sigue igual.,email,email,email,0.3019773860063887,True
+REQ-1101,email-12,Quiero reportar este problema. Los correos al grupo de trabajo no llegan a todos los integrantes. Agradezco su ayuda.,email,email,access,0.7511463181320801,False
+REQ-1102,email-12,Buen día. La lista de distribución omite destinatarios al enviar mensajes. Ocurre desde esta mañana.,email,email,email,0.35871376730181437,True
+REQ-1103,email-12,Necesito ayuda con lo siguiente. La lista de distribución omite destinatarios al enviar mensajes. Agradezco su ayuda.,email,email,email,0.45396416090900155,False
+REQ-1104,email-12,Hola. La lista de distribución omite destinatarios al enviar mensajes. Es la primera vez que lo reporto.,email,email,email,0.40856708841106565,False

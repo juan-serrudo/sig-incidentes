@@ -1,0 +1,9 @@
+# Tested versions are also recorded in requirements-lock.txt.
+numpy>=2.0,<2.3
+pandas>=2.2,<3
+scikit-learn>=1.6,<1.10
+fastapi>=0.115,<0.116
+uvicorn>=0.34,<1
+joblib>=1.4,<2
+pytest>=8,<10
+httpx>=0.28,<1

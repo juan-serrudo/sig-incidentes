@@ -1,0 +1,459 @@
+[
+  {
+    "scenario": "access",
+    "request": {
+      "message": "Mi cuenta está bloqueada y no puedo iniciar sesión. Necesito recuperar el acceso al portal de trabajo."
+    },
+    "response": {
+      "category": "access",
+      "category_name": "Accesos y permisos",
+      "score": 0.9189812491777678,
+      "needs_review": false,
+      "review_reason": "above_threshold",
+      "review_threshold": 0.35921813292990085,
+      "ranking": [
+        {
+          "category": "access",
+          "name": "Accesos y permisos",
+          "score": 0.9189812491777678
+        },
+        {
+          "category": "network",
+          "name": "Red y conectividad",
+          "score": 0.029752034629133724
+        },
+        {
+          "category": "hardware",
+          "name": "Equipos y periféricos",
+          "score": 0.018804818893811023
+        },
+        {
+          "category": "software",
+          "name": "Aplicaciones",
+          "score": 0.017420902614675243
+        },
+        {
+          "category": "email",
+          "name": "Correo electrónico",
+          "score": 0.015040994684612192
+        }
+      ],
+      "signals": [
+        {
+          "term": "cuenta",
+          "contribution": 0.4993864565413807
+        },
+        {
+          "term": "mi cuenta",
+          "contribution": 0.4446389351363147
+        },
+        {
+          "term": "sesion",
+          "contribution": 0.36095513434218107
+        },
+        {
+          "term": "no puedo",
+          "contribution": 0.3005007671577047
+        },
+        {
+          "term": "recuperar",
+          "contribution": 0.29086800291001214
+        }
+      ],
+      "baseline": {
+        "category": "access",
+        "matches": {
+          "access": [
+            "sesion",
+            "cuenta"
+          ],
+          "network": [],
+          "hardware": [],
+          "software": [],
+          "email": []
+        },
+        "used_fallback": false
+      },
+      "model_version": "text-v1-f1a93dc8",
+      "synthetic_data": true
+    }
+  },
+  {
+    "scenario": "network",
+    "request": {
+      "message": "La conexión wifi se corta a cada rato y no podemos abrir páginas de internet en varios equipos."
+    },
+    "response": {
+      "category": "network",
+      "category_name": "Red y conectividad",
+      "score": 0.9819286250040964,
+      "needs_review": false,
+      "review_reason": "above_threshold",
+      "review_threshold": 0.35921813292990085,
+      "ranking": [
+        {
+          "category": "network",
+          "name": "Red y conectividad",
+          "score": 0.9819286250040964
+        },
+        {
+          "category": "hardware",
+          "name": "Equipos y periféricos",
+          "score": 0.005440220018017063
+        },
+        {
+          "category": "email",
+          "name": "Correo electrónico",
+          "score": 0.0048605444421273335
+        },
+        {
+          "category": "access",
+          "name": "Accesos y permisos",
+          "score": 0.004378811691047163
+        },
+        {
+          "category": "software",
+          "name": "Aplicaciones",
+          "score": 0.0033917988447120817
+        }
+      ],
+      "signals": [
+        {
+          "term": "conexion",
+          "contribution": 0.5585206164964646
+        },
+        {
+          "term": "paginas",
+          "contribution": 0.39558089236470567
+        },
+        {
+          "term": "equipos",
+          "contribution": 0.3887580714981272
+        },
+        {
+          "term": "varios",
+          "contribution": 0.3887580714981272
+        },
+        {
+          "term": "varios equipos",
+          "contribution": 0.3887580714981272
+        }
+      ],
+      "baseline": {
+        "category": "network",
+        "matches": {
+          "access": [],
+          "network": [
+            "wifi",
+            "internet",
+            "conexion"
+          ],
+          "hardware": [],
+          "software": [],
+          "email": []
+        },
+        "used_fallback": false
+      },
+      "model_version": "text-v1-f1a93dc8",
+      "synthetic_data": true
+    }
+  },
+  {
+    "scenario": "email",
+    "request": {
+      "message": "Mis correos quedan en la bandeja de salida y los destinatarios no reciben los mensajes con adjuntos."
+    },
+    "response": {
+      "category": "email",
+      "category_name": "Correo electrónico",
+      "score": 0.9764130445151467,
+      "needs_review": false,
+      "review_reason": "above_threshold",
+      "review_threshold": 0.35921813292990085,
+      "ranking": [
+        {
+          "category": "email",
+          "name": "Correo electrónico",
+          "score": 0.9764130445151467
+        },
+        {
+          "category": "hardware",
+          "name": "Equipos y periféricos",
+          "score": 0.011282905576568475
+        },
+        {
+          "category": "network",
+          "name": "Red y conectividad",
+          "score": 0.0046091056961594466
+        },
+        {
+          "category": "access",
+          "name": "Accesos y permisos",
+          "score": 0.004224530945793935
+        },
+        {
+          "category": "software",
+          "name": "Aplicaciones",
+          "score": 0.0034704132663316047
+        }
+      ],
+      "signals": [
+        {
+          "term": "mensajes",
+          "contribution": 0.6969027783311157
+        },
+        {
+          "term": "los",
+          "contribution": 0.5743022167711583
+        },
+        {
+          "term": "los mensajes",
+          "contribution": 0.5709607620181525
+        },
+        {
+          "term": "correos",
+          "contribution": 0.4948125390683027
+        },
+        {
+          "term": "bandeja",
+          "contribution": 0.2639163545774556
+        }
+      ],
+      "baseline": {
+        "category": "email",
+        "matches": {
+          "access": [],
+          "network": [],
+          "hardware": [],
+          "software": [],
+          "email": [
+            "adjuntos",
+            "mensajes",
+            "bandeja"
+          ]
+        },
+        "used_fallback": false
+      },
+      "model_version": "text-v1-f1a93dc8",
+      "synthetic_data": true
+    }
+  },
+  {
+    "scenario": "hardware",
+    "request": {
+      "message": "El teclado físico dejó de responder y varias teclas están dañadas. Ya probé conectarlo nuevamente."
+    },
+    "response": {
+      "category": "hardware",
+      "category_name": "Equipos y periféricos",
+      "score": 0.30373286287378914,
+      "needs_review": true,
+      "review_reason": "below_threshold",
+      "review_threshold": 0.35921813292990085,
+      "ranking": [
+        {
+          "category": "hardware",
+          "name": "Equipos y periféricos",
+          "score": 0.30373286287378914
+        },
+        {
+          "category": "network",
+          "name": "Red y conectividad",
+          "score": 0.22963774615678556
+        },
+        {
+          "category": "software",
+          "name": "Aplicaciones",
+          "score": 0.21122814799541687
+        },
+        {
+          "category": "access",
+          "name": "Accesos y permisos",
+          "score": 0.16600570437642095
+        },
+        {
+          "category": "email",
+          "name": "Correo electrónico",
+          "score": 0.08939553859758766
+        }
+      ],
+      "signals": [
+        {
+          "term": "fisico",
+          "contribution": 0.39598140531364495
+        },
+        {
+          "term": "estan",
+          "contribution": 0.360656130760152
+        },
+        {
+          "term": "el",
+          "contribution": 0.08421056367915392
+        }
+      ],
+      "baseline": {
+        "category": "hardware",
+        "matches": {
+          "access": [],
+          "network": [],
+          "hardware": [
+            "teclado"
+          ],
+          "software": [],
+          "email": []
+        },
+        "used_fallback": false
+      },
+      "model_version": "text-v1-f1a93dc8",
+      "synthetic_data": true
+    }
+  },
+  {
+    "scenario": "ambiguous",
+    "request": {
+      "message": "No puedo entrar y todo dejó de funcionar. Necesito ayuda para continuar con mi trabajo."
+    },
+    "response": {
+      "category": "access",
+      "category_name": "Accesos y permisos",
+      "score": 0.6964373537673172,
+      "needs_review": false,
+      "review_reason": "above_threshold",
+      "review_threshold": 0.35921813292990085,
+      "ranking": [
+        {
+          "category": "access",
+          "name": "Accesos y permisos",
+          "score": 0.6964373537673172
+        },
+        {
+          "category": "hardware",
+          "name": "Equipos y periféricos",
+          "score": 0.08650573203163034
+        },
+        {
+          "category": "email",
+          "name": "Correo electrónico",
+          "score": 0.08488109817120228
+        },
+        {
+          "category": "software",
+          "name": "Aplicaciones",
+          "score": 0.08004643925033234
+        },
+        {
+          "category": "network",
+          "name": "Red y conectividad",
+          "score": 0.052129376779517726
+        }
+      ],
+      "signals": [
+        {
+          "term": "para",
+          "contribution": 0.7824998625108244
+        },
+        {
+          "term": "no puedo",
+          "contribution": 0.4482323609090859
+        },
+        {
+          "term": "mi",
+          "contribution": 0.2725049239038245
+        },
+        {
+          "term": "no",
+          "contribution": 0.18041841367548384
+        },
+        {
+          "term": "puedo",
+          "contribution": 0.17891864080455624
+        }
+      ],
+      "baseline": {
+        "category": "access",
+        "matches": {
+          "access": [],
+          "network": [],
+          "hardware": [],
+          "software": [],
+          "email": []
+        },
+        "used_fallback": true
+      },
+      "model_version": "text-v1-f1a93dc8",
+      "synthetic_data": true
+    }
+  },
+  {
+    "scenario": "outside",
+    "request": {
+      "message": "Quisiera saber qué platos vegetarianos ofrece la cafetería para el almuerzo de mañana."
+    },
+    "response": {
+      "category": "access",
+      "category_name": "Accesos y permisos",
+      "score": 0.80234857505168,
+      "needs_review": false,
+      "review_reason": "above_threshold",
+      "review_threshold": 0.35921813292990085,
+      "ranking": [
+        {
+          "category": "access",
+          "name": "Accesos y permisos",
+          "score": 0.80234857505168
+        },
+        {
+          "category": "software",
+          "name": "Aplicaciones",
+          "score": 0.0637610084937745
+        },
+        {
+          "category": "hardware",
+          "name": "Equipos y periféricos",
+          "score": 0.050955659159487
+        },
+        {
+          "category": "email",
+          "name": "Correo electrónico",
+          "score": 0.0442855005286454
+        },
+        {
+          "category": "network",
+          "name": "Red y conectividad",
+          "score": 0.038649256766413065
+        }
+      ],
+      "signals": [
+        {
+          "term": "para",
+          "contribution": 1.4162260163855889
+        },
+        {
+          "term": "que",
+          "contribution": 0.7726983070306801
+        },
+        {
+          "term": "el",
+          "contribution": 0.19152328901604868
+        },
+        {
+          "term": "de",
+          "contribution": 0.06925933836998158
+        }
+      ],
+      "baseline": {
+        "category": "access",
+        "matches": {
+          "access": [],
+          "network": [],
+          "hardware": [],
+          "software": [],
+          "email": []
+        },
+        "used_fallback": true
+      },
+      "model_version": "text-v1-f1a93dc8",
+      "synthetic_data": true
+    }
+  }
+]

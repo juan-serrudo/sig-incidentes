@@ -1,0 +1,267 @@
+{
+  "synthetic_data": true,
+  "seed": 42,
+  "dataset_sha256": "f1a93dc8ab3c6939ab5e8c0945b25ae4e916f934891c3139c666fc099248ad45",
+  "model_version": "text-v1-f1a93dc8",
+  "labels": [
+    "access",
+    "network",
+    "hardware",
+    "software",
+    "email"
+  ],
+  "categories": {
+    "access": {
+      "name": "Accesos y permisos",
+      "description": "Credenciales, cuentas bloqueadas y autorización de acceso."
+    },
+    "network": {
+      "name": "Red y conectividad",
+      "description": "Conexión a internet, red local, wifi y VPN."
+    },
+    "hardware": {
+      "name": "Equipos y periféricos",
+      "description": "Componentes físicos, pantallas, impresoras y accesorios."
+    },
+    "software": {
+      "name": "Aplicaciones",
+      "description": "Errores de ejecución, instalación o funcionamiento de programas."
+    },
+    "email": {
+      "name": "Correo electrónico",
+      "description": "Envío, recepción, buzón y configuración de mensajes."
+    }
+  },
+  "selected_c": 4.0,
+  "review_threshold": 0.35921813292990085,
+  "target_accepted_accuracy": 0.9,
+  "minimum_accepted_cases": 20,
+  "baseline_fallback": "access",
+  "vocabulary_size": 1269,
+  "versions": {
+    "python": "3.12.14",
+    "scikit-learn": "1.9.1",
+    "pandas": "2.3.3",
+    "numpy": "2.2.6",
+    "fastapi": "0.115.14"
+  },
+  "splits": {
+    "train": {
+      "rows": 736,
+      "families": 40,
+      "by_category": {
+        "access": 192,
+        "network": 160,
+        "hardware": 128,
+        "software": 144,
+        "email": 112
+      }
+    },
+    "validation": {
+      "rows": 184,
+      "families": 10,
+      "by_category": {
+        "access": 48,
+        "network": 40,
+        "hardware": 32,
+        "software": 36,
+        "email": 28
+      }
+    },
+    "test": {
+      "rows": 184,
+      "families": 10,
+      "by_category": {
+        "access": 48,
+        "network": 40,
+        "hardware": 32,
+        "software": 36,
+        "email": 28
+      }
+    }
+  },
+  "validation": {
+    "candidates": [
+      {
+        "c": 1.0,
+        "macro_f1": 0.7480208100603236
+      },
+      {
+        "c": 4.0,
+        "macro_f1": 0.7562286774061373
+      }
+    ],
+    "review_policy": {
+      "coverage": 0.6902173913043478,
+      "accepted_count": 127,
+      "review_count": 57,
+      "accepted_accuracy": 0.905511811023622
+    }
+  },
+  "test": {
+    "model": {
+      "macro_f1": 0.7014180769577666,
+      "weighted_f1": 0.7011990835378566,
+      "accuracy": 0.7065217391304348,
+      "confusion_matrix": [
+        [
+          39,
+          3,
+          0,
+          6,
+          0
+        ],
+        [
+          7,
+          22,
+          11,
+          0,
+          0
+        ],
+        [
+          2,
+          6,
+          16,
+          8,
+          0
+        ],
+        [
+          2,
+          0,
+          3,
+          26,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          27
+        ]
+      ],
+      "by_category": [
+        {
+          "category": "access",
+          "precision": 0.78,
+          "recall": 0.8125,
+          "f1": 0.7959183673469388,
+          "support": 48
+        },
+        {
+          "category": "network",
+          "precision": 0.7096774193548387,
+          "recall": 0.55,
+          "f1": 0.6197183098591549,
+          "support": 40
+        },
+        {
+          "category": "hardware",
+          "precision": 0.5333333333333333,
+          "recall": 0.5,
+          "f1": 0.5161290322580645,
+          "support": 32
+        },
+        {
+          "category": "software",
+          "precision": 0.6341463414634146,
+          "recall": 0.7222222222222222,
+          "f1": 0.6753246753246753,
+          "support": 36
+        },
+        {
+          "category": "email",
+          "precision": 0.84375,
+          "recall": 0.9642857142857143,
+          "f1": 0.9,
+          "support": 28
+        }
+      ]
+    },
+    "baseline": {
+      "macro_f1": 0.8778280542986426,
+      "weighted_f1": 0.8802872319496361,
+      "accuracy": 0.8858695652173914,
+      "confusion_matrix": [
+        [
+          48,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          40,
+          0,
+          0,
+          0
+        ],
+        [
+          16,
+          0,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          36,
+          0
+        ],
+        [
+          5,
+          0,
+          0,
+          0,
+          23
+        ]
+      ],
+      "by_category": [
+        {
+          "category": "access",
+          "precision": 0.6956521739130435,
+          "recall": 1.0,
+          "f1": 0.8205128205128205,
+          "support": 48
+        },
+        {
+          "category": "network",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 40
+        },
+        {
+          "category": "hardware",
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "support": 32
+        },
+        {
+          "category": "software",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 36
+        },
+        {
+          "category": "email",
+          "precision": 1.0,
+          "recall": 0.8214285714285714,
+          "f1": 0.9019607843137255,
+          "support": 28
+        }
+      ]
+    },
+    "review_policy": {
+      "coverage": 0.6358695652173914,
+      "accepted_count": 117,
+      "review_count": 67,
+      "accepted_accuracy": 0.8888888888888888
+    }
+  }
+}

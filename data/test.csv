@@ -1,0 +1,185 @@
+ticket_id,family_id,message,category,split
+REQ-0025,access-02,Les comparto mi solicitud. La cuenta aparece bloqueada al entrar al sistema. Es la primera vez que lo reporto.,access,test
+REQ-0026,access-02,Solicito una revisión. Mi usuario quedó bloqueado después de varios intentos. Quedo pendiente de la revisión.,access,test
+REQ-0027,access-02,Solicito una revisión. Mi usuario quedó bloqueado después de varios intentos. Sucede de forma intermitente.,access,test
+REQ-0028,access-02,Desde mi puesto observo esto. Mi usuario quedó bloqueado después de varios intentos. Es la primera vez que lo reporto.,access,test
+REQ-0029,access-02,Necesito ayuda con lo siguiente. Mi usuario quedó bloqueado después de varios intentos. Puedo aportar más información si hace falta.,access,test
+REQ-0030,access-02,Quiero reportar este problema. Mi usuario quedó bloqueado después de varios intentos. Puedo aportar más información si hace falta.,access,test
+REQ-0031,access-02,Les comparto mi solicitud. La cuenta aparece bloqueada al entrar al sistema. Agradezco su ayuda.,access,test
+REQ-0032,access-02,Hola. Mi usuario quedó bloqueado después de varios intentos. Puedo aportar más información si hace falta.,access,test
+REQ-0033,access-02,Hola. La cuenta aparece bloqueada al entrar al sistema. Quedo pendiente de la revisión.,access,test
+REQ-0034,access-02,Necesito ayuda con lo siguiente. Mi usuario quedó bloqueado después de varios intentos. Es la primera vez que lo reporto.,access,test
+REQ-0035,access-02,Les comparto mi solicitud. La cuenta aparece bloqueada al entrar al sistema. Ya lo intenté nuevamente y sigue igual.,access,test
+REQ-0036,access-02,Buen día. Mi usuario quedó bloqueado después de varios intentos. Puedo aportar más información si hace falta.,access,test
+REQ-0037,access-02,Necesito ayuda con lo siguiente. La cuenta aparece bloqueada al entrar al sistema. Es la primera vez que lo reporto.,access,test
+REQ-0038,access-02,Necesito ayuda con lo siguiente. La cuenta aparece bloqueada al entrar al sistema. Agradezco su ayuda.,access,test
+REQ-0039,access-02,Quiero reportar este problema. La cuenta aparece bloqueada al entrar al sistema. Quedo pendiente de la revisión.,access,test
+REQ-0040,access-02,Desde mi puesto observo esto. Mi usuario quedó bloqueado después de varios intentos. Quedo pendiente de la revisión.,access,test
+REQ-0041,access-02,Quiero reportar este problema. Mi usuario quedó bloqueado después de varios intentos. Ocurre desde esta mañana.,access,test
+REQ-0042,access-02,Tengo este inconveniente. La cuenta aparece bloqueada al entrar al sistema. Agradezco su ayuda.,access,test
+REQ-0043,access-02,Desde mi puesto observo esto. La cuenta aparece bloqueada al entrar al sistema. Sucede de forma intermitente.,access,test
+REQ-0044,access-02,Quiero reportar este problema. Mi usuario quedó bloqueado después de varios intentos. Ya lo intenté nuevamente y sigue igual.,access,test
+REQ-0045,access-02,Hola. Mi usuario quedó bloqueado después de varios intentos. Sucede de forma intermitente.,access,test
+REQ-0046,access-02,Desde mi puesto observo esto. La cuenta aparece bloqueada al entrar al sistema. Agradezco su ayuda.,access,test
+REQ-0047,access-02,Quiero reportar este problema. Mi usuario quedó bloqueado después de varios intentos. Sucede de forma intermitente.,access,test
+REQ-0048,access-02,Desde mi puesto observo esto. Mi usuario quedó bloqueado después de varios intentos. Agradezco su ayuda.,access,test
+REQ-0193,access-09,Necesito ayuda con lo siguiente. La sesión se cierra y vuelve a pedir mis credenciales. Es la primera vez que lo reporto.,access,test
+REQ-0194,access-09,Quiero reportar este problema. La sesión se cierra y vuelve a pedir mis credenciales. Ya lo intenté nuevamente y sigue igual.,access,test
+REQ-0195,access-09,Les comparto mi solicitud. La sesión se cierra y vuelve a pedir mis credenciales. Es la primera vez que lo reporto.,access,test
+REQ-0196,access-09,Tengo este inconveniente. La sesión se cierra y vuelve a pedir mis credenciales. Es la primera vez que lo reporto.,access,test
+REQ-0197,access-09,Quiero reportar este problema. El portal no conserva la autenticación de mi usuario. Agradezco su ayuda.,access,test
+REQ-0198,access-09,Necesito ayuda con lo siguiente. El portal no conserva la autenticación de mi usuario. Agradezco su ayuda.,access,test
+REQ-0199,access-09,Solicito una revisión. El portal no conserva la autenticación de mi usuario. Quedo pendiente de la revisión.,access,test
+REQ-0200,access-09,Tengo este inconveniente. El portal no conserva la autenticación de mi usuario. Agradezco su ayuda.,access,test
+REQ-0201,access-09,Desde mi puesto observo esto. La sesión se cierra y vuelve a pedir mis credenciales. Puedo aportar más información si hace falta.,access,test
+REQ-0202,access-09,Tengo este inconveniente. El portal no conserva la autenticación de mi usuario. Ya lo intenté nuevamente y sigue igual.,access,test
+REQ-0203,access-09,Les comparto mi solicitud. La sesión se cierra y vuelve a pedir mis credenciales. Sucede de forma intermitente.,access,test
+REQ-0204,access-09,Buen día. La sesión se cierra y vuelve a pedir mis credenciales. Es la primera vez que lo reporto.,access,test
+REQ-0205,access-09,Buen día. El portal no conserva la autenticación de mi usuario. Necesito continuar con mi trabajo.,access,test
+REQ-0206,access-09,Buen día. La sesión se cierra y vuelve a pedir mis credenciales. Agradezco su ayuda.,access,test
+REQ-0207,access-09,Quiero reportar este problema. El portal no conserva la autenticación de mi usuario. Necesito continuar con mi trabajo.,access,test
+REQ-0208,access-09,Solicito una revisión. El portal no conserva la autenticación de mi usuario. Es la primera vez que lo reporto.,access,test
+REQ-0209,access-09,Desde mi puesto observo esto. El portal no conserva la autenticación de mi usuario. Agradezco su ayuda.,access,test
+REQ-0210,access-09,Buen día. La sesión se cierra y vuelve a pedir mis credenciales. Sucede de forma intermitente.,access,test
+REQ-0211,access-09,Tengo este inconveniente. El portal no conserva la autenticación de mi usuario. Ocurre desde esta mañana.,access,test
+REQ-0212,access-09,Necesito ayuda con lo siguiente. La sesión se cierra y vuelve a pedir mis credenciales. Agradezco su ayuda.,access,test
+REQ-0213,access-09,Les comparto mi solicitud. La sesión se cierra y vuelve a pedir mis credenciales. Necesito continuar con mi trabajo.,access,test
+REQ-0214,access-09,Hola. La sesión se cierra y vuelve a pedir mis credenciales. Ya lo intenté nuevamente y sigue igual.,access,test
+REQ-0215,access-09,Les comparto mi solicitud. El portal no conserva la autenticación de mi usuario. Ocurre desde esta mañana.,access,test
+REQ-0216,access-09,Les comparto mi solicitud. El portal no conserva la autenticación de mi usuario. Puedo aportar más información si hace falta.,access,test
+REQ-0289,network-01,Buen día. El wifi se desconecta cada pocos minutos. Puedo aportar más información si hace falta.,network,test
+REQ-0290,network-01,Quiero reportar este problema. La conexión inalámbrica pierde señal durante el trabajo. Puedo aportar más información si hace falta.,network,test
+REQ-0291,network-01,Necesito ayuda con lo siguiente. La conexión inalámbrica pierde señal durante el trabajo. Puedo aportar más información si hace falta.,network,test
+REQ-0292,network-01,Solicito una revisión. La conexión inalámbrica pierde señal durante el trabajo. Quedo pendiente de la revisión.,network,test
+REQ-0293,network-01,Solicito una revisión. La conexión inalámbrica pierde señal durante el trabajo. Sucede de forma intermitente.,network,test
+REQ-0294,network-01,Les comparto mi solicitud. El wifi se desconecta cada pocos minutos. Puedo aportar más información si hace falta.,network,test
+REQ-0295,network-01,Tengo este inconveniente. La conexión inalámbrica pierde señal durante el trabajo. Quedo pendiente de la revisión.,network,test
+REQ-0296,network-01,Solicito una revisión. La conexión inalámbrica pierde señal durante el trabajo. Ya lo intenté nuevamente y sigue igual.,network,test
+REQ-0297,network-01,Quiero reportar este problema. La conexión inalámbrica pierde señal durante el trabajo. Ocurre desde esta mañana.,network,test
+REQ-0298,network-01,Solicito una revisión. El wifi se desconecta cada pocos minutos. Ya lo intenté nuevamente y sigue igual.,network,test
+REQ-0299,network-01,Desde mi puesto observo esto. El wifi se desconecta cada pocos minutos. Necesito continuar con mi trabajo.,network,test
+REQ-0300,network-01,Buen día. El wifi se desconecta cada pocos minutos. Es la primera vez que lo reporto.,network,test
+REQ-0301,network-01,Les comparto mi solicitud. La conexión inalámbrica pierde señal durante el trabajo. Agradezco su ayuda.,network,test
+REQ-0302,network-01,Desde mi puesto observo esto. El wifi se desconecta cada pocos minutos. Quedo pendiente de la revisión.,network,test
+REQ-0303,network-01,Tengo este inconveniente. El wifi se desconecta cada pocos minutos. Es la primera vez que lo reporto.,network,test
+REQ-0304,network-01,Buen día. La conexión inalámbrica pierde señal durante el trabajo. Agradezco su ayuda.,network,test
+REQ-0305,network-01,Les comparto mi solicitud. El wifi se desconecta cada pocos minutos. Quedo pendiente de la revisión.,network,test
+REQ-0306,network-01,Tengo este inconveniente. La conexión inalámbrica pierde señal durante el trabajo. Puedo aportar más información si hace falta.,network,test
+REQ-0307,network-01,Tengo este inconveniente. La conexión inalámbrica pierde señal durante el trabajo. Agradezco su ayuda.,network,test
+REQ-0308,network-01,Solicito una revisión. El wifi se desconecta cada pocos minutos. Agradezco su ayuda.,network,test
+REQ-0349,network-04,Les comparto mi solicitud. La conexión ethernet no obtiene acceso a la red. Quedo pendiente de la revisión.,network,test
+REQ-0350,network-04,Buen día. La conexión ethernet no obtiene acceso a la red. Necesito continuar con mi trabajo.,network,test
+REQ-0351,network-04,Solicito una revisión. La conexión ethernet no obtiene acceso a la red. Puedo aportar más información si hace falta.,network,test
+REQ-0352,network-04,Desde mi puesto observo esto. La conexión ethernet no obtiene acceso a la red. Agradezco su ayuda.,network,test
+REQ-0353,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Necesito continuar con mi trabajo.,network,test
+REQ-0354,network-04,Quiero reportar este problema. La conexión ethernet no obtiene acceso a la red. Ya lo intenté nuevamente y sigue igual.,network,test
+REQ-0355,network-04,Les comparto mi solicitud. La conexión ethernet no obtiene acceso a la red. Necesito continuar con mi trabajo.,network,test
+REQ-0356,network-04,Desde mi puesto observo esto. La conexión ethernet no obtiene acceso a la red. Es la primera vez que lo reporto.,network,test
+REQ-0357,network-04,Desde mi puesto observo esto. La conexión ethernet no obtiene acceso a la red. Quedo pendiente de la revisión.,network,test
+REQ-0358,network-04,Hola. El cable de red está conectado pero no hay internet. Puedo aportar más información si hace falta.,network,test
+REQ-0359,network-04,Tengo este inconveniente. El cable de red está conectado pero no hay internet. Agradezco su ayuda.,network,test
+REQ-0360,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Puedo aportar más información si hace falta.,network,test
+REQ-0361,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Ocurre desde esta mañana.,network,test
+REQ-0362,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Agradezco su ayuda.,network,test
+REQ-0363,network-04,Desde mi puesto observo esto. El cable de red está conectado pero no hay internet. Sucede de forma intermitente.,network,test
+REQ-0364,network-04,Hola. El cable de red está conectado pero no hay internet. Necesito continuar con mi trabajo.,network,test
+REQ-0365,network-04,Desde mi puesto observo esto. La conexión ethernet no obtiene acceso a la red. Necesito continuar con mi trabajo.,network,test
+REQ-0366,network-04,Buen día. La conexión ethernet no obtiene acceso a la red. Ya lo intenté nuevamente y sigue igual.,network,test
+REQ-0367,network-04,Quiero reportar este problema. La conexión ethernet no obtiene acceso a la red. Es la primera vez que lo reporto.,network,test
+REQ-0368,network-04,Necesito ayuda con lo siguiente. El cable de red está conectado pero no hay internet. Necesito continuar con mi trabajo.,network,test
+REQ-0545,hardware-02,Hola. Varias teclas del teclado dejaron de responder. Necesito continuar con mi trabajo.,hardware,test
+REQ-0546,hardware-02,Buen día. Varias teclas del teclado dejaron de responder. Sucede de forma intermitente.,hardware,test
+REQ-0547,hardware-02,Tengo este inconveniente. Varias teclas del teclado dejaron de responder. Puedo aportar más información si hace falta.,hardware,test
+REQ-0548,hardware-02,Quiero reportar este problema. El teclado físico escribe caracteres repetidos sin tocarlo. Es la primera vez que lo reporto.,hardware,test
+REQ-0549,hardware-02,Quiero reportar este problema. El teclado físico escribe caracteres repetidos sin tocarlo. Puedo aportar más información si hace falta.,hardware,test
+REQ-0550,hardware-02,Les comparto mi solicitud. Varias teclas del teclado dejaron de responder. Necesito continuar con mi trabajo.,hardware,test
+REQ-0551,hardware-02,Quiero reportar este problema. El teclado físico escribe caracteres repetidos sin tocarlo. Necesito continuar con mi trabajo.,hardware,test
+REQ-0552,hardware-02,Hola. El teclado físico escribe caracteres repetidos sin tocarlo. Puedo aportar más información si hace falta.,hardware,test
+REQ-0553,hardware-02,Buen día. Varias teclas del teclado dejaron de responder. Quedo pendiente de la revisión.,hardware,test
+REQ-0554,hardware-02,Hola. El teclado físico escribe caracteres repetidos sin tocarlo. Necesito continuar con mi trabajo.,hardware,test
+REQ-0555,hardware-02,Hola. El teclado físico escribe caracteres repetidos sin tocarlo. Quedo pendiente de la revisión.,hardware,test
+REQ-0556,hardware-02,Quiero reportar este problema. Varias teclas del teclado dejaron de responder. Es la primera vez que lo reporto.,hardware,test
+REQ-0557,hardware-02,Desde mi puesto observo esto. Varias teclas del teclado dejaron de responder. Es la primera vez que lo reporto.,hardware,test
+REQ-0558,hardware-02,Les comparto mi solicitud. El teclado físico escribe caracteres repetidos sin tocarlo. Ocurre desde esta mañana.,hardware,test
+REQ-0559,hardware-02,Hola. Varias teclas del teclado dejaron de responder. Quedo pendiente de la revisión.,hardware,test
+REQ-0560,hardware-02,Buen día. Varias teclas del teclado dejaron de responder. Agradezco su ayuda.,hardware,test
+REQ-0625,hardware-07,Desde mi puesto observo esto. El disco hace sonidos extraños y el equipo no arranca. Es la primera vez que lo reporto.,hardware,test
+REQ-0626,hardware-07,Buen día. La computadora no detecta la unidad física de almacenamiento. Sucede de forma intermitente.,hardware,test
+REQ-0627,hardware-07,Hola. El disco hace sonidos extraños y el equipo no arranca. Sucede de forma intermitente.,hardware,test
+REQ-0628,hardware-07,Tengo este inconveniente. El disco hace sonidos extraños y el equipo no arranca. Quedo pendiente de la revisión.,hardware,test
+REQ-0629,hardware-07,Desde mi puesto observo esto. La computadora no detecta la unidad física de almacenamiento. Quedo pendiente de la revisión.,hardware,test
+REQ-0630,hardware-07,Buen día. La computadora no detecta la unidad física de almacenamiento. Necesito continuar con mi trabajo.,hardware,test
+REQ-0631,hardware-07,Hola. La computadora no detecta la unidad física de almacenamiento. Sucede de forma intermitente.,hardware,test
+REQ-0632,hardware-07,Les comparto mi solicitud. La computadora no detecta la unidad física de almacenamiento. Sucede de forma intermitente.,hardware,test
+REQ-0633,hardware-07,Solicito una revisión. La computadora no detecta la unidad física de almacenamiento. Agradezco su ayuda.,hardware,test
+REQ-0634,hardware-07,Quiero reportar este problema. La computadora no detecta la unidad física de almacenamiento. Sucede de forma intermitente.,hardware,test
+REQ-0635,hardware-07,Necesito ayuda con lo siguiente. El disco hace sonidos extraños y el equipo no arranca. Ocurre desde esta mañana.,hardware,test
+REQ-0636,hardware-07,Hola. La computadora no detecta la unidad física de almacenamiento. Ya lo intenté nuevamente y sigue igual.,hardware,test
+REQ-0637,hardware-07,Buen día. El disco hace sonidos extraños y el equipo no arranca. Es la primera vez que lo reporto.,hardware,test
+REQ-0638,hardware-07,Quiero reportar este problema. La computadora no detecta la unidad física de almacenamiento. Puedo aportar más información si hace falta.,hardware,test
+REQ-0639,hardware-07,Quiero reportar este problema. El disco hace sonidos extraños y el equipo no arranca. Necesito continuar con mi trabajo.,hardware,test
+REQ-0640,hardware-07,Necesito ayuda con lo siguiente. La computadora no detecta la unidad física de almacenamiento. Agradezco su ayuda.,hardware,test
+REQ-0847,software-08,Buen día. El software instalado requiere activar nuevamente su licencia. Puedo aportar más información si hace falta.,software,test
+REQ-0848,software-08,Necesito ayuda con lo siguiente. La aplicación avisa que la licencia del programa expiró. Quedo pendiente de la revisión.,software,test
+REQ-0849,software-08,Tengo este inconveniente. La aplicación avisa que la licencia del programa expiró. Agradezco su ayuda.,software,test
+REQ-0850,software-08,Quiero reportar este problema. La aplicación avisa que la licencia del programa expiró. Necesito continuar con mi trabajo.,software,test
+REQ-0851,software-08,Tengo este inconveniente. La aplicación avisa que la licencia del programa expiró. Necesito continuar con mi trabajo.,software,test
+REQ-0852,software-08,Hola. La aplicación avisa que la licencia del programa expiró. Puedo aportar más información si hace falta.,software,test
+REQ-0853,software-08,Les comparto mi solicitud. El software instalado requiere activar nuevamente su licencia. Ocurre desde esta mañana.,software,test
+REQ-0854,software-08,Hola. El software instalado requiere activar nuevamente su licencia. Quedo pendiente de la revisión.,software,test
+REQ-0855,software-08,Les comparto mi solicitud. El software instalado requiere activar nuevamente su licencia. Agradezco su ayuda.,software,test
+REQ-0856,software-08,Desde mi puesto observo esto. La aplicación avisa que la licencia del programa expiró. Agradezco su ayuda.,software,test
+REQ-0857,software-08,Buen día. El software instalado requiere activar nuevamente su licencia. Es la primera vez que lo reporto.,software,test
+REQ-0858,software-08,Solicito una revisión. El software instalado requiere activar nuevamente su licencia. Es la primera vez que lo reporto.,software,test
+REQ-0859,software-08,Desde mi puesto observo esto. La aplicación avisa que la licencia del programa expiró. Quedo pendiente de la revisión.,software,test
+REQ-0860,software-08,Quiero reportar este problema. El software instalado requiere activar nuevamente su licencia. Necesito continuar con mi trabajo.,software,test
+REQ-0861,software-08,Les comparto mi solicitud. La aplicación avisa que la licencia del programa expiró. Puedo aportar más información si hace falta.,software,test
+REQ-0862,software-08,Solicito una revisión. El software instalado requiere activar nuevamente su licencia. Ocurre desde esta mañana.,software,test
+REQ-0863,software-08,Necesito ayuda con lo siguiente. La aplicación avisa que la licencia del programa expiró. Puedo aportar más información si hace falta.,software,test
+REQ-0864,software-08,Desde mi puesto observo esto. La aplicación avisa que la licencia del programa expiró. Es la primera vez que lo reporto.,software,test
+REQ-0883,software-10,Quiero reportar este problema. La nueva versión de la aplicación falla al iniciarse. Ocurre desde esta mañana.,software,test
+REQ-0884,software-10,"Hola. Después de actualizar, el programa ya no abre. Puedo aportar más información si hace falta.",software,test
+REQ-0885,software-10,"Necesito ayuda con lo siguiente. Después de actualizar, el programa ya no abre. Ya lo intenté nuevamente y sigue igual.",software,test
+REQ-0886,software-10,"Necesito ayuda con lo siguiente. Después de actualizar, el programa ya no abre. Ocurre desde esta mañana.",software,test
+REQ-0887,software-10,"Hola. Después de actualizar, el programa ya no abre. Ya lo intenté nuevamente y sigue igual.",software,test
+REQ-0888,software-10,Solicito una revisión. La nueva versión de la aplicación falla al iniciarse. Ya lo intenté nuevamente y sigue igual.,software,test
+REQ-0889,software-10,Tengo este inconveniente. La nueva versión de la aplicación falla al iniciarse. Ocurre desde esta mañana.,software,test
+REQ-0890,software-10,Les comparto mi solicitud. La nueva versión de la aplicación falla al iniciarse. Es la primera vez que lo reporto.,software,test
+REQ-0891,software-10,Hola. La nueva versión de la aplicación falla al iniciarse. Sucede de forma intermitente.,software,test
+REQ-0892,software-10,Quiero reportar este problema. La nueva versión de la aplicación falla al iniciarse. Agradezco su ayuda.,software,test
+REQ-0893,software-10,"Desde mi puesto observo esto. Después de actualizar, el programa ya no abre. Es la primera vez que lo reporto.",software,test
+REQ-0894,software-10,Les comparto mi solicitud. La nueva versión de la aplicación falla al iniciarse. Ya lo intenté nuevamente y sigue igual.,software,test
+REQ-0895,software-10,"Desde mi puesto observo esto. Después de actualizar, el programa ya no abre. Agradezco su ayuda.",software,test
+REQ-0896,software-10,Solicito una revisión. La nueva versión de la aplicación falla al iniciarse. Necesito continuar con mi trabajo.,software,test
+REQ-0897,software-10,Hola. La nueva versión de la aplicación falla al iniciarse. Quedo pendiente de la revisión.,software,test
+REQ-0898,software-10,Necesito ayuda con lo siguiente. La nueva versión de la aplicación falla al iniciarse. Ocurre desde esta mañana.,software,test
+REQ-0899,software-10,"Buen día. Después de actualizar, el programa ya no abre. Es la primera vez que lo reporto.",software,test
+REQ-0900,software-10,"Necesito ayuda con lo siguiente. Después de actualizar, el programa ya no abre. Puedo aportar más información si hace falta.",software,test
+REQ-0979,email-04,Solicito una revisión. No puedo enviar documentos como adjuntos en los mensajes. Sucede de forma intermitente.,email,test
+REQ-0980,email-04,Les comparto mi solicitud. Los archivos adjuntos no se agregan al mensaje de correo. Quedo pendiente de la revisión.,email,test
+REQ-0981,email-04,Buen día. Los archivos adjuntos no se agregan al mensaje de correo. Ocurre desde esta mañana.,email,test
+REQ-0982,email-04,Hola. Los archivos adjuntos no se agregan al mensaje de correo. Ya lo intenté nuevamente y sigue igual.,email,test
+REQ-0983,email-04,Les comparto mi solicitud. Los archivos adjuntos no se agregan al mensaje de correo. Ya lo intenté nuevamente y sigue igual.,email,test
+REQ-0984,email-04,Hola. No puedo enviar documentos como adjuntos en los mensajes. Ya lo intenté nuevamente y sigue igual.,email,test
+REQ-0985,email-04,Les comparto mi solicitud. Los archivos adjuntos no se agregan al mensaje de correo. Ocurre desde esta mañana.,email,test
+REQ-0986,email-04,Desde mi puesto observo esto. No puedo enviar documentos como adjuntos en los mensajes. Agradezco su ayuda.,email,test
+REQ-0987,email-04,Les comparto mi solicitud. No puedo enviar documentos como adjuntos en los mensajes. Es la primera vez que lo reporto.,email,test
+REQ-0988,email-04,Necesito ayuda con lo siguiente. No puedo enviar documentos como adjuntos en los mensajes. Puedo aportar más información si hace falta.,email,test
+REQ-0989,email-04,Les comparto mi solicitud. No puedo enviar documentos como adjuntos en los mensajes. Ya lo intenté nuevamente y sigue igual.,email,test
+REQ-0990,email-04,Hola. No puedo enviar documentos como adjuntos en los mensajes. Sucede de forma intermitente.,email,test
+REQ-0991,email-04,Desde mi puesto observo esto. Los archivos adjuntos no se agregan al mensaje de correo. Quedo pendiente de la revisión.,email,test
+REQ-0992,email-04,Hola. No puedo enviar documentos como adjuntos en los mensajes. Es la primera vez que lo reporto.,email,test
+REQ-1091,email-12,Tengo este inconveniente. La lista de distribución omite destinatarios al enviar mensajes. Es la primera vez que lo reporto.,email,test
+REQ-1092,email-12,Solicito una revisión. Los correos al grupo de trabajo no llegan a todos los integrantes. Necesito continuar con mi trabajo.,email,test
+REQ-1093,email-12,Hola. Los correos al grupo de trabajo no llegan a todos los integrantes. Ocurre desde esta mañana.,email,test
+REQ-1094,email-12,Solicito una revisión. Los correos al grupo de trabajo no llegan a todos los integrantes. Ya lo intenté nuevamente y sigue igual.,email,test
+REQ-1095,email-12,Tengo este inconveniente. La lista de distribución omite destinatarios al enviar mensajes. Ocurre desde esta mañana.,email,test
+REQ-1096,email-12,Quiero reportar este problema. La lista de distribución omite destinatarios al enviar mensajes. Necesito continuar con mi trabajo.,email,test
+REQ-1097,email-12,Necesito ayuda con lo siguiente. La lista de distribución omite destinatarios al enviar mensajes. Es la primera vez que lo reporto.,email,test
+REQ-1098,email-12,Solicito una revisión. La lista de distribución omite destinatarios al enviar mensajes. Ya lo intenté nuevamente y sigue igual.,email,test
+REQ-1099,email-12,Les comparto mi solicitud. Los correos al grupo de trabajo no llegan a todos los integrantes. Ya lo intenté nuevamente y sigue igual.,email,test
+REQ-1100,email-12,Hola. La lista de distribución omite destinatarios al enviar mensajes. Ya lo intenté nuevamente y sigue igual.,email,test
+REQ-1101,email-12,Quiero reportar este problema. Los correos al grupo de trabajo no llegan a todos los integrantes. Agradezco su ayuda.,email,test
+REQ-1102,email-12,Buen día. La lista de distribución omite destinatarios al enviar mensajes. Ocurre desde esta mañana.,email,test
+REQ-1103,email-12,Necesito ayuda con lo siguiente. La lista de distribución omite destinatarios al enviar mensajes. Agradezco su ayuda.,email,test
+REQ-1104,email-12,Hola. La lista de distribución omite destinatarios al enviar mensajes. Es la primera vez que lo reporto.,email,test
