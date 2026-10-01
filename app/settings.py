@@ -10,12 +10,27 @@ SEED = 42
 MIN_ACCEPTED_ACCURACY = 0.90
 MIN_ACCEPTED_CASES = 20
 CATEGORIES = {
-    "access": {"name": "Accesos y permisos", "description": "Credenciales, cuentas bloqueadas y autorización de acceso."},
-    "network": {"name": "Red y conectividad", "description": "Conexión a internet, red local, wifi y VPN."},
-    "hardware": {"name": "Equipos y periféricos", "description": "Componentes físicos, pantallas, impresoras y accesorios."},
-    "software": {"name": "Aplicaciones", "description": "Errores de ejecución, instalación o funcionamiento de programas."},
-    "email": {"name": "Correo electrónico", "description": "Envío, recepción, buzón y configuración de mensajes."},
+    "applications_services": {
+        "name": "Aplicaciones y servicios",
+        "description": "Servicios web institucionales, APIs, portales, ERP y microservicios.",
+    },
+    "databases": {
+        "name": "Bases de datos",
+        "description": "Motores relacionales, pools de conexión, transacciones, réplicas e integridad.",
+    },
+    "networks_connectivity": {
+        "name": "Redes y conectividad",
+        "description": "Enlaces WAN, switches, enrutamiento, VLANs, túneles VPN y DNS institucional.",
+    },
+    "infrastructure_storage": {
+        "name": "Infraestructura y almacenamiento",
+        "description": "Servidores físicos, virtualización, contenedores, cabinas SAN/NAS, arreglos RAID y copias de seguridad.",
+    },
+    "security_access": {
+        "name": "Seguridad y accesos",
+        "description": "Firewall perimetral, certificados SSL/TLS, autenticación LDAP/Keycloak y permisos de acceso.",
+    },
 }
 LABELS = list(CATEGORIES)
-VARIANTS_PER_FAMILY = {"access": 24, "network": 20, "hardware": 16, "software": 18, "email": 14}
+VARIANTS_PER_FAMILY = {category: 18 for category in LABELS}
 
