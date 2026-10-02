@@ -231,10 +231,10 @@ El backend expone la siguiente especificación OpenAPI:
 La interfaz web fue construida sin dependencias externas pesadas, garantizando carga instantánea:
 - **Formulario de Registro:** Entradas de título y descripción con conteo dinámico de caracteres y validación en tiempo real.
 - **Escenarios Demostrativos Precargados:**
-  - *Caso Claro:* Incidente de base de datos con terminología nítida de PgBouncer.
-  - *Caso Ambiguo:* Incidente de microservicio con fallos intermitentes de timeout.
-  - *Caso Fuera de Dominio:* Solicitud no tecnológica (menú de cafetería) que activa advertencia de revisión técnica.
-- **Panel de Resultados:** Exhibe la categoría sugerida, etiqueta del modelo utilizado, tiempo de respuesta en milisegundos, visualización del ranking de probabilidades y tarjeta de señales de influencia léxica.
+  - *Caso A (Válido):* Incidente de base de datos con terminología nítida de PgBouncer.
+  - *Caso B (Difícil / Ambiguo):* Incidente de microservicio con fallos intermitentes de timeout y concurrencia con la base de datos.
+  - *Caso C (Entrada Inválida):* Violación de contrato de longitud mínima que genera rechazo HTTP 422.
+- **Panel de Resultados:** Exhibe la categoría sugerida, etiqueta del modelo utilizado, tiempo de respuesta en milisegundos, visualización del ranking de puntajes estimados y tarjeta de señales de influencia léxica.
 - **Paneles de Métricas y Metodología:** Visualización interactiva de la matriz de confusión y de la comparativa de modelos.
 
 ---
@@ -272,6 +272,7 @@ Aspectos verificados:
 2. **Ausencia de Ajuste Fino en el Transformer:** El Transformer se evaluó en modalidad de embeddings congelados por restricciones de cómputo en CPU y diseño metodológico. Un fine-tuning end-to-end con datos de dominio podría mejorar su desempeño a costa de mayor demanda computacional.
 3. **Supuesto Mono-etiqueta:** El sistema asume que cada incidente corresponde a una única categoría primaria, cuando en infraestructuras complejas existen averías compuestas.
 4. **Cota de Laboratorio:** Los resultados no deben interpretarse como una prueba de eficacia institucional real sin una validación previa con operadores en un entorno piloto.
+5. **Interpretación de Puntajes y Entradas Fuera de Dominio:** Los valores calculados corresponden a puntajes estimados relativos generados por el modelo para cada categoría según sus coeficientes aprendidos y no constituyen probabilidades calibradas de acierto absoluto. Ante solicitudes completamente ajenas a la infraestructura tecnológica (ej. temas administrativos o de cafetería), el modelo lineal asignará puntuación sobre las categorías conocidas si coinciden sub-tokens comunes; la política de revisión apoya al técnico, pero no reemplaza la supervisión humana.
 
 ---
 

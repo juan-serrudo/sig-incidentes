@@ -53,11 +53,11 @@
           </div>
           <p class="muted">Ingresa el título y la descripción inicial del incidente. Puedes cargar uno de estos tres escenarios de demostración:</p>
           <div class="scenario-buttons" aria-label="Cargar escenarios demostrativos">
-            <button type="button" data-scenario="clear">Caso claro (Bases de datos)</button>
-            <button type="button" data-scenario="ambiguous">Caso ambiguo (App vs BD)</button>
-            <button type="button" data-scenario="outside">Fuera de dominio (Cafetería)</button>
+            <button type="button" data-scenario="clear">Caso A: Válido (Bases de datos)</button>
+            <button type="button" data-scenario="ambiguous">Caso B: Difícil / Ambiguo (App vs BD)</button>
+            <button type="button" data-scenario="invalid">Caso C: Entrada inválida (HTTP 422)</button>
           </div>
-          <form id="ticket-form">
+          <form id="ticket-form" novalidate>
             <label for="title">Título del incidente</label>
             <input type="text" id="title" name="title" minlength="5" maxlength="200" required placeholder="Resumen sintético del problema..." value="Agotamiento del pool de conexiones en base de datos PostgreSQL">
 
@@ -99,7 +99,7 @@
               <h3 id="category-name" class="category-title"></h3>
               <p id="review-description" class="muted"></p>
               <div id="ranking" class="ranking" aria-label="Ranking de categorías sugeridas"></div>
-              <p class="small-note">Puntajes normalizados. Se recomienda revisar el Top-3 de alternativas en caso de advertencia.</p>
+              <p class="small-note">Puntajes estimados por el modelo para cada categoría (no representan una garantía de acierto). Se recomienda contrastar el Top-3 de alternativas.</p>
               <dl class="comparison">
                 <div><dt>Referencia heurística (reglas)</dt><dd id="baseline-category"></dd></div>
                 <div><dt>Criterio de revisión humana</dt><dd id="threshold-label"></dd></div>

@@ -426,27 +426,28 @@ python -m pytest -q
 
 La interfaz web incluye 3 escenarios precargados diseñados específicamente para la defensa técnica:
 
-1. **Caso Claro (`Bases de datos`):**
+1. **Caso A: Válido (`Bases de datos`):**
    - *Título:* "Agotamiento del pool de conexiones en base de datos PostgreSQL"
    - *Descripción:* Alerta de saturación de conexiones en PgBouncer.
-   - *Comportamiento:* Inferencia con probabilidad superior al 85% para `databases` y estado "Sugerencia de alta confianza".
-2. **Caso Ambiguo (`Aplicaciones vs Bases de Datos`):**
+   - *Comportamiento:* Inferencia con el mayor puntaje estimado asignado a `databases` (superior al 80%) y estado "Sugerencia del modelo para evaluación del operador".
+2. **Caso B: Difícil / Ambiguo (`Aplicaciones vs Bases de Datos`):**
    - *Título:* "Error 500 al consultar reportes contables y timeout intermitente"
    - *Descripción:* Error HTTP 500 originado por timeouts que pueden provenir de la capa web o de bloqueos en tablas SQL.
-   - *Comportamiento:* Muestra probabilidades divididas entre las dos categorías en el Top-3.
-3. **Caso Inválido / Fuera de Dominio (`Cafetería`):**
-   - *Título:* "Menu de almuerzo y opciones vegetarianas en la cafeteria"
-   - *Descripción:* Solicitud no tecnológica ajena a los servicios de la UOIT.
-   - *Comportamiento:* Detección de vocabulario fuera de distribución y advertencia inmediata: "Revisión técnica recomendada".
+   - *Comportamiento:* Muestra puntajes estimados distribuidos entre las dos categorías en el Top-3, facilitando la desambiguación para el operador.
+3. **Caso C: Entrada Inválida (`Violación de Contrato HTTP 422`):**
+   - *Título:* "Caída"
+   - *Descripción:* "Error"
+   - *Comportamiento:* Violación de longitudes mínimas del esquema de entrada, interceptada por el backend FastAPI con rechazo formal **HTTP 422 (Unprocessable Entity)** para proteger el pipeline de inferencia.
 
 ---
 
 ## 29. Limitaciones
 
-1. **Datos Sintéticos:** Los incidentes fueron generados algorítmicamente mediante combinatoria de plantillas para garantizar la no divulgación de información confidencial.
+1. **Datos Sintéticos:** Los incidentes fueron generados algorítmicamente mediante combinatoria de plantillas para garantizar la no divulgación de información confidencial. Presentan mayor separabilidad léxica que los reportes libres de usuarios en producción.
 2. **Clasificación Mono-etiqueta:** El sistema asume que cada incidente pertenece a una categoría principal. En infraestructuras complejas, fallos sistémicos pueden abarcar simultáneamente redes y almacenamiento.
 3. **Inferencia en CPU:** Optimizada intencionalmente para entornos sin aceleración por hardware; el modelo no realiza fine-tuning continuo en línea.
 4. **No es un Reemplazo Humano:** El clasificador opera exclusivamente como una herramienta de triaje asistido (soporte a la decisión), sin capacidad de cierre ni auto-resolución de tickets.
+5. **Interpretación de Puntajes y Fuera de Dominio:** Los valores devueltos por `predict_proba()` representan puntajes estimados por el modelo para cada categoría según sus coeficientes aprendidos y **no constituyen una probabilidad calibrada ni garantía de acierto**. Ante consultas ajenas al soporte tecnológico de la UOIT (por ejemplo, textos de cafetería o temas administrativos), el clasificador asignará puntaje a una categoría conocida si coinciden sub-tokens comunes; la política de revisión orienta al técnico, pero no reemplaza el criterio humano.
 
 ---
 

@@ -1,4 +1,5 @@
-# Tested versions are also recorded in requirements-lock.txt.
+# Dependencias directas del proyecto SIG-UOIT
+# Inferencia, API REST y Demostración
 numpy>=2.0,<2.3
 pandas>=2.2,<3
 scikit-learn>=1.6,<1.10
@@ -7,3 +8,9 @@ uvicorn>=0.34,<1
 joblib>=1.4,<2
 pytest>=8,<10
 httpx>=0.28,<1
+
+# Reproducibilidad del Modelo Propuesto (Transformer MiniLM)
+# Nota: Para distribución ligera optimizada en CPU de PyTorch:
+# pip install torch==2.14.1+cpu --extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.14,<3
+sentence-transformers>=6.0,<7

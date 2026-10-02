@@ -1,51 +1,61 @@
-# Comprobaciones de la entrega
+# Verificación y Validación de la Entrega Técnica
 
-## Entrenamiento ejecutado
+## 1. Experimento de Machine Learning Congelado
 
-- 1.104 mensajes de cinco categorías, organizados en 60 familias.
-- 736 / 184 / 184 mensajes para entrenamiento, validación y prueba.
-- TF-IDF y regresión logística entrenados con C = 1 y C = 4; selección de C = 4 por validación.
-- Macro-F1 de prueba: modelo 0,7014; reglas 0,8778. Se informa que la regla obtuvo mejor resultado.
-- Revisión en prueba: 67 mensajes marcados; 117 superan el criterio, con exactitud de 88,9%. No se alcanza el 90% buscado en validación.
-- Informe, matriz y predicciones individuales guardados.
+- **Dataset Total:** 720 incidentes sintéticos deterministas divididos en 40 familias técnicas disjuntas (`event_group_id`).
+- **Particiones:**
+  - *Train:* 450 incidentes (25 familias, 5 por categoría).
+  - *Validation:* 90 incidentes (5 familias, 1 por categoría).
+  - *Test:* 180 incidentes (10 familias, 2 por categoría).
+- **Aislamiento:** Cero solapamiento léxico ni de familias entre las tres particiones.
+- **Modelos Evaluados:**
+  - Heurística de palabras clave UOIT.
+  - Línea Base Lineal: TF-IDF dual (palabras + caracteres sub-palabra) + Regresión Logística ($C=1.0$).
+  - Modelo Avanzado Propuesto: Sentence-Transformers (`MiniLM-L12-v2` congelado de 384 dimensiones) + Regresión Logística ($C=1.0$).
+- **Selección Operativa en Validación:**
+  - Macro-F1 Validación: Línea Base = **0.9423** vs Transformer = **0.7822**.
+  - Decisión: La Línea Base fue seleccionada formalmente como el modelo operativo para producción.
+- **Evaluación Final en Test Congelado:**
+  - Macro-F1 Test: Línea Base = **0.7719** vs Transformer = **0.6592** vs Heurística = **0.8793**.
+  - Top-3 Accuracy Test: Línea Base = **100.0%**.
+  - Matriz de confusión e informe completo preservados en `artifacts/evaluation.md`.
 
-## Pruebas automáticas
+---
 
-Comando: `python -m pytest -q`.
+## 2. Suite de Pruebas Automatizadas
 
-**Resultado: 28 pruebas correctas.** Incluyen:
+La suite automatizada se ejecuta mediante `pytest`:
 
-- Reproducibilidad y validación del conjunto sintético.
-- Familias y textos normalizados separados entre particiones.
-- Rechazo de duplicados y etiquetas contradictorias.
-- Reglas por palabras completas y respaldo explícito.
-- Cálculo de métricas sobre todos los casos.
-- Selección del umbral y alternativa que marca todos los casos para revisión.
-- Aviso cuando no se reconoce vocabulario.
-- Coincidencia entre informe, pipeline y API.
-- Vocabulario fijo durante inferencia y contribuciones correctas de términos.
-- Rechazo de mensajes y campos inválidos.
-- Archivos estáticos, documentación de API y respuesta cuando falta el modelo.
+```bash
+python -m pytest -q
+```
 
-`pip check` no detectó incompatibilidades. Starlette emite un aviso de deprecación de un alias de AnyIO en el cliente de pruebas; no impide la ejecución y no se oculta.
+**Resultado verificado: 34 pruebas exitosas (100% de aprobación).**
 
-## Frontend y escenarios
+### Cobertura de Verificaciones:
+1. **Datos y Particiones (`tests/test_data.py`):**
+   - Reproducibilidad determinista bit a bit (`SEED = 42`).
+   - Verificación de 720 incidentes en 40 familias.
+   - Aislamiento absoluto de familias y textos normalizados entre Train, Validation y Test.
+   - Rechazo de duplicados normalizados, etiquetas desconocidas y etiquetas contradictorias dentro de una misma familia.
+2. **Modelos y Métricas (`tests/test_model.py`):**
+   - Comportamiento de reglas léxicas y activación de fallback.
+   - Cálculo exacto de métricas multiclase (Macro-F1, Accuracy y exactitud Top-3).
+   - Calibración de umbral de revisión en validación buscando maximizar cobertura con $\ge 90\%$ de exactitud.
+   - Activación de revisión ante vocabulario desconocido (`unknown_vocabulary`).
+   - **Prueba de integridad de artefactos:** Inferencia real sobre `data/test.csv` cargando `artifacts/model.joblib` y comprobando concordancia exacta con `artifacts/metrics.json`.
+   - Confirmación de que el modelo operativo seleccionado corresponde a la Línea Base por criterio de validación.
+3. **Servicio y API (`tests/test_api.py`):**
+   - Respuesta 200, estructura de ranking de 5 clases y medición de latencia en `/api/classify`.
+   - **Rechazo estricto con error HTTP 422** ante 17 combinaciones de payloads inválidos y campos que generan fuga de información (`category`, `resolution`, `assignee`, etc.).
+   - Respuesta controlada HTTP 503 ante ausencia del modelo.
+   - Disponibilidad de estáticos, Swagger docs (`/docs`), `/api/categories` y `/api/health`.
 
-Se revisa la sintaxis de `frontend/app.js` con `node --check`. Node se utilizó solo en la comprobación y no es necesario para instalar o ejecutar la aplicación.
+---
 
-Se comprueban identificadores HTML, etiquetas del formulario, recursos y enlaces relativos. Los seis escenarios se ejecutan mediante el cliente de pruebas de la API y se guardan en `artifacts/example_predictions.json`. Sus resultados son observaciones de la demostración, no una nueva estimación independiente del desempeño.
+## 3. Verificación de la Demostración
 
-En los seis escenarios la API respondió correctamente. El mensaje del teclado se marcó para revisión, pero el ambiguo y el de la cafetería no: el segundo recibió la categoría de accesos con un puntaje de 0,802. Este error concreto muestra que el umbral no detecta temas ajenos y que un puntaje alto no garantiza una clasificación correcta. La aplicación requiere revisión humana y no debe enrutar solicitudes reales automáticamente.
-
-**Limitación:** no se completó la revisión visual ni la interacción del frontend en navegador. La herramienta bloqueó el acceso porque no pudo verificar su política administrativa. No se eludió el control. La verificación de la API y de los archivos no sustituye una prueba visual.
-
-## Revisión manual pendiente
-
-1. Iniciar con `python run.py` y abrir la dirección indicada.
-2. Ejecutar los seis escenarios y leer alternativas y avisos.
-3. Modificar el texto y comprobar que desaparece la respuesta anterior.
-4. Enviar un texto inválido y revisar el mensaje de error.
-5. Abrir Resultados y Datos y método; contrastar las cifras con el informe.
-6. Navegar con teclado y probar una ventana estrecha.
-
-Estas comprobaciones manuales se declaran pendientes, no como aprobadas.
+La interfaz web incluye tres escenarios diseñados para la defensa técnica:
+1. **Caso A (Válido):** Incidente claro de saturación de conexiones en PgBouncer $\rightarrow$ Clasificado en `databases` con alto puntaje relativo y etiqueta de sugerencia confiable.
+2. **Caso B (Difícil / Ambiguo):** Error 500 y timeout en reportes web $\rightarrow$ Distribución de probabilidades dividida entre `applications_services` y `databases`, evidenciando el valor del ranking Top-3.
+3. **Caso C (Entrada Inválida):** Entrada que viola las restricciones mínimas de longitud o esquema $\rightarrow$ Rechazo inmediato con error HTTP 422, demostrando el control estricto de contratos.

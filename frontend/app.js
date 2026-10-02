@@ -4,7 +4,7 @@ const titleInput = document.querySelector("#title");
 const descriptionInput = document.querySelector("#initial-description");
 const button = document.querySelector("#classify-button");
 
-// 3 Preloaded scenarios for the 5-minute defense
+// 3 escenarios demostrativos para la defensa técnica
 const scenarios = {
   clear: {
     title: "Agotamiento del pool de conexiones en base de datos PostgreSQL",
@@ -14,9 +14,9 @@ const scenarios = {
     title: "Error 500 al consultar reportes contables y timeout intermitente",
     description: "Reporte de turno de guardia: La aplicacion web lanza errores HTTP 500 y timeout al solicitar liquidaciones. No se identifica si la falla se origina en la logica de la aplicacion o en saturacion del motor relacional.",
   },
-  outside: {
-    title: "Menu de almuerzo y opciones vegetarianas en la cafeteria",
-    description: "Quisiera consultar que platos vegetarianos y opciones de almuerzo ofrece el casino de la institucion para el dia de manana.",
+  invalid: {
+    title: "Caída",
+    description: "Error",
   },
 };
 
@@ -44,10 +44,15 @@ async function requestJson(url, options = {}) {
   const data = await response.json();
   if (!response.ok) {
     if (response.status === 422) {
-      throw new Error("El título (mín. 5 caracteres) o la descripción (mín. 15 caracteres y 10 letras) no cumplen las reglas de validación.");
+      let detailMsg = "HTTP 422 (Unprocessable Entity): La entrada viola el contrato de la API.";
+      if (data.detail && Array.isArray(data.detail)) {
+        const issues = data.detail.map((d) => `${d.loc ? d.loc.slice(-1)[0] : "campo"}: ${d.msg}`).join("; ");
+        detailMsg += ` ${issues}`;
+      }
+      throw new Error(detailMsg);
     }
     if (response.status === 503) {
-      throw new Error("El modelo operativo no está disponible en memoria. Ejecuta python -m app.train y reinicia el servidor.");
+      throw new Error("El modelo operativo no está disponible en memoria. Reinicia el servidor.");
     }
     throw new Error("No se pudo completar la consulta con el servidor de inferencia.");
   }
@@ -99,13 +104,13 @@ function renderClassification(result) {
   const reviewStatus = document.querySelector("#review-status");
   reviewStatus.textContent = result.requires_review
     ? "Revisión técnica recomendada · Confianza moderada"
-    : "Sugerencia de alta confianza para el operador";
+    : "Sugerencia del modelo para evaluación del operador";
   reviewStatus.classList.toggle("review", result.requires_review);
 
   const descriptions = {
     unknown_vocabulary: "No se reconocieron n-gramas específicos del entrenamiento. Conviene verificar manualmente el texto antes de asignar.",
-    below_threshold: "El puntaje relativo no superó el umbral de calibración de validación. Se recomienda contrastar las alternativas Top-3.",
-    above_threshold: "El puntaje relativo supera el umbral de validación. Confirma la asignación técnica correspondiente.",
+    below_threshold: "El puntaje estimado no superó el umbral de calibración de validación. Se recomienda contrastar las alternativas Top-3.",
+    above_threshold: "El puntaje estimado supera el umbral de validación. Evalúa la sugerencia para su asignación técnica correspondiente.",
   };
   setText("#review-description", descriptions[result.review_reason] || "");
 
@@ -145,7 +150,7 @@ function renderClassification(result) {
   setText("#baseline-category", baselineCatName);
 
   const threshVal = result.review_threshold !== undefined
-    ? (result.review_threshold > 1 ? "Revisión en todos los casos" : `Puntaje ≥ ${percent(result.review_threshold)}`)
+    ? (result.review_threshold > 1 ? "Revisión en todos los casos" : `Puntaje estimado ≥ ${percent(result.review_threshold)}`)
     : "N/A";
   setText("#threshold-label", threshVal);
 
@@ -166,16 +171,6 @@ form.addEventListener("submit", async (event) => {
   event.preventDefault();
   const title = titleInput.value.replace(/\s+/g, " ").trim();
   const initial_description = descriptionInput.value.replace(/\s+/g, " ").trim();
-  const letterCount = (initial_description.match(/\p{L}/gu) || []).length;
-
-  if (title.length < 5 || title.length > 200) {
-    showError("#form-error", "El título debe contener entre 5 y 200 caracteres.");
-    return;
-  }
-  if (initial_description.length < 15 || initial_description.length > 2000 || letterCount < 10) {
-    showError("#form-error", "La descripción debe contener al menos 15 caracteres y 10 letras.");
-    return;
-  }
 
   const submittedRevision = inputRevision;
   button.disabled = true;

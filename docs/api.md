@@ -1,61 +1,115 @@
-# API local
+# Especificación de la API REST Local
 
-## Rutas
+El backend del sistema está construido sobre **FastAPI** y expone una interfaz REST ligera para la inferencia, inspección de categorías y auditoría de métricas del modelo.
 
-| Método | Ruta | Función |
+Frontend y backend se sirven desde el mismo proceso en `http://127.0.0.1:8991`.
+
+---
+
+## 1. Endpoints Disponibles
+
+| Método | Ruta | Descripción |
 |---|---|---|
-| GET | `/` | Interfaz del clasificador. |
-| GET | `/api/health` | Disponibilidad del modelo. |
-| GET | `/api/categories` | Categorías y límites del texto. |
-| GET | `/api/metrics` | Métricas del experimento guardado. |
-| POST | `/api/classify` | Clasificar un mensaje inicial. |
-| GET | `/docs` | Documentación interactiva de FastAPI. |
+| `GET` | `/` | Interfaz gráfica demostrativa (`frontend/index.html`). |
+| `GET` | `/api/health` | Estado del servicio y disponibilidad del modelo operativo. |
+| `GET` | `/api/categories` | Catálogo de las 5 categorías técnicas de la UOIT y reglas de longitud. |
+| `GET` | `/api/metrics` | Métricas consolidadas del experimento leídas de `artifacts/metrics.json`. |
+| `POST` | `/api/classify` | Endpoint principal de clasificación de incidentes tecnológicos. |
+| `GET` | `/docs` | Documentación interactiva Swagger / OpenAPI. |
 
-Frontend y backend se sirven desde el mismo origen. No se necesita un servidor separado de frontend ni Node para ejecutar el ejemplo.
+---
 
-## Entrada
+## 2. Endpoint de Inferencia: `POST /api/classify`
+
+### 2.1 Esquema de Entrada (`IncidentInput`)
+
+El endpoint exige un objeto JSON con los datos textuales preliminares del ticket:
 
 ```json
 {
-  "message": "Mi cuenta está bloqueada y no puedo iniciar sesión. Necesito recuperar el acceso al portal de trabajo."
+  "title": "Agotamiento del pool de conexiones en base de datos PostgreSQL",
+  "initial_description": "Alerta de monitoreo Zabbix: El cluster PostgreSQL alcanzo el limite de max_connections y las aplicaciones no pueden abrir nuevas sesiones. Se solicita intervencion de la guardia tecnica."
 }
 ```
 
-Se admiten entre 20 y 2.000 caracteres y al menos 10 letras. Se normalizan espacios repetidos. La API rechaza campos adicionales como `category` o `resolution`.
+### 2.2 Reglas de Validación y Prevención de Fuga (*Data Leakage*)
 
-Para probar sin programar, abre http://127.0.0.1:8991/docs, expande `POST /api/classify`, pulsa **Try it out**, pega el JSON y pulsa **Execute**.
+- **`title` (string obligatorio):**
+  - Longitud permitida: entre 5 y 200 caracteres.
+  - Debe contener al menos 3 caracteres alfabéticos.
+- **`initial_description` (string obligatorio):**
+  - Longitud permitida: entre 15 y 2.000 caracteres.
+  - Debe contener al menos 10 caracteres alfabéticos.
+- **Prohibición de campos adicionales (`extra = "forbid"`):**
+  - Cualquier campo posterior a la apertura del ticket (`category`, `resolution`, `root_cause`, `assignee`, `closing_text`, `solution`, etc.) es **estrictamente rechazado con código de error HTTP 422**.
 
-En una terminal de macOS o Linux:
+### 2.3 Ejemplo de Invocación con cURL
 
 ```bash
 curl -X POST http://127.0.0.1:8991/api/classify \
-  -H 'Content-Type: application/json' \
-  -d '{"message":"Mi usuario está bloqueado y no puedo iniciar sesión en el portal de trabajo."}'
+  -H "Content-Type: application/json" \
+  -d '{
+    "title": "Agotamiento del pool de conexiones en base de datos PostgreSQL",
+    "initial_description": "Alerta de monitoreo Zabbix: El cluster PostgreSQL alcanzo el limite max_connections y no se pueden abrir sesiones."
+  }'
 ```
 
-## Respuesta
+### 2.4 Esquema de Respuesta Exitosa (HTTP 200)
 
-| Campo | Significado |
-|---|---|
-| `category`, `category_name` | Categoría con mayor puntaje; siempre pertenece a las cinco conocidas. |
-| `score` | Puntaje máximo del modelo, no calibrado como probabilidad de acertar. |
-| `ranking` | Las cinco categorías ordenadas con sus puntajes. |
-| `needs_review` | Si se activa el aviso por umbral o vocabulario no reconocido. |
-| `review_reason` | `unknown_vocabulary`, `below_threshold` o `above_threshold`. |
-| `review_threshold` | Umbral fijo elegido en validación; >1 significa revisión de todos los mensajes. |
-| `signals` | Hasta cinco términos con contribución positiva a la clase propuesta. |
-| `baseline` | Categoría de la regla, palabras encontradas y uso de respaldo. |
-| `model_version` | Identificador del modelo y huella del conjunto de datos. |
-| `synthetic_data` | Siempre verdadero en este ejemplo. |
+```json
+{
+  "suggested_category": "databases",
+  "category": "databases",
+  "category_name": "Bases de datos",
+  "score": 0.8234,
+  "ranking": [
+    { "category": "databases", "name": "Bases de datos", "score": 0.8234 },
+    { "category": "applications_services", "name": "Aplicaciones y servicios", "score": 0.0501 },
+    { "category": "networks_connectivity", "name": "Redes y conectividad", "score": 0.0488 },
+    { "category": "security_access", "name": "Seguridad y accesos", "score": 0.0405 },
+    { "category": "infrastructure_storage", "name": "Infraestructura y almacenamiento", "score": 0.0371 }
+  ],
+  "top_3": [
+    { "category": "databases", "name": "Bases de datos", "score": 0.8234 },
+    { "category": "applications_services", "name": "Aplicaciones y servicios", "score": 0.0501 },
+    { "category": "networks_connectivity", "name": "Redes y conectividad", "score": 0.0488 }
+  ],
+  "requires_review": false,
+  "needs_review": false,
+  "review_reason": "above_threshold",
+  "review_threshold": 0.2209,
+  "signals": [
+    { "term": "base de", "contribution": 0.1099 },
+    { "term": "datos", "contribution": 0.1082 },
+    { "term": "postgresql", "contribution": 0.0581 }
+  ],
+  "baseline": {
+    "category": "databases",
+    "matches": { "databases": ["postgresql", "datos", "pool"] },
+    "used_fallback": false
+  },
+  "model": "TF-IDF (Palabras + Caracteres) + Regresión Logística (C=1.0)",
+  "model_version": "uoit-v1-f65c66ec",
+  "latency_ms": 1.25,
+  "synthetic_data": true
+}
+```
 
-`needs_review = false` no significa asignar automáticamente. Todos los resultados son propuestas para examinar. Un mensaje ajeno al dominio podría no activar el aviso.
+### 2.5 Campos de la Respuesta
 
-Las respuestas verificadas de los seis escenarios están en [example_predictions.json](../artifacts/example_predictions.json).
+- `suggested_category`: Identificador técnico de la categoría con mayor puntaje estimado.
+- `category_name`: Nombre en español de la categoría recomendada.
+- `score`: Puntaje estimado por el modelo para la categoría sugerida (no representa garantía absoluta de acierto).
+- `ranking`: Lista ordenada de las 5 categorías con sus puntajes estimados.
+- `top_3`: Las tres categorías más probables según el clasificador.
+- `requires_review`: Bandera booleana que alerta al operador si la sugerencia amerita revisión humana.
+- `review_reason`: Motivo de la revisión (`unknown_vocabulary`, `below_threshold` o `above_threshold`).
+- `signals`: Términos léxicos que tuvieron mayor aporte positivo al logit de la categoría ganadora.
+- `latency_ms`: Tiempo de ejecución medido en milisegundos en CPU.
 
-## Errores
+---
 
-- **422:** mensaje inválido, demasiado corto o largo, vacío, no textual o con campos adicionales.
-- **503:** falta el modelo o su informe. Genera datos, entrena y reinicia.
-- **Error al iniciar:** modelo, informe o categorías no corresponden. Vuelve a entrenar para mantener la consistencia.
+## 3. Manejo de Errores
 
-Las consultas no se almacenan y no envían información a servicios de modelos externos.
+- **HTTP 422 (Unprocessable Entity):** Título demasiado corto/largo, descripción insuficiente, datos no textuales o inclusión de campos prohibidos que provocarían fuga de datos.
+- **HTTP 503 (Service Unavailable):** El artefacto del modelo no se encuentra en memoria.

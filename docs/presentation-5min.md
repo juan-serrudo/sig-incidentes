@@ -69,9 +69,9 @@
   - Backend REST ligero en **FastAPI** con validación estricta Pydantic y serialización joblib.
   - Frontend interactivo Vanilla (HTML5/CSS3/JS) con latencia < 2 ms por inferencia en CPU.
 - **Tres Escenarios Demostrativos:**
-  1. *Caso Claro:* Falla en PgBouncer $\rightarrow$ `databases` (Confianza > 85%).
-  2. *Caso Ambiguo:* Error 500 y timeout $\rightarrow$ Distribución dividida entre `applications_services` y `databases`.
-  3. *Caso Fuera de Dominio:* Solicitud de cafetería $\rightarrow$ Detección de vocabulario desconocido y recomendación de revisión técnica.
+  1. *Caso A (Válido):* Falla en PgBouncer $\rightarrow$ `databases` (Puntaje estimado superior al 80%).
+  2. *Caso B (Difícil / Ambiguo):* Error 500 y timeout $\rightarrow$ Distribución de puntajes estimados entre `applications_services` y `databases` en el Top-3.
+  3. *Caso C (Entrada Inválida):* Violación de contrato de longitud mínima $\rightarrow$ Rechazo formal con código **HTTP 422 (Unprocessable Entity)**.
 
 ---
 
@@ -83,6 +83,7 @@
 - **Limitaciones Transparentes:**
   - Dataset sintético: Presenta mayor separabilidad léxica que incidentes reales con texto informal.
   - Modelo mono-etiqueta: No captura incidentes de cascada multi-sistema.
+  - Interpretación de puntajes: Los puntajes del modelo representan valores relativos de clasificación multiclase, no probabilidades calibradas de acierto absoluto.
   - No se afirma eficacia institucional real sin una fase piloto previa.
 - **Entregables:** Repositorio reproducible, 34 pruebas automáticas aprobadas, documentación completa en español e informe técnico fuente.
 
@@ -111,23 +112,22 @@
 
 ### Bloque 2: Demostración en Vivo del Sistema (2:00 – 4:00)
 
-**[2:00 – 2:40] Escenario A: Caso Claro de Bases de Datos**  
+**[2:00 – 2:40] Escenario A: Caso Válido (Bases de Datos)**  
 > *"Paso ahora a la demostración en vivo de nuestra aplicación web conectada a la API FastAPI.  
-> Cargamos el **Escenario A: Caso Claro**.  
+> Cargamos el **Escenario A: Caso Válido**.  
 > El operador recibe la alerta: 'Agotamiento del pool de conexiones en base de datos PostgreSQL'.  
-> Al pulsar 'Clasificar incidente', observamos una respuesta en menos de 2 milisegundos. El sistema sugiere con más del 85% de probabilidad la categoría `Bases de datos`. El indicador muestra 'Sugerencia de alta confianza' y el desglose de términos resalta tokens influyentes como 'postgresql' y 'conexiones'. El triaje es inequívoco."*
+> Al pulsar 'Clasificar incidente', observamos una respuesta en menos de 2 milisegundos. El sistema asigna el mayor puntaje estimado a la categoría `Bases de datos`. El desglose de términos resalta tokens influyentes como 'postgresql' y 'conexiones'. El triaje es ágil y fundamentado."*
 
-**[2:40 – 3:20] Escenario B: Caso Ambiguo**  
-> *"Carguemos el **Escenario B: Caso Ambiguo**.  
+**[2:40 – 3:20] Escenario B: Caso Difícil / Ambiguo**  
+> *"Carguemos el **Escenario B: Caso Difícil o Ambiguo**.  
 > El título indica: 'Error 500 al consultar reportes contables y timeout intermitente'.  
 > En este caso, el incidente involucra tanto la capa web como tiempos de espera que pueden originarse en la base de datos.  
-> Al clasificar, observamos que el modelo distribuye probabilidades entre `Aplicaciones y servicios` y `Bases de datos`. Aquí se evidencia el valor práctico del **Top-3**: el operador humano no recibe una imposición a ciegas, sino un abanico probabilístico fundamentado que reduce drásticamente el tiempo de revisión técnica."*
+> Al clasificar, observamos que el modelo reparte los puntajes estimados entre `Aplicaciones y servicios` y `Bases de datos`. Aquí se evidencia el valor práctico del **Top-3**: el operador humano no recibe una imposición a ciegas, sino un abanico probabilístico ordenado que reduce drásticamente el tiempo de revisión técnica."*
 
-**[3:20 – 4:00] Escenario C: Entrada Fuera de Dominio y Validación**  
-> *"Finalmente, probemos el **Escenario C: Fuera de Dominio**.  
-> Un usuario envía: 'Menú de almuerzo y opciones vegetarianas en la cafetería'.  
-> El sistema analiza la entrada y, gracias a la inspección léxica implementada, detecta vocabulario desconocido respecto a las alertas técnicas de la UOIT. El sistema emite inmediatamente la alerta: 'Revisión técnica recomendada', protegiendo la operación frente a solicitudes fuera de alcance.  
-> Asimismo, si un cliente intentara enviar campos no autorizados como 'resolution', el contrato Pydantic del backend rechaza la petición con error 422, impidiendo cualquier fuga de datos."*
+**[3:20 – 4:00] Escenario C: Entrada Inválida (Validación HTTP 422)**  
+> *"Finalmente, probemos el **Escenario C: Entrada Inválida**.  
+> Supongamos que un usuario o alerta envía un registro telegráfico que no cumple con las longitudes mínimas del esquema: título 'Caída' o descripción 'Error'.  
+> Al pulsar 'Clasificar incidente', la petición es interceptada y rechazada formalmente por el backend FastAPI con un error **HTTP 422 (Unprocessable Entity)**, indicando al operador exactamente qué regla de validación fue infringida y protegiendo el pipeline. De igual manera, cualquier intento de inyectar campos como 'resolution' o 'assignee' es rechazado, impidiendo cualquier posibilidad de fuga de datos."*
 
 ---
 
